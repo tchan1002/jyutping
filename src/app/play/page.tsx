@@ -1,19 +1,13 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Header from "@/app/components/Header";
 import { compareJyut, normalizeJyut } from "@/app/lib/jyut-normalize";
 
 type WordItem = { hanzi: string; jyut: string[]; gloss: string };
 
-function useQuery() {
-  const params = useMemo(() => new URLSearchParams(typeof window !== "undefined" ? window.location.search : ""), []);
-  return params;
-}
-
 export default function PlayPage() {
-  const query = useQuery();
-  const mode = (query.get("mode") || "practice") as "practice" | "timed";
+  // const mode = "practice" as const;
   const [words, setWords] = useState<WordItem[]>([]);
   const [idx, setIdx] = useState(0);
   const [input, setInput] = useState("");
@@ -27,18 +21,13 @@ export default function PlayPage() {
     const saved = localStorage.getItem("jyutping:settings");
     return saved ? JSON.parse(saved).showGlossFirst === true : false;
   });
-  const [timerLen, setTimerLen] = useState<number>(() => {
-    if (typeof window === "undefined") return 60;
-    const saved = localStorage.getItem("jyutping:settings");
-    return saved ? Number(JSON.parse(saved).timerLen || 60) : 60;
-  });
-  const [timeLeft, setTimeLeft] = useState<number>(mode === "timed" ? timerLen : 0);
+  // timed mode removed
 
   // stats
   const [score, setScore] = useState(0);
-  const [attempts, setAttempts] = useState(0);
+  // const [attempts, setAttempts] = useState(0); // reserved for future stats
   const [streak, setStreak] = useState(0);
-  const [ended, setEnded] = useState(false);
+  // removed timed end state
   const [flash, setFlash] = useState<"ok" | "bad" | null>(null);
   const [showHint, setShowHint] = useState(false);
 
@@ -53,29 +42,11 @@ export default function PlayPage() {
 
   useEffect(() => {
     // persist changed settings
-    const s = { strictTones: strict, showGlossFirst, timerLen };
+    const s = { strictTones: strict, showGlossFirst };
     localStorage.setItem("jyutping:settings", JSON.stringify(s));
-  }, [strict, showGlossFirst, timerLen]);
+  }, [strict, showGlossFirst]);
 
-  useEffect(() => {
-    if (mode !== "timed") return;
-    setTimeLeft(timerLen);
-  }, [mode, timerLen]);
-
-  useEffect(() => {
-    if (mode !== "timed" || ended) return;
-    const id = setInterval(() => {
-      setTimeLeft((t) => {
-        if (t <= 1) {
-          clearInterval(id);
-          setEnded(true);
-          return 0;
-        }
-        return t - 1;
-      });
-    }, 1000);
-    return () => clearInterval(id);
-  }, [mode, ended]);
+  // timed mode removed
 
   const current = words[idx];
 
@@ -91,7 +62,7 @@ export default function PlayPage() {
     if (!current) return;
     const user = input.trim();
     const correct = current.jyut.some((gold) => compareJyut(user, gold, strict));
-    setAttempts((a) => a + 1);
+    // setAttempts((a) => a + 1);
     if (correct) {
       setScore((s) => s + 1);
       setStreak((st) => st + 1);
@@ -106,12 +77,12 @@ export default function PlayPage() {
   }
 
   function onSkip() {
-    setAttempts((a) => a + 1);
+    // setAttempts((a) => a + 1);
     setStreak(0);
     nextItem();
   }
 
-  const accuracy = attempts ? Math.round((score / attempts) * 100) : 100;
+  // accuracy removed from UI, can compute later if needed
 
   if (!current) {
     return (
@@ -130,8 +101,6 @@ export default function PlayPage() {
           setStrict,
           showGlossFirst,
           setShowGlossFirst,
-          timerLen,
-          setTimerLen,
         }}
       />
       <section
@@ -140,12 +109,11 @@ export default function PlayPage() {
         }`}
       >
         <div className="flex items-center justify-between text-sm text-neutral-500 dark:text-neutral-400">
-          <span className="uppercase tracking-wide">{mode === "timed" ? "Timed" : "Practice"}</span>
-          {mode === "timed" && <span>⏳ {timeLeft}s</span>}
+          <span className="uppercase tracking-wide">Practice</span>
           <div className="flex items-center gap-3">
             <span>Score: <b>{score}</b></span>
             <span>Streak: <b>{streak}</b></span>
-            <span>Accuracy: <b>{accuracy}%</b></span>
+            
           </div>
         </div>
 
