@@ -67,7 +67,7 @@ export default function Header({ controls }: HeaderProps) {
                   checked={controls.showGlossFirst}
                   onChange={(e) => controls.setShowGlossFirst(e.target.checked)}
                 />
-                Show gloss
+                Show definitions
               </label>
               <label className="mt-2 flex items-center gap-2 text-sm">
                 <input
