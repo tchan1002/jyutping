@@ -1,0 +1,27 @@
+[
+    { "hanzi": "你", "jyut": ["nei5","nei"], "gloss": "you" },
+    { "hanzi": "好", "jyut": ["hou2","hou"], "gloss": "good" },
+    { "hanzi": "你好", "jyut": ["nei5 hou2","neihou","nei hou"], "gloss": "hello" },
+    { "hanzi": "食", "jyut": ["sik6","sik"], "gloss": "to eat" },
+    { "hanzi": "食飯", "jyut": ["sik6 faan6","sik faan","sik6faan6","sikfaan"], "gloss": "eat a meal" },
+    { "hanzi": "飲", "jyut": ["jam2","jam"], "gloss": "to drink" },
+    { "hanzi": "飲茶", "jyut": ["jam2 caa4","jam caa","jam2caa4","jamcaa"], "gloss": "drink tea / dim sum" },
+    { "hanzi": "唔該", "jyut": ["m4 goi1","m goi","m4goi1","mgoi"], "gloss": "please/thanks (service)" },
+    { "hanzi": "多謝", "jyut": ["do1 ze6","do ze","do1ze6","doze"], "gloss": "thank you (gift/favor)" },
+    { "hanzi": "再見", "jyut": ["zoi3 gin3","zoi gin","zoi3gin3","zoigin"], "gloss": "goodbye" },
+    { "hanzi": "市", "jyut": ["si5","si"], "gloss": "market; city" },
+    { "hanzi": "是", "jyut": ["si6","si"], "gloss": "to be" },
+    { "hanzi": "心", "jyut": ["sam1","sam"], "gloss": "heart" },
+    { "hanzi": "見", "jyut": ["gin3","gin"], "gloss": "to see" },
+    { "hanzi": "朋友", "jyut": ["pang4 jau5","pang jau","pang4jau5","pangjau"], "gloss": "friend" },
+    { "hanzi": "香港", "jyut": ["hoeng1 gong2","hoeng gong","hoeng1gong2","hoenggong"], "gloss": "Hong Kong" },
+    { "hanzi": "廣東話", "jyut": ["gwong2 dung1 waa2","gwong dung waa","gwong2dung1waa2","gwongdungwaa"], "gloss": "Cantonese language" },
+    { "hanzi": "行", "jyut": ["hang4","haang4","hang","haang"], "gloss": "to walk / to be OK (polyphonic)" },
+    { "hanzi": "老師", "jyut": ["lou5 si1","lou si","lou5si1","lousi"], "gloss": "teacher" },
+    { "hanzi": "學校", "jyut": ["hok6 haau6","hok haau","hok6haau6","hokhaau"], "gloss": "school" },
+    { "hanzi": "買嘢", "jyut": ["maai5 je5","maai je","maai5je5","maaije"], "gloss": "to buy stuff" },
+    { "hanzi": "冇", "jyut": ["mou5","mou"], "gloss": "to not have" },
+    { "hanzi": "有", "jyut": ["jau5","jau"], "gloss": "to have" },
+    { "hanzi": "喺", "jyut": ["hai2","hai"], "gloss": "at; in; on" }
+  ]
+  

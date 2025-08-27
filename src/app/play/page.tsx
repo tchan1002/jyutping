@@ -1,0 +1,188 @@
+"use client";
+
+import { useEffect, useMemo, useRef, useState } from "react";
+import Header from "../components/Header";
+import Stats from "../components/Stats";
+import { compareJyut, normalizeJyut } from "../lib/jyut-normalize";
+
+type WordItem = { hanzi: string; jyut: string[]; gloss: string };
+
+function useQuery() {
+  const params = useMemo(() => new URLSearchParams(typeof window !== "undefined" ? window.location.search : ""), []);
+  return params;
+}
+
+export default function PlayPage() {
+  const query = useQuery();
+  const mode = (query.get("mode") || "practice") as "practice" | "timed";
+  const [words, setWords] = useState<WordItem[]>([]);
+  const [idx, setIdx] = useState(0);
+  const [input, setInput] = useState("");
+  const [strict, setStrict] = useState<boolean>(() => {
+    if (typeof window === "undefined") return false;
+    const saved = localStorage.getItem("jyutping:settings");
+    return saved ? JSON.parse(saved).strictTones === true : false;
+  });
+  const [showGlossFirst, setShowGlossFirst] = useState<boolean>(() => {
+    if (typeof window === "undefined") return false;
+    const saved = localStorage.getItem("jyutping:settings");
+    return saved ? JSON.parse(saved).showGlossFirst === true : false;
+  });
+  const [timerLen, setTimerLen] = useState<number>(() => {
+    if (typeof window === "undefined") return 60;
+    const saved = localStorage.getItem("jyutping:settings");
+    return saved ? Number(JSON.parse(saved).timerLen || 60) : 60;
+  });
+  const [timeLeft, setTimeLeft] = useState<number>(mode === "timed" ? timerLen : 0);
+
+  // stats
+  const [score, setScore] = useState(0);
+  const [attempts, setAttempts] = useState(0);
+  const [streak, setStreak] = useState(0);
+  const [ended, setEnded] = useState(false);
+  const [flash, setFlash] = useState<"ok" | "bad" | null>(null);
+
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    fetch(`/api/words?n=12`)
+      .then((r) => r.json())
+      .then((data: WordItem[]) => setWords(data))
+      .catch(() => setWords([]));
+  }, []);
+
+  useEffect(() => {
+    // persist changed settings
+    const s = { strictTones: strict, showGlossFirst, timerLen };
+    localStorage.setItem("jyutping:settings", JSON.stringify(s));
+  }, [strict, showGlossFirst, timerLen]);
+
+  useEffect(() => {
+    if (mode !== "timed") return;
+    setTimeLeft(timerLen);
+  }, [mode, timerLen]);
+
+  useEffect(() => {
+    if (mode !== "timed" || ended) return;
+    const id = setInterval(() => {
+      setTimeLeft((t) => {
+        if (t <= 1) {
+          clearInterval(id);
+          setEnded(true);
+          return 0;
+        }
+        return t - 1;
+      });
+    }, 1000);
+    return () => clearInterval(id);
+  }, [mode, ended]);
+
+  const current = words[idx];
+
+  function nextItem() {
+    setIdx((i) => (i + 1) % (words.length || 1));
+    setInput("");
+    inputRef.current?.focus();
+  }
+
+  function onSubmit(e?: React.FormEvent) {
+    e?.preventDefault();
+    if (!current) return;
+    const user = input.trim();
+    const correct = current.jyut.some((gold) => compareJyut(user, gold, strict));
+    setAttempts((a) => a + 1);
+    if (correct) {
+      setScore((s) => s + 1);
+      setStreak((st) => st + 1);
+      setFlash("ok");
+      setTimeout(() => setFlash(null), 120);
+      nextItem();
+    } else {
+      setStreak(0);
+      setFlash("bad");
+      setTimeout(() => setFlash(null), 180);
+    }
+  }
+
+  function onSkip() {
+    setAttempts((a) => a + 1);
+    setStreak(0);
+    nextItem();
+  }
+
+  const accuracy = attempts ? Math.round((score / attempts) * 100) : 100;
+
+  if (!current) {
+    return (
+      <main className="space-y-6">
+        <Header />
+        <div className="rounded-2xl p-6 shadow bg-white dark:bg-neutral-800">Loading words…</div>
+      </main>
+    );
+  }
+
+  return (
+    <main className="space-y-6">
+      <Header
+        controls={{
+          strict,
+          setStrict,
+          showGlossFirst,
+          setShowGlossFirst,
+          timerLen,
+          setTimerLen,
+        }}
+      />
+      <section
+        className={`rounded-2xl p-6 shadow bg-white dark:bg-neutral-800 transition ${
+          flash === "ok" ? "ring-4 ring-emerald-400" : flash === "bad" ? "ring-4 ring-rose-400" : ""
+        }`}
+      >
+        <div className="flex items-center justify-between text-sm text-neutral-500 dark:text-neutral-400">
+          <span className="uppercase tracking-wide">{mode === "timed" ? "Timed" : "Practice"}</span>
+          {mode === "timed" && <span>⏳ {timeLeft}s</span>}
+        </div>
+
+        <div className="mt-4 text-center">
+          <div className="text-5xl sm:text-6xl font-extrabold tracking-tight">{current.hanzi}</div>
+          {showGlossFirst && <div className="mt-2 text-neutral-600 dark:text-neutral-300">{current.gloss}</div>}
+        </div>
+
+        <form className="mt-6 flex flex-col sm:flex-row gap-3" onSubmit={onSubmit}>
+          <input
+            ref={inputRef}
+            autoFocus
+            className="flex-1 rounded-xl border border-neutral-300 dark:border-neutral-700 bg-white/70 dark:bg-neutral-900 px-4 py-3 outline-none focus:ring-2 focus:ring-black dark:focus:ring-white"
+            placeholder={strict ? "Type Jyutping with tones (e.g., nei5 hou2)" : "Type Jyutping (tones optional)"}
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+          />
+          <button
+            type="submit"
+            className="rounded-xl px-5 py-3 bg-neutral-900 text-white dark:bg-white dark:text-neutral-900"
+          >
+            Submit
+          </button>
+          <button
+            type="button"
+            onClick={onSkip}
+            className="rounded-xl px-5 py-3 border border-neutral-300 dark:border-neutral-600"
+          >
+            Skip
+          </button>
+        </form>
+
+        {!showGlossFirst && (
+          <div className="mt-3 text-sm text-neutral-600 dark:text-neutral-300">
+            <span className="font-medium">Gloss:</span> {current.gloss}
+          </div>
+        )}
+
+        <div className="mt-3 text-sm">
+          <span className="font-medium">Correct readings:</span>{" "}
+          <code className="rounded bg-neutral-100 dark:bg-neutral-700 px-2 py-1">
+            {current.jyut.map((j) => normalizeJyut(j, strict ? true : false)).join(" · ")}
+          </code>
+          {!strict && (
+            <span className="ml-2 text-neutral-500">
+              (tones optional; enable Strict in
