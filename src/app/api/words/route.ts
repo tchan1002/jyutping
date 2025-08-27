@@ -29,7 +29,7 @@ function expandJyutVariants(original: string): string[] {
 
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
-  const n = Math.max(1, Math.min(50, Number(searchParams.get("n") || 10)));
+  const n = Math.max(1, Math.min(1000, Number(searchParams.get("n") || 10)));
   const enriched = (seed as WordItem[]).map((w) => {
     const expanded = Array.from(
       new Set(
@@ -42,8 +42,16 @@ export async function GET(req: Request) {
     return { ...w, jyut: expanded, gloss };
   });
   const items = shuffle(enriched).slice(0, n);
-  return NextResponse.json(items);
+  return NextResponse.json(items, {
+    headers: {
+      "Cache-Control": "no-store",
+    },
+  });
 }
+
+// Ensure this route is always dynamic (no static caching)
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 function shuffle<T>(arr: T[]) {
   const a = [...arr];

@@ -9,6 +9,8 @@ type HeaderProps = {
     setStrict: (v: boolean) => void;
     showGlossFirst: boolean;
     setShowGlossFirst: (v: boolean) => void;
+    trainMode: boolean;
+    setTrainMode: (v: boolean) => void;
   };
 };
 
@@ -64,6 +66,14 @@ export default function Header({ controls }: HeaderProps) {
                   onChange={(e) => controls.setShowGlossFirst(e.target.checked)}
                 />
                 Show gloss
+              </label>
+              <label className="mt-2 flex items-center gap-2 text-sm">
+                <input
+                  type="checkbox"
+                  checked={controls.trainMode}
+                  onChange={(e) => controls.setTrainMode(e.target.checked)}
+                />
+                Train mode (always show readings)
               </label>
             </div>
           </details>

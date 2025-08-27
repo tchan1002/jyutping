@@ -22,6 +22,11 @@ export default function PlayPage() {
     return saved ? JSON.parse(saved).showGlossFirst === true : false;
   });
   // timed mode removed
+  const [trainMode, setTrainMode] = useState<boolean>(() => {
+    if (typeof window === "undefined") return false;
+    const saved = localStorage.getItem("jyutping:settings");
+    return saved ? JSON.parse(saved).trainMode === true : false;
+  });
 
   // stats
   const [score, setScore] = useState(0);
@@ -30,11 +35,13 @@ export default function PlayPage() {
   // removed timed end state
   const [flash, setFlash] = useState<"ok" | "bad" | null>(null);
   const [showHint, setShowHint] = useState(false);
+  const [missedCurrent, setMissedCurrent] = useState(false);
+  const [missCounts, setMissCounts] = useState<Record<string, number>>({});
 
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    fetch(`/api/words?n=12`)
+    fetch(`/api/words?n=1000`, { cache: "no-store" })
       .then((r) => r.json())
       .then((data: WordItem[]) => setWords(data))
       .catch(() => setWords([]));
@@ -42,18 +49,32 @@ export default function PlayPage() {
 
   useEffect(() => {
     // persist changed settings
-    const s = { strictTones: strict, showGlossFirst };
+    const s = { strictTones: strict, showGlossFirst, trainMode };
     localStorage.setItem("jyutping:settings", JSON.stringify(s));
-  }, [strict, showGlossFirst]);
+  }, [strict, showGlossFirst, trainMode]);
 
   // timed mode removed
 
   const current = words[idx];
 
   function nextItem() {
+    const prevIndex = idx;
+    const prevWord = words[prevIndex];
+    if (missedCurrent && prevWord) {
+      const key = prevWord.hanzi;
+      const misses = missCounts[key] || 1;
+      const offset = Math.max(1, 4 - Math.min(misses, 3)); // reappear sooner with more misses
+      setWords((arr) => {
+        const copy = [...arr];
+        const insertAt = Math.min(prevIndex + offset, copy.length);
+        copy.splice(insertAt, 0, prevWord);
+        return copy;
+      });
+    }
     setIdx((i) => (i + 1) % (words.length || 1));
     setInput("");
     setShowHint(false);
+    setMissedCurrent(false);
     inputRef.current?.focus();
   }
 
@@ -71,6 +92,8 @@ export default function PlayPage() {
       nextItem();
     } else {
       setStreak(0);
+      setMissedCurrent(true);
+      setMissCounts((m) => ({ ...m, [current.hanzi]: (m[current.hanzi] || 0) + 1 }));
       setFlash("bad");
       setTimeout(() => setFlash(null), 180);
     }
@@ -79,6 +102,10 @@ export default function PlayPage() {
   function onSkip() {
     // setAttempts((a) => a + 1);
     setStreak(0);
+    if (current) {
+      setMissedCurrent(true);
+      setMissCounts((m) => ({ ...m, [current.hanzi]: (m[current.hanzi] || 0) + 1 }));
+    }
     nextItem();
   }
 
@@ -101,6 +128,8 @@ export default function PlayPage() {
           setStrict,
           showGlossFirst,
           setShowGlossFirst,
+          trainMode,
+          setTrainMode,
         }}
       />
       <section
@@ -159,7 +188,7 @@ export default function PlayPage() {
           >
             {showHint ? "Hide hint" : "Show hint"}
           </button>
-          {showHint && (
+          {(showHint || trainMode) && (
             <div className="mt-2">
               <span className="font-medium">Correct readings:</span>{" "}
               <code className="rounded bg-neutral-100 dark:bg-neutral-700 px-2 py-1">
