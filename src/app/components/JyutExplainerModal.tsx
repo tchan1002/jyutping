@@ -16,7 +16,7 @@ export default function JyutExplainerModal({
       onClick={onClose}
     >
       <div
-        className="max-w-2xl w-full rounded-2xl bg-white dark:bg-neutral-900 p-5"
+        className="max-w-2xl w-[90vw] sm:w-full max-h-[80vh] overflow-auto rounded-2xl bg-white dark:bg-neutral-900 p-5"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex items-center justify-between">
