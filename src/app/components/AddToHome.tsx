@@ -4,54 +4,72 @@ import { useEffect, useState } from "react";
 
 type BeforeInstallPromptEvent = Event & {
   prompt: () => Promise<void>;
+  userChoice?: Promise<{ outcome: "accepted" | "dismissed"; platform: string }>;
 };
 
 export default function AddToHome() {
-  const [isStandalone, setIsStandalone] = useState(false);
-  const [isIOS, setIsIOS] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
   const [deferred, setDeferred] = useState<BeforeInstallPromptEvent | null>(null);
   const [message, setMessage] = useState<string | null>(null);
 
-  useEffect(() => {
-    const mStandalone = window.matchMedia?.("(display-mode: standalone)").matches;
-    const nav = window.navigator as Navigator & { standalone?: boolean };
-    const nStandalone = typeof window !== "undefined" && nav.standalone === true;
-    setIsStandalone(Boolean(mStandalone || nStandalone));
-    setIsIOS(/iphone|ipad|ipod/i.test(window.navigator.userAgent));
-    setIsMobile(/android|iphone|ipad|ipod/i.test(window.navigator.userAgent));
+  // Detect platform / installed mode
+  const isIOS =
+    typeof navigator !== "undefined" &&
+    /iphone|ipad|ipod/i.test(navigator.userAgent);
 
-    const onBIP = (e: Event) => {
-      e.preventDefault?.();
+  const isStandalone =
+    typeof window !== "undefined" &&
+    ((window.matchMedia &&
+      window.matchMedia("(display-mode: standalone)").matches) ||
+      // iOS Safari
+      (window.navigator as any).standalone === true);
+
+  useEffect(() => {
+    function onBeforeInstallPrompt(e: Event) {
+      // Stop Chrome from showing its mini-infobar
+      e.preventDefault();
       setDeferred(e as BeforeInstallPromptEvent);
-    };
-    window.addEventListener("beforeinstallprompt", onBIP);
-    return () => window.removeEventListener("beforeinstallprompt", onBIP);
+    }
+    window.addEventListener("beforeinstallprompt", onBeforeInstallPrompt as any);
+    return () =>
+      window.removeEventListener(
+        "beforeinstallprompt",
+        onBeforeInstallPrompt as any
+      );
   }, []);
 
   async function onClick() {
     setMessage(null);
+
+    // Android / desktop Chrome path
     if (deferred) {
       try {
         await deferred.prompt();
-      } catch {}
-      return;
-    }
-    if (isIOS) {
-      const nav = window.navigator as Navigator & { share?: (data?: ShareData) => Promise<void> };
-      if (nav.share) {
-        try {
-          await nav.share({ url: window.location.href });
-          return;
-        } catch {}
+        const choice = (await deferred.userChoice?.catch(() => null)) ?? null;
+        setDeferred(null); // can only use once
+
+        if (choice && choice.outcome === "accepted") {
+          setMessage("Installed to home screen.");
+        } else {
+          setMessage("Install dismissed.");
+        }
+      } catch {
+        setMessage("Install prompt failed. Try again.");
       }
-      setMessage("On iPhone: Tap the Share button, then choose 'Add to Home Screen'.");
       return;
     }
-    setMessage("Add to Home Screen is not available in this browser. Try Chrome or Safari.");
+
+    // iOS Safari: show manual instructions
+    if (isIOS && !isStandalone) {
+      setMessage("On iPhone/iPad: Tap the Share button, then “Add to Home Screen”.");
+      return;
+    }
+
+    // Fallback (unsupported context)
+    setMessage("Add to Home Screen is not available in this browser.");
   }
 
-  if (isStandalone || !isMobile) return null;
+  // Don’t show if already installed
+  if (isStandalone) return null;
 
   return (
     <div className="mt-8 text-center text-sm text-neutral-500">
@@ -62,9 +80,9 @@ export default function AddToHome() {
       >
         Add to Home Screen
       </button>
-      {message && <div className="mt-2 text-xs text-neutral-500">{message}</div>}
+      {message && (
+        <div className="mt-2 text-xs text-neutral-500">{message}</div>
+      )}
     </div>
   );
 }
-
-
