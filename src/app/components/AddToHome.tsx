@@ -9,6 +9,7 @@ type BeforeInstallPromptEvent = Event & {
 export default function AddToHome() {
   const [isStandalone, setIsStandalone] = useState(false);
   const [isIOS, setIsIOS] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   const [deferred, setDeferred] = useState<BeforeInstallPromptEvent | null>(null);
   const [message, setMessage] = useState<string | null>(null);
 
@@ -18,6 +19,7 @@ export default function AddToHome() {
     const nStandalone = typeof window !== "undefined" && nav.standalone === true;
     setIsStandalone(Boolean(mStandalone || nStandalone));
     setIsIOS(/iphone|ipad|ipod/i.test(window.navigator.userAgent));
+    setIsMobile(/android|iphone|ipad|ipod/i.test(window.navigator.userAgent));
 
     const onBIP = (e: Event) => {
       e.preventDefault?.();
@@ -36,13 +38,20 @@ export default function AddToHome() {
       return;
     }
     if (isIOS) {
+      const nav = window.navigator as Navigator & { share?: (data?: ShareData) => Promise<void> };
+      if (nav.share) {
+        try {
+          await nav.share({ url: window.location.href });
+          return;
+        } catch {}
+      }
       setMessage("On iPhone: Tap the Share button, then choose 'Add to Home Screen'.");
       return;
     }
     setMessage("Add to Home Screen is not available in this browser. Try Chrome or Safari.");
   }
 
-  if (isStandalone) return null;
+  if (isStandalone || !isMobile) return null;
 
   return (
     <div className="mt-8 text-center text-sm text-neutral-500">
