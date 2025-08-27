@@ -40,6 +40,7 @@ export default function PlayPage() {
   const [streak, setStreak] = useState(0);
   const [ended, setEnded] = useState(false);
   const [flash, setFlash] = useState<"ok" | "bad" | null>(null);
+  const [showHint, setShowHint] = useState(false);
 
   const inputRef = useRef<HTMLInputElement>(null);
 
@@ -81,6 +82,7 @@ export default function PlayPage() {
   function nextItem() {
     setIdx((i) => (i + 1) % (words.length || 1));
     setInput("");
+    setShowHint(false);
     inputRef.current?.focus();
   }
 
@@ -183,14 +185,28 @@ export default function PlayPage() {
         )}
 
         <div className="mt-3 text-sm">
-          <span className="font-medium">Correct readings:</span>{" "}
-          <code className="rounded bg-neutral-100 dark:bg-neutral-700 px-2 py-1">
-            {current.jyut.map((j) => normalizeJyut(j, strict ? true : false)).join(" · ")}
-          </code>
-          {!strict && (
-            <span className="ml-2 text-neutral-500">
-              (tones optional; enable Strict in Settings)
-            </span>
+          <button
+            type="button"
+            onClick={() => setShowHint((v) => !v)}
+            className="rounded-lg border border-neutral-300 dark:border-neutral-600 px-2 py-1"
+            aria-expanded={showHint}
+          >
+            {showHint ? "Hide hint" : "Show hint"}
+          </button>
+          {showHint && (
+            <div className="mt-2">
+              <span className="font-medium">Correct readings:</span>{" "}
+              <code className="rounded bg-neutral-100 dark:bg-neutral-700 px-2 py-1">
+                {current.jyut
+                  .map((j) => normalizeJyut(j, strict ? true : false))
+                  .join(" · ")}
+              </code>
+              {!strict && (
+                <span className="ml-2 text-neutral-500">
+                  (tones optional; enable Strict in Settings)
+                </span>
+              )}
+            </div>
           )}
         </div>
       </section>
