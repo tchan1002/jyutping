@@ -15,13 +15,13 @@ export default function Home() {
         <div className="mt-6 flex gap-3">
           <Link
             href="/play?mode=practice"
-            className="rounded-xl px-5 py-3 bg-neutral-900 text-white dark:bg-white dark:text-neutral-900"
+            className="rounded-xl px-5 py-3 bg-neutral-900 text-white dark:bg-white dark:text-neutral-900 w-full sm:w-auto text-center"
           >
             Start Practice
           </Link>
           <Link
             href="/play?mode=timed"
-            className="rounded-xl px-5 py-3 border border-neutral-300 dark:border-neutral-600"
+            className="rounded-xl px-5 py-3 border border-neutral-300 dark:border-neutral-600 w-full sm:w-auto text-center"
           >
             Start Timed
           </Link>

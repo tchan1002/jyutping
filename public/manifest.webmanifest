@@ -1,0 +1,17 @@
+{
+  "name": "JyutPing!",
+  "short_name": "JyutPing",
+  "start_url": "/play",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#111111",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

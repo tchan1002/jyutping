@@ -159,6 +159,10 @@ export default function PlayPage() {
             autoFocus
             className="flex-1 rounded-xl border border-neutral-300 dark:border-neutral-700 bg-white/70 dark:bg-neutral-900 px-4 py-3 outline-none focus:ring-2 focus:ring-black dark:focus:ring-white"
             placeholder={strict ? "Type Jyutping with tones (e.g., nei5 hou2)" : "Type Jyutping (tones optional)"}
+            inputMode="text"
+            autoCapitalize="none"
+            autoCorrect="off"
+            enterKeyHint="send"
             value={input}
             onChange={(e) => setInput(e.target.value)}
           />

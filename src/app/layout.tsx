@@ -1,7 +1,23 @@
 export const metadata = {
   title: "JyutPing!",
   description: "Type Jyutping for Cantonese words — tones optional by default.",
-};
+  manifest: "/manifest.webmanifest",
+  themeColor: "#111111",
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "JyutPing!",
+  },
+} as const;
+
+export const viewport = {
+  themeColor: "#111111",
+  viewportFit: "cover",
+} as const;
 
 import "./globals.css";
 
