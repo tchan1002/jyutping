@@ -37,7 +37,10 @@ export default function Header({ controls }: HeaderProps) {
   }, [settingsOpen]);
 
   return (
-    <header className="flex items-center justify-between">
+    <header
+      className="sticky z-40 flex items-center justify-between bg-white/80 dark:bg-neutral-900/80 backdrop-blur supports-[backdrop-filter]:bg-white/60 px-0"
+      style={{ top: "env(safe-area-inset-top)" }}
+    >
       <Link href="/" className="text-xl font-semibold">
         JyutPing!
       </Link>

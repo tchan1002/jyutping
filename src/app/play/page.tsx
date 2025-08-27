@@ -138,7 +138,7 @@ export default function PlayPage() {
         }`}
       >
         <div className="flex items-center justify-between text-sm text-neutral-500 dark:text-neutral-400">
-          <span className="uppercase tracking-wide">Practice</span>
+          <span className="uppercase tracking-wide">Play</span>
           <div className="flex items-center gap-3">
             <span>Score: <b>{score}</b></span>
             <span>Streak: <b>{streak}</b></span>
