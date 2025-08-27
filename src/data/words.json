@@ -1,27 +1,7998 @@
 [
-    { "hanzi": "你", "jyut": ["nei5","nei"], "gloss": "you" },
-    { "hanzi": "好", "jyut": ["hou2","hou"], "gloss": "good" },
-    { "hanzi": "你好", "jyut": ["nei5 hou2","neihou","nei hou"], "gloss": "hello" },
-    { "hanzi": "食", "jyut": ["sik6","sik"], "gloss": "to eat" },
-    { "hanzi": "食飯", "jyut": ["sik6 faan6","sik faan","sik6faan6","sikfaan"], "gloss": "eat a meal" },
-    { "hanzi": "飲", "jyut": ["jam2","jam"], "gloss": "to drink" },
-    { "hanzi": "飲茶", "jyut": ["jam2 caa4","jam caa","jam2caa4","jamcaa"], "gloss": "drink tea / dim sum" },
-    { "hanzi": "唔該", "jyut": ["m4 goi1","m goi","m4goi1","mgoi"], "gloss": "please/thanks (service)" },
-    { "hanzi": "多謝", "jyut": ["do1 ze6","do ze","do1ze6","doze"], "gloss": "thank you (gift/favor)" },
-    { "hanzi": "再見", "jyut": ["zoi3 gin3","zoi gin","zoi3gin3","zoigin"], "gloss": "goodbye" },
-    { "hanzi": "市", "jyut": ["si5","si"], "gloss": "market; city" },
-    { "hanzi": "是", "jyut": ["si6","si"], "gloss": "to be" },
-    { "hanzi": "心", "jyut": ["sam1","sam"], "gloss": "heart" },
-    { "hanzi": "見", "jyut": ["gin3","gin"], "gloss": "to see" },
-    { "hanzi": "朋友", "jyut": ["pang4 jau5","pang jau","pang4jau5","pangjau"], "gloss": "friend" },
-    { "hanzi": "香港", "jyut": ["hoeng1 gong2","hoeng gong","hoeng1gong2","hoenggong"], "gloss": "Hong Kong" },
-    { "hanzi": "廣東話", "jyut": ["gwong2 dung1 waa2","gwong dung waa","gwong2dung1waa2","gwongdungwaa"], "gloss": "Cantonese language" },
-    { "hanzi": "行", "jyut": ["hang4","haang4","hang","haang"], "gloss": "to walk / to be OK (polyphonic)" },
-    { "hanzi": "老師", "jyut": ["lou5 si1","lou si","lou5si1","lousi"], "gloss": "teacher" },
-    { "hanzi": "學校", "jyut": ["hok6 haau6","hok haau","hok6haau6","hokhaau"], "gloss": "school" },
-    { "hanzi": "買嘢", "jyut": ["maai5 je5","maai je","maai5je5","maaije"], "gloss": "to buy stuff" },
-    { "hanzi": "冇", "jyut": ["mou5","mou"], "gloss": "to not have" },
-    { "hanzi": "有", "jyut": ["jau5","jau"], "gloss": "to have" },
-    { "hanzi": "喺", "jyut": ["hai2","hai"], "gloss": "at; in; on" }
-  ]
-  
+  {
+    "hanzi": "係",
+    "jyut": [
+      "hai6",
+      "hai"
+    ],
+    "gloss": "to be/to connect/to relate to/to tie up/to bind"
+  },
+  {
+    "hanzi": "呢",
+    "jyut": [
+      "ne1|ni1|nei1",
+      "ne|ni|nei"
+    ],
+    "gloss": "(question particle for subjects already mentioned)/woolen material"
+  },
+  {
+    "hanzi": "嘅",
+    "jyut": [
+      "ge3",
+      "ge"
+    ],
+    "gloss": "possessive marker"
+  },
+  {
+    "hanzi": "我",
+    "jyut": [
+      "ngo5",
+      "ngo"
+    ],
+    "gloss": "I/me/my"
+  },
+  {
+    "hanzi": "你",
+    "jyut": [
+      "nei5",
+      "nei"
+    ],
+    "gloss": "you (informal, as opposed to polite 您[néih])"
+  },
+  {
+    "hanzi": "就",
+    "jyut": [
+      "zau6",
+      "zau"
+    ],
+    "gloss": "at once/right away/only/just (emphasis)/as early as/already/as soon as/then/in that case/as many as/even if/to compromise/to meet someone halfway/to give in to someone's demands/to approach/to move towards/to undertake/to engage in/to suffer/subjected to/to accomplish/to take advantage of/to go with (of foods)/with regard to/concerning"
+  },
+  {
+    "hanzi": "唔",
+    "jyut": [
+      "m4",
+      "m"
+    ],
+    "gloss": "not"
+  },
+  {
+    "hanzi": "個",
+    "jyut": [
+      "go3",
+      "go"
+    ],
+    "gloss": "individual/this/that/size/classifier for people or objects in general"
+  },
+  {
+    "hanzi": "佢",
+    "jyut": [
+      "keoi5",
+      "keoi"
+    ],
+    "gloss": "he/she/it"
+  },
+  {
+    "hanzi": "咁",
+    "jyut": [
+      "gam3|gam2",
+      "gam|gam"
+    ],
+    "gloss": "so"
+  },
+  {
+    "hanzi": "嗰",
+    "jyut": [
+      "go2",
+      "go"
+    ],
+    "gloss": "that"
+  },
+  {
+    "hanzi": "好",
+    "jyut": [
+      "hou2|hou3",
+      "hou|hou"
+    ],
+    "gloss": "good/well/proper/good to/easy to/very/so/(suffix indicating completion or readiness)|to be fond of/to have a tendency to/to be prone to"
+  },
+  {
+    "hanzi": "啲",
+    "jyut": [
+      "di1",
+      "di"
+    ],
+    "gloss": "plural prefix"
+  },
+  {
+    "hanzi": "啊",
+    "jyut": [
+      "aa3|aa1|aa2",
+      "aa|aa|aa"
+    ],
+    "gloss": "interjection expressing doubt or requiring answer/Eh?/what?/to show realization/to stress/interjection of surprise or doubt/Eh?/My!/what's up?/interjection of surprise/Ah!/Oh!/interjection or grunt of agreement/uhm/Ah, OK/expression of recognition/Oh, it's you!/modal particle ending sentence, showing affirmation, approval, or consent"
+  },
+  {
+    "hanzi": "呀",
+    "jyut": [
+      "aa3|aa1|aa6",
+      "aa|aa|aa"
+    ],
+    "gloss": "(particle equivalent to 啊 after a vowel, expressing surprise or doubt)"
+  },
+  {
+    "hanzi": "都",
+    "jyut": [
+      "dou1",
+      "dou"
+    ],
+    "gloss": "all/both (if two things are involved)/entirely (due to) each/even/already/capital city/metropolis/surname Du"
+  },
+  {
+    "hanzi": "喺",
+    "jyut": [
+      "hai2",
+      "hai"
+    ],
+    "gloss": "located at"
+  },
+  {
+    "hanzi": "有",
+    "jyut": [
+      "jau5",
+      "jau"
+    ],
+    "gloss": "to have/there is/there are/to exist/to be/to have money/to be rich"
+  },
+  {
+    "hanzi": "即係",
+    "jyut": [
+      "zik1hai6",
+      "zik1hai"
+    ],
+    "gloss": "exactly"
+  },
+  {
+    "hanzi": "噉",
+    "jyut": [
+      "gam2",
+      "gam"
+    ],
+    "gloss": "in this way"
+  },
+  {
+    "hanzi": "去",
+    "jyut": [
+      "heoi3",
+      "heoi"
+    ],
+    "gloss": "to go/to go to (a place)/to cause to go or send (sb)/to remove/to get rid of/(when used either before or after a verb) to go in order to do sth/to be apart from in space or time/(after a verb of motion indicates movement away from the speaker)/(used after certain verbs to indicate detachment or separation)/(of a time or an event etc) just passed or elapsed"
+  },
+  {
+    "hanzi": "到",
+    "jyut": [
+      "dou3",
+      "dou"
+    ],
+    "gloss": "to (a place)/until (a time)/up to/to go/to arrive"
+  },
+  {
+    "hanzi": "咗",
+    "jyut": [
+      "zo2",
+      "zo"
+    ],
+    "gloss": "particle"
+  },
+  {
+    "hanzi": "冇",
+    "jyut": [
+      "mou5",
+      "mou"
+    ],
+    "gloss": "don't have/haven't/not/do not/have no"
+  },
+  {
+    "hanzi": "哋",
+    "jyut": [
+      "dei6",
+      "dei"
+    ],
+    "gloss": "plural suffix"
+  },
+  {
+    "hanzi": "嘢",
+    "jyut": [
+      "je5",
+      "je"
+    ],
+    "gloss": "thing/a person, a body part or other object which is not named directly but is often indicated by the classifier used/a person (disrespectful)/heroin"
+  },
+  {
+    "hanzi": "即",
+    "jyut": [
+      "zik1",
+      "zik"
+    ],
+    "gloss": "namely/that is/i.e./prompt/at once/at present/even if/prompted (by the occasion)/to approach/to come into contact/to assume (office)/to draw near"
+  },
+  {
+    "hanzi": "話",
+    "jyut": [
+      "waa6|waa2",
+      "waa|waa"
+    ],
+    "gloss": "to say/dialect/language/spoken words/speech/talk/words/conversation/what sb said"
+  },
+  {
+    "hanzi": "唔係",
+    "jyut": [
+      "m4hai6",
+      "m4hai"
+    ],
+    "gloss": "not"
+  },
+  {
+    "hanzi": "跟住",
+    "jyut": [
+      "gan1zyu6",
+      "gan1zyu"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "會",
+    "jyut": [
+      "wui5|wui6|wui2",
+      "wui|wui|wui"
+    ],
+    "gloss": "can/be possible/be able to/will/to assemble/to meet/to gather/to see/union/group/association/to balance an account/accounting"
+  },
+  {
+    "hanzi": "喇",
+    "jyut": [
+      "laa1",
+      "laa"
+    ],
+    "gloss": "(onomat.)/(phonetic)"
+  },
+  {
+    "hanzi": "但係",
+    "jyut": [
+      "daan6hai6",
+      "daan6hai"
+    ],
+    "gloss": "but"
+  },
+  {
+    "hanzi": "又",
+    "jyut": [
+      "jau6",
+      "jau"
+    ],
+    "gloss": "(once) again/also/both... and.../again"
+  },
+  {
+    "hanzi": "之後",
+    "jyut": [
+      "zi1hau6",
+      "zi1hau"
+    ],
+    "gloss": "afterwards/following/later/after"
+  },
+  {
+    "hanzi": "啦",
+    "jyut": [
+      "laa1|laa3",
+      "laa|laa"
+    ],
+    "gloss": "(an auxiliary word performing the grammatical functions of mood)/fusion of le + a/follows after 比如 listed examples/(onomat.)/(phonetic)"
+  },
+  {
+    "hanzi": "要",
+    "jyut": [
+      "jiu3",
+      "jiu"
+    ],
+    "gloss": "demand/ask/request/coerce/important/vital/to want/will/going to (as future auxiliary)/may/must"
+  },
+  {
+    "hanzi": "一個",
+    "jyut": [
+      "*jat1go3",
+      "*jat1go"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "喀",
+    "jyut": [
+      "kak1",
+      "kak"
+    ],
+    "gloss": "(onomat.)"
+  },
+  {
+    "hanzi": "一",
+    "jyut": [
+      "jat1",
+      "jat"
+    ],
+    "gloss": "one/1/single/a (article)/as soon as/entire/whole/all/throughout/\"one\" radical in Chinese characters (Kangxi radical 1)"
+  },
+  {
+    "hanzi": "喎",
+    "jyut": [
+      "wo3|wo4|wo5|wo6|wo1",
+      "wo|wo|wo|wo|wo"
+    ],
+    "gloss": "a wry mouth"
+  },
+  {
+    "hanzi": "㗎",
+    "jyut": [
+      "*?"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "度",
+    "jyut": [
+      "dou6|dok6",
+      "dou|dok"
+    ],
+    "gloss": "to pass/to spend (time)/measure/limit/extent/degree of intensity/degree (angles, temperature etc)/kilowatt-hour|to consider/to calculate/to think/to estimate/to ask someone for a loan"
+  },
+  {
+    "hanzi": "同埋",
+    "jyut": [
+      "tung4maai4",
+      "tung4maai"
+    ],
+    "gloss": "and, together with"
+  },
+  {
+    "hanzi": "覺得",
+    "jyut": [
+      "gok3dak1",
+      "gok3dak"
+    ],
+    "gloss": "to think/to feel"
+  },
+  {
+    "hanzi": "做",
+    "jyut": [
+      "zou6",
+      "zou"
+    ],
+    "gloss": "to do/to act/to have sex/to fight/to kill/to trick"
+  },
+  {
+    "hanzi": "可以",
+    "jyut": [
+      "ho2ji5",
+      "ho2ji"
+    ],
+    "gloss": "can/may/possible/able to"
+  },
+  {
+    "hanzi": "其實",
+    "jyut": [
+      "kei4sat6",
+      "kei4sat"
+    ],
+    "gloss": "actually/that is not the case/in fact/really"
+  },
+  {
+    "hanzi": "向",
+    "jyut": [
+      "hoeng3",
+      "hoeng"
+    ],
+    "gloss": "direction/orientation/to face/to turn toward/to/towards/shortly before/formerly/to side with/to be partial to/all along (previously)/surname Xiang"
+  },
+  {
+    "hanzi": "人",
+    "jyut": [
+      "jan4",
+      "jan"
+    ],
+    "gloss": "man/person/people"
+  },
+  {
+    "hanzi": "而家",
+    "jyut": [
+      "ji4gaa1",
+      "ji4gaa"
+    ],
+    "gloss": "now"
+  },
+  {
+    "hanzi": "中間",
+    "jyut": [
+      "zung1gaan1",
+      "zung1gaan"
+    ],
+    "gloss": "between/intermediate/mid/middle"
+  },
+  {
+    "hanzi": "得",
+    "jyut": [
+      "dak1",
+      "dak"
+    ],
+    "gloss": "can/to obtain/to get/to gain/to allow/to permit"
+  },
+  {
+    "hanzi": "睇",
+    "jyut": [
+      "tai2",
+      "tai"
+    ],
+    "gloss": "to look/to look after/to care for/to support"
+  },
+  {
+    "hanzi": "上",
+    "jyut": [
+      "soeng6|soeng5",
+      "soeng|soeng"
+    ],
+    "gloss": "above/upper/first/best/better/superior/previous/before/above/top/emperor/superior|go up/upward/up/go to/ascend/go to court/rising tone (phonetics)"
+  },
+  {
+    "hanzi": "真係",
+    "jyut": [
+      "zan1hai6",
+      "zan1hai"
+    ],
+    "gloss": "really"
+  },
+  {
+    "hanzi": "嘞",
+    "jyut": [
+      "laak3|lak3",
+      "laak|lak"
+    ],
+    "gloss": "particle"
+  },
+  {
+    "hanzi": "誒",
+    "jyut": [
+      "aai2|ei6|oi1",
+      "aai|ei|oi"
+    ],
+    "gloss": "hey"
+  },
+  {
+    "hanzi": "因為",
+    "jyut": [
+      "jan1wai6",
+      "jan1wai"
+    ],
+    "gloss": "because/owing to/on account of"
+  },
+  {
+    "hanzi": "多",
+    "jyut": [
+      "do1",
+      "do"
+    ],
+    "gloss": "many/much/a lot of/numerous/multi-"
+  },
+  {
+    "hanzi": "下",
+    "jyut": [
+      "haa6",
+      "haa"
+    ],
+    "gloss": "down/downwards/below/lower/later/next (week etc)/second (of two parts)/to decline/to go down"
+  },
+  {
+    "hanzi": "乜",
+    "jyut": [
+      "mat1",
+      "mat"
+    ],
+    "gloss": "what"
+  },
+  {
+    "hanzi": "囉",
+    "jyut": [
+      "lo1|lo3|lo4",
+      "lo|lo|lo"
+    ],
+    "gloss": "repetitious/over-elaborate/[final particle] expressing a changed condition/[final particle] showing argumentative mood or making emphasis"
+  },
+  {
+    "hanzi": "如果",
+    "jyut": [
+      "jyu4gwo2",
+      "jyu4gwo"
+    ],
+    "gloss": "if/in case/in the event that"
+  },
+  {
+    "hanzi": "下面",
+    "jyut": [
+      "haa6min6",
+      "haa6min"
+    ],
+    "gloss": "below/under/next/the following"
+  },
+  {
+    "hanzi": "講",
+    "jyut": [
+      "gong2",
+      "gong"
+    ],
+    "gloss": "to speak/to explain/a speech/a lecture"
+  },
+  {
+    "hanzi": "咩",
+    "jyut": [
+      "me1",
+      "me"
+    ],
+    "gloss": "what?/[final particle] transforms statements into questions that indicate doubt or surprise"
+  },
+  {
+    "hanzi": "嚟",
+    "jyut": [
+      "lai4",
+      "lai"
+    ],
+    "gloss": "come"
+  },
+  {
+    "hanzi": "哦",
+    "jyut": [
+      "ngo4|o4|o6",
+      "ngo|o|o"
+    ],
+    "gloss": "oh (叹词, interjection)/to chant"
+  },
+  {
+    "hanzi": "係咪",
+    "jyut": [
+      "*hai6mai1|mi4|mai5",
+      "*hai6mai|mi|mai"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "自己",
+    "jyut": [
+      "zi6gei2",
+      "zi6gei"
+    ],
+    "gloss": "oneself/one's own"
+  },
+  {
+    "hanzi": "咁樣",
+    "jyut": [
+      "gam2joeng2",
+      "gam2joeng"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "噉樣",
+    "jyut": [
+      "gam2joeng2",
+      "gam2joeng"
+    ],
+    "gloss": "this way"
+  },
+  {
+    "hanzi": "吓",
+    "jyut": [
+      "haa5",
+      "haa"
+    ],
+    "gloss": "particle"
+  },
+  {
+    "hanzi": "應該",
+    "jyut": [
+      "jing1goi1",
+      "jing1goi"
+    ],
+    "gloss": "ought to/should/must"
+  },
+  {
+    "hanzi": "知",
+    "jyut": [
+      "zi1|zi3",
+      "zi|zi"
+    ],
+    "gloss": "to know/to be aware"
+  },
+  {
+    "hanzi": "咪",
+    "jyut": [
+      "mai1|mi4|mai5",
+      "mai|mi|mai"
+    ],
+    "gloss": "to swot/to cram for an exam/meow|don't/shouldn't/mustn't"
+  },
+  {
+    "hanzi": "兜",
+    "jyut": [
+      "dau1",
+      "dau"
+    ],
+    "gloss": "container for rice, pet food or coins/to move in a circle/to canvas or solicit/to go for a (leisurely) stroll, drive, jaunt"
+  },
+  {
+    "hanzi": "嗎",
+    "jyut": [
+      "maa3",
+      "maa"
+    ],
+    "gloss": "(question tag)/see 嗎啡|吗啡, morphine"
+  },
+  {
+    "hanzi": "同",
+    "jyut": [
+      "tung4",
+      "tung"
+    ],
+    "gloss": "and/as well as/for/on behalf of/like/same/similar/together/alike/with"
+  },
+  {
+    "hanzi": "再",
+    "jyut": [
+      "zoi3",
+      "zoi"
+    ],
+    "gloss": "again/once more/re-/second/another/then (after sth, and not until then)"
+  },
+  {
+    "hanzi": "見",
+    "jyut": [
+      "gin3",
+      "gin"
+    ],
+    "gloss": "appear/to see/to meet/to appear (to be sth)/to interview"
+  },
+  {
+    "hanzi": "好似",
+    "jyut": [
+      "hou2ci5",
+      "hou2ci"
+    ],
+    "gloss": "to seem/to be like"
+  },
+  {
+    "hanzi": "吖",
+    "jyut": [
+      "aa4",
+      "aa"
+    ],
+    "gloss": "particle"
+  },
+  {
+    "hanzi": "先",
+    "jyut": [
+      "sin1",
+      "sin"
+    ],
+    "gloss": "early/prior/former/in advance/first"
+  },
+  {
+    "hanzi": "上面",
+    "jyut": [
+      "soeng6min6",
+      "soeng6min"
+    ],
+    "gloss": "on top of/above-mentioned/mainland China, as viewed from Hong Kong/the Beijing authorities"
+  },
+  {
+    "hanzi": "可能",
+    "jyut": [
+      "ho2nang4",
+      "ho2nang"
+    ],
+    "gloss": "might (happen)/possible/probable/possibility/probability/maybe/perhaps"
+  },
+  {
+    "hanzi": "開始",
+    "jyut": [
+      "hoi1ci2",
+      "hoi1ci"
+    ],
+    "gloss": "to begin/beginning/to start/initial"
+  },
+  {
+    "hanzi": "諗",
+    "jyut": [
+      "nam2",
+      "nam"
+    ],
+    "gloss": "to think/to consider"
+  },
+  {
+    "hanzi": "來",
+    "jyut": [
+      "loi4",
+      "loi"
+    ],
+    "gloss": "to come/to arrive/to come round/ever since/next"
+  },
+  {
+    "hanzi": "然",
+    "jyut": [
+      "jin4",
+      "jin"
+    ],
+    "gloss": "correct/right/so/thus/like this/-ly"
+  },
+  {
+    "hanzi": "右",
+    "jyut": [
+      "jau6",
+      "jau"
+    ],
+    "gloss": "right (-hand)"
+  },
+  {
+    "hanzi": "經過",
+    "jyut": [
+      "ging1gwo3",
+      "ging1gwo"
+    ],
+    "gloss": "to pass/to go through/process/course"
+  },
+  {
+    "hanzi": "時",
+    "jyut": [
+      "si4",
+      "si"
+    ],
+    "gloss": "o'clock/time/when/hour/season/period/surname Shi"
+  },
+  {
+    "hanzi": "大",
+    "jyut": [
+      "daai6",
+      "daai"
+    ],
+    "gloss": "big/huge/large/major/great/oldest/eldest/senior/to challenge"
+  },
+  {
+    "hanzi": "想",
+    "jyut": [
+      "soeng2",
+      "soeng"
+    ],
+    "gloss": "to think/to believe/to suppose/to wish/to want/to miss"
+  },
+  {
+    "hanzi": "邊",
+    "jyut": [
+      "bin1",
+      "bin"
+    ],
+    "gloss": "side/edge/margin/border/boundary/suffix of a noun of locality"
+  },
+  {
+    "hanzi": "搵",
+    "jyut": [
+      "wan2|wan3",
+      "wan|wan"
+    ],
+    "gloss": "to find/to search/to look for/press with finger/wipe"
+  },
+  {
+    "hanzi": "或者",
+    "jyut": [
+      "waak6ze2",
+      "waak6ze"
+    ],
+    "gloss": "or/possibly/maybe/perhaps"
+  },
+  {
+    "hanzi": "字",
+    "jyut": [
+      "zi6",
+      "zi"
+    ],
+    "gloss": "letter/symbol/character/word/CL:個[go]/courtesy or style name traditionally given to males aged 20 in dynastic China"
+  },
+  {
+    "hanzi": "時候",
+    "jyut": [
+      "si4hau6",
+      "si4hau"
+    ],
+    "gloss": "time/length of time/moment/period"
+  },
+  {
+    "hanzi": "唔好",
+    "jyut": [
+      "m4hou2",
+      "m4hou"
+    ],
+    "gloss": "no good/don't"
+  },
+  {
+    "hanzi": "俾",
+    "jyut": [
+      "bei2",
+      "bei"
+    ],
+    "gloss": "to cause/to enable/phonetic bi"
+  },
+  {
+    "hanzi": "所以",
+    "jyut": [
+      "so2ji5",
+      "so2ji"
+    ],
+    "gloss": "therefore/as a result/so"
+  },
+  {
+    "hanzi": "少少",
+    "jyut": [
+      "siu2siu2",
+      "siu2siu"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "面",
+    "jyut": [
+      "min6",
+      "min"
+    ],
+    "gloss": "face/respect, reputation, honour, \"face\"/side/surface/aspect/top/classifier for flat surfaces such as drums, mirrors, flags etc (Mandarin)"
+  },
+  {
+    "hanzi": "幾",
+    "jyut": [
+      "gei2|gei1",
+      "gei|gei"
+    ],
+    "gloss": "how much/how many/several/a few|almost"
+  },
+  {
+    "hanzi": "畀",
+    "jyut": [
+      "bei2",
+      "bei"
+    ],
+    "gloss": "to give"
+  },
+  {
+    "hanzi": "嘛",
+    "jyut": [
+      "maa4",
+      "maa"
+    ],
+    "gloss": "(a modal particle)"
+  },
+  {
+    "hanzi": "住",
+    "jyut": [
+      "zyu6",
+      "zyu"
+    ],
+    "gloss": "to live/to dwell/to stay/to reside/to stop"
+  },
+  {
+    "hanzi": "過",
+    "jyut": [
+      "gwo3",
+      "gwo"
+    ],
+    "gloss": "(experienced action marker)/to cross/to go over/to pass (time)/to celebrate (a holiday)/to live/to get along/excessively/too-/a surname"
+  },
+  {
+    "hanzi": "譬如",
+    "jyut": [
+      "pei3jyu4",
+      "pei3jyu"
+    ],
+    "gloss": "for example/for instance/such as"
+  },
+  {
+    "hanzi": "聽",
+    "jyut": [
+      "teng1|ting1|ting3",
+      "teng|ting|ting"
+    ],
+    "gloss": "to listen/to hear/to obey"
+  },
+  {
+    "hanzi": "已經",
+    "jyut": [
+      "ji5ging1",
+      "ji5ging"
+    ],
+    "gloss": "already"
+  },
+  {
+    "hanzi": "返",
+    "jyut": [
+      "faan1|faan2",
+      "faan|faan"
+    ],
+    "gloss": "to return (to)"
+  },
+  {
+    "hanzi": "嗯",
+    "jyut": [
+      "ng2",
+      "ng"
+    ],
+    "gloss": "(a groaning sound)/(nonverbal grunt as interjection)/OK, yeah/what?/interjection indicating approval, appreciation or agreement"
+  },
+  {
+    "hanzi": "隻",
+    "jyut": [
+      "zek3",
+      "zek"
+    ],
+    "gloss": "classifier for birds and certain animals, one of a pair, some utensils, vessels etc"
+  },
+  {
+    "hanzi": "左",
+    "jyut": [
+      "zo2",
+      "zo"
+    ],
+    "gloss": "left/the Left (politics)/a surname"
+  },
+  {
+    "hanzi": "叫",
+    "jyut": [
+      "giu3",
+      "giu"
+    ],
+    "gloss": "to call/to yell/to order/to ask/to be called"
+  },
+  {
+    "hanzi": "哩",
+    "jyut": [
+      "lei5|le1|lei1|li1",
+      "lei|le|lei|li"
+    ],
+    "gloss": "(modal final particle sim. to 呢 or 啦)/(onomat.)/see 哩哩羅羅|哩哩罗罗 lililuoluo endless mumbling noise/see 哩哩啦啦 lililala, scattered or intermittent/mile/old form of modern 英里"
+  },
+  {
+    "hanzi": "對",
+    "jyut": [
+      "deoi3",
+      "deoi"
+    ],
+    "gloss": "couple/pair/to be opposite/to oppose/to face/versus/for/to/correct (answer)/to answer/to reply/to direct (towards sth)/right"
+  },
+  {
+    "hanzi": "落去",
+    "jyut": [
+      "lok6heoi3",
+      "lok6heoi"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "買",
+    "jyut": [
+      "maai5",
+      "maai"
+    ],
+    "gloss": "to buy/to purchase/to bet/to place a bet on/to kill/to have killed"
+  },
+  {
+    "hanzi": "然後",
+    "jyut": [
+      "jin4hau6",
+      "jin4hau"
+    ],
+    "gloss": "after/then (afterwards)/after that/afterwards"
+  },
+  {
+    "hanzi": "方",
+    "jyut": [
+      "fong1",
+      "fong"
+    ],
+    "gloss": "square/quadrilateral/power (such as cube 立方)/classifier for square things/upright/honest/fair and square/surname Fang/direction/party (to a dispute)/one side/place/method/prescription/just/then/only then"
+  },
+  {
+    "hanzi": "陣",
+    "jyut": [
+      "zan6",
+      "zan"
+    ],
+    "gloss": "disposition of troops/wave/spate/burst/spell/short period of time/classifier for events or states of short duration"
+  },
+  {
+    "hanzi": "點解",
+    "jyut": [
+      "dim2gaai2",
+      "dim2gaai"
+    ],
+    "gloss": "why"
+  },
+  {
+    "hanzi": "沙漠",
+    "jyut": [
+      "saa1mok6",
+      "saa1mok"
+    ],
+    "gloss": "desert"
+  },
+  {
+    "hanzi": "最",
+    "jyut": [
+      "zeoi3",
+      "zeoi"
+    ],
+    "gloss": "most/the most/-est"
+  },
+  {
+    "hanzi": "啫",
+    "jyut": [
+      "zek1|ze1",
+      "zek|ze"
+    ],
+    "gloss": "|merely, only, that's all (used mainly to play down a fact and convey a sense of reassurance)|the penis (child's term, humorous)"
+  },
+  {
+    "hanzi": "兩",
+    "jyut": [
+      "loeng5",
+      "loeng"
+    ],
+    "gloss": "both/two/ounce/some/a few/tael"
+  },
+  {
+    "hanzi": "晒",
+    "jyut": [
+      "saai3",
+      "saai"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "喂",
+    "jyut": [
+      "wai3",
+      "wai"
+    ],
+    "gloss": "hello (interj., esp. on telephone)/hey/to feed (sb or some animal)"
+  },
+  {
+    "hanzi": "不過",
+    "jyut": [
+      "bat1gwo3",
+      "bat1gwo"
+    ],
+    "gloss": "only/merely/no more than/but/however/anyway (to get back to a previous topic)"
+  },
+  {
+    "hanzi": "樣",
+    "jyut": [
+      "joeng6",
+      "joeng"
+    ],
+    "gloss": "manner/pattern/way/appearance/shape"
+  },
+  {
+    "hanzi": "嘩",
+    "jyut": [
+      "waa1|waa4",
+      "waa|waa"
+    ],
+    "gloss": "cat-calling sound/clamor/noise/crashing sound"
+  },
+  {
+    "hanzi": "問題",
+    "jyut": [
+      "man6tai4",
+      "man6tai"
+    ],
+    "gloss": "question/problem/issue/topic"
+  },
+  {
+    "hanzi": "穿過",
+    "jyut": [
+      "cyun1gwo3",
+      "cyun1gwo"
+    ],
+    "gloss": "to pass through"
+  },
+  {
+    "hanzi": "兩個",
+    "jyut": [
+      "*loeng5go3",
+      "*loeng5go"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "個人",
+    "jyut": [
+      "go3jan4",
+      "go3jan"
+    ],
+    "gloss": "individual/personal/oneself"
+  },
+  {
+    "hanzi": "終點",
+    "jyut": [
+      "zung1dim2",
+      "zung1dim"
+    ],
+    "gloss": "the end/end point/finishing line (in a race)/destination/terminus"
+  },
+  {
+    "hanzi": "洞",
+    "jyut": [
+      "dung6",
+      "dung"
+    ],
+    "gloss": "cave/hole/the female sexual organ, \"hole\", \"cunt\"/CL:個[go]"
+  },
+  {
+    "hanzi": "山",
+    "jyut": [
+      "saan1",
+      "saan"
+    ],
+    "gloss": "mountain/hill/CL:座[joh]"
+  },
+  {
+    "hanzi": "上去",
+    "jyut": [
+      "soeng5heoi3",
+      "soeng5heoi"
+    ],
+    "gloss": "to go up"
+  },
+  {
+    "hanzi": "行",
+    "jyut": [
+      "hang4|haang4|hang6|hong4|hong2",
+      "hang|haang|hang|hong|hong"
+    ],
+    "gloss": "to act/to do/be current/able/capable|to walk/to go/to go on foot|behavior/conduct|row/line/trade/profession|business firm/company"
+  },
+  {
+    "hanzi": "園",
+    "jyut": [
+      "jyun4",
+      "jyun"
+    ],
+    "gloss": "garden"
+  },
+  {
+    "hanzi": "角",
+    "jyut": [
+      "gok3",
+      "gok"
+    ],
+    "gloss": "angle/horn/horn-shaped/unit of money equal to 0.1 yuan/role (theater)/to compete/ancient three legged wine vessel/third note of pentatonic scale/surname Jue"
+  },
+  {
+    "hanzi": "條",
+    "jyut": [
+      "tiu4",
+      "tiu"
+    ],
+    "gloss": "strip/item/article/clause (of law or treaty)/classifier for long thin things (ribbon, river, road, trousers etc)/a classifier, used in slang for people"
+  },
+  {
+    "hanzi": "揾",
+    "jyut": [
+      "*?"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "手",
+    "jyut": [
+      "sau2",
+      "sau"
+    ],
+    "gloss": "hand/hand of cards/a turn (gambling)"
+  },
+  {
+    "hanzi": "間",
+    "jyut": [
+      "gaan1|gaan3",
+      "gaan|gaan"
+    ],
+    "gloss": "between/among/within a definite time or space/room/section of a room or lateral space between two pairs of pillars/classifier for rooms|gap/to separate"
+  },
+  {
+    "hanzi": "哩個",
+    "jyut": [
+      "*lei5|le1|lei1|li1go3",
+      "*lei|le|lei|li1go"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "亦",
+    "jyut": [
+      "jik6",
+      "jik"
+    ],
+    "gloss": "also"
+  },
+  {
+    "hanzi": "點樣",
+    "jyut": [
+      "dim2joeng2",
+      "dim2joeng"
+    ],
+    "gloss": "how"
+  },
+  {
+    "hanzi": "啱",
+    "jyut": [
+      "ngaam1",
+      "ngaam"
+    ],
+    "gloss": "correct/suitable/just now/to suit sb"
+  },
+  {
+    "hanzi": "有個",
+    "jyut": [
+      "*jau5go3",
+      "*jau5go"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "唔到",
+    "jyut": [
+      "*m4dou3",
+      "*m4dou"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "走",
+    "jyut": [
+      "zau2",
+      "zau"
+    ],
+    "gloss": "to go/to run/to walk (Mandarin)/to move (of vehicle)/to visit/to leave/to go away/to die (euph.)/from/through/away (in compound verbs, such as 撤走)/to change (shape, form, meaning)"
+  },
+  {
+    "hanzi": "大家",
+    "jyut": [
+      "daai6gaa1",
+      "daai6gaa"
+    ],
+    "gloss": "everyone"
+  },
+  {
+    "hanzi": "落",
+    "jyut": [
+      "lok6",
+      "lok"
+    ],
+    "gloss": "to go down/to fall or drop/to have an abortion/to abort/to put the blame on"
+  },
+  {
+    "hanzi": "未",
+    "jyut": [
+      "mei6",
+      "mei"
+    ],
+    "gloss": "not yet/did not/have not/not/8th earthly branch: 1-3 p.m., 6th solar month (7th July-6th August), year of the Sheep"
+  },
+  {
+    "hanzi": "埋",
+    "jyut": [
+      "maai4",
+      "maai"
+    ],
+    "gloss": "bury/to blame"
+  },
+  {
+    "hanzi": "邊個",
+    "jyut": [
+      "bin1go3",
+      "bin1go"
+    ],
+    "gloss": "which/who"
+  },
+  {
+    "hanzi": "線",
+    "jyut": [
+      "sin3",
+      "sin"
+    ],
+    "gloss": "thread/string/wire/line"
+  },
+  {
+    "hanzi": "但",
+    "jyut": [
+      "daan6",
+      "daan"
+    ],
+    "gloss": "but/yet/however/only/merely/still"
+  },
+  {
+    "hanzi": "一定",
+    "jyut": [
+      "jat1ding6",
+      "jat1ding"
+    ],
+    "gloss": "surely/certainly/necessarily/fixed/a certain (extent etc)/given/particular/must"
+  },
+  {
+    "hanzi": "咋",
+    "jyut": [
+      "zaa1|zaa3|zaak3",
+      "zaa|zaa|zaak"
+    ],
+    "gloss": "gnaw/loud noise/shout/suddenly"
+  },
+  {
+    "hanzi": "樹",
+    "jyut": [
+      "syu6",
+      "syu"
+    ],
+    "gloss": "tree"
+  },
+  {
+    "hanzi": "一路",
+    "jyut": [
+      "jat1lou6",
+      "jat1lou"
+    ],
+    "gloss": "continually"
+  },
+  {
+    "hanzi": "成日",
+    "jyut": [
+      "sing4jat6",
+      "sing4jat"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "政府",
+    "jyut": [
+      "zing3fu2",
+      "zing3fu"
+    ],
+    "gloss": "government"
+  },
+  {
+    "hanzi": "點",
+    "jyut": [
+      "dim2",
+      "dim"
+    ],
+    "gloss": "point/dot/speck/o'clock/point (in space or time)/to draw a dot/to check on a list/to choose/to order (food in a restaurant)/to touch briefly/to light/to ignite/to instruct/to advise, especially to give misleading advice, to cheat/dot stroke in Chinese characters/how?"
+  },
+  {
+    "hanzi": "裏",
+    "jyut": [
+      "leoi5",
+      "leoi"
+    ],
+    "gloss": "inside/internal/interior/lining/village/basic unit of city administration"
+  },
+  {
+    "hanzi": "塔",
+    "jyut": [
+      "taap3",
+      "taap"
+    ],
+    "gloss": "to lock/to lock up/to handcuff/a lock/pagoda/tower/minaret"
+  },
+  {
+    "hanzi": "錢",
+    "jyut": [
+      "cin2|cin4",
+      "cin|cin"
+    ],
+    "gloss": "coin/money/CL:筆[bāt]/unit of weight, one tenth of a tael 両[léuhng]"
+  },
+  {
+    "hanzi": "香港",
+    "jyut": [
+      "hoeng1gong2",
+      "hoeng1gong"
+    ],
+    "gloss": "Hong Kong"
+  },
+  {
+    "hanzi": "靚",
+    "jyut": [
+      "leng3",
+      "leng"
+    ],
+    "gloss": "pretty"
+  },
+  {
+    "hanzi": "公司",
+    "jyut": [
+      "gung1si1",
+      "gung1si"
+    ],
+    "gloss": "(business) company/company/firm/corporation/incorporated/CL:家[gā](Mandarin)/CL:間[gāan]"
+  },
+  {
+    "hanzi": "池",
+    "jyut": [
+      "ci4",
+      "ci"
+    ],
+    "gloss": "pond/reservoir/surname Chi"
+  },
+  {
+    "hanzi": "茅屋",
+    "jyut": [
+      "maau4uk1",
+      "maau4uk"
+    ],
+    "gloss": "cottage"
+  },
+  {
+    "hanzi": "出",
+    "jyut": [
+      "ceot1",
+      "ceot"
+    ],
+    "gloss": "to go out/to come out/to occur/to produce/to go beyond/to rise/to put forth/to happen/classifier for dramas, plays, operas etc"
+  },
+  {
+    "hanzi": "阿",
+    "jyut": [
+      "aa3|o1",
+      "aa|o"
+    ],
+    "gloss": "prefix used before monosyllabic names, kinship terms etc to indicate familiarity/used in transliteration|flatter"
+  },
+  {
+    "hanzi": "知道",
+    "jyut": [
+      "zi1dou3",
+      "zi1dou"
+    ],
+    "gloss": "know/be aware of"
+  },
+  {
+    "hanzi": "用",
+    "jyut": [
+      "jung6",
+      "jung"
+    ],
+    "gloss": "to use"
+  },
+  {
+    "hanzi": "過去",
+    "jyut": [
+      "gwo3heoi3",
+      "gwo3heoi"
+    ],
+    "gloss": "(in the) past/former/previous/to go over/to pass by"
+  },
+  {
+    "hanzi": "唔使",
+    "jyut": [
+      "m4sai2",
+      "m4sai"
+    ],
+    "gloss": "need not"
+  },
+  {
+    "hanzi": "頭先",
+    "jyut": [
+      "tau4sin1",
+      "tau4sin"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "叫做",
+    "jyut": [
+      "giu3zou6",
+      "giu3zou"
+    ],
+    "gloss": "be called/be known as"
+  },
+  {
+    "hanzi": "右邊",
+    "jyut": [
+      "jau6bin1",
+      "jau6bin"
+    ],
+    "gloss": "right/opposite: left 左邊|左边/the right side/to the right"
+  },
+  {
+    "hanzi": "而",
+    "jyut": [
+      "ji4",
+      "ji"
+    ],
+    "gloss": "and/as well as/and so/but (not)/yet (not)/(indicates causal relation)/(indicates change of state)/(indicates contrast)"
+  },
+  {
+    "hanzi": "一直",
+    "jyut": [
+      "jat1zik6",
+      "jat1zik"
+    ],
+    "gloss": "straight (in a straight line)/continuously/always/from the beginning of ... up to .../all along"
+  },
+  {
+    "hanzi": "一樣",
+    "jyut": [
+      "jat1joeng6",
+      "jat1joeng"
+    ],
+    "gloss": "same/like/equal to/the same as/just like"
+  },
+  {
+    "hanzi": "緊",
+    "jyut": [
+      "gan2",
+      "gan"
+    ],
+    "gloss": "tight/strict/close at hand/near/urgent/tense/hard up/short of money/to tighten"
+  },
+  {
+    "hanzi": "香",
+    "jyut": [
+      "hoeng1",
+      "hoeng"
+    ],
+    "gloss": "fragrant/sweet smelling/aromatic/savory or appetizing/(to eat) with relish/(of sleep) sound/perfume or spice/joss or incense stick/CL:枝[jī]/to die (euphemistic, a reference to the custom of burning joss sticks in honour of the departed)."
+  },
+  {
+    "hanzi": "張",
+    "jyut": [
+      "zoeng1",
+      "zoeng"
+    ],
+    "gloss": "to open up/to spread/sheet of paper/classifier for flat objects, sheet/classifier for votes/surname Cheung/ten years (used with numbers forty and over) ■七張幾 [chāt jēung géi] over seventy years of age"
+  },
+  {
+    "hanzi": "三",
+    "jyut": [
+      "saam1|saam3",
+      "saam|saam"
+    ],
+    "gloss": "three/3"
+  },
+  {
+    "hanzi": "由",
+    "jyut": [
+      "jau4",
+      "jau"
+    ],
+    "gloss": "to follow/from/it is for...to/reason/cause/because of/due to/to/to leave it (to sb)/by (introduces passive verb)"
+  },
+  {
+    "hanzi": "識",
+    "jyut": [
+      "sik1",
+      "sik"
+    ],
+    "gloss": "to know/knowledge/to record/write a footnote"
+  },
+  {
+    "hanzi": "方向",
+    "jyut": [
+      "fong1hoeng3",
+      "fong1hoeng"
+    ],
+    "gloss": "direction/orientation/path to follow"
+  },
+  {
+    "hanzi": "第一",
+    "jyut": [
+      "dai6jat1",
+      "dai6jat"
+    ],
+    "gloss": "first/number one"
+  },
+  {
+    "hanzi": "畫",
+    "jyut": [
+      "waak6|waa2",
+      "waak|waa"
+    ],
+    "gloss": "draw/picture/painting"
+  },
+  {
+    "hanzi": "鍾意",
+    "jyut": [
+      "zung1ji3",
+      "zung1ji"
+    ],
+    "gloss": "like"
+  },
+  {
+    "hanzi": "左邊",
+    "jyut": [
+      "zo2bin1",
+      "zo2bin"
+    ],
+    "gloss": "left/the left side/to the left of"
+  },
+  {
+    "hanzi": "港",
+    "jyut": [
+      "gong2",
+      "gong"
+    ],
+    "gloss": "harbor/port/CL:個[go]/Hong Kong, abbr. for 香港[hēung góng]"
+  },
+  {
+    "hanzi": "善",
+    "jyut": [
+      "sin6",
+      "sin"
+    ],
+    "gloss": "good (virtuous)/benevolent/well-disposed/good at sth/to improve or perfect/to kill/to injure"
+  },
+  {
+    "hanzi": "繼續",
+    "jyut": [
+      "gai3zuk6",
+      "gai3zuk"
+    ],
+    "gloss": "to continue/to proceed with/to go on with"
+  },
+  {
+    "hanzi": "地方",
+    "jyut": [
+      "dei6fong1",
+      "dei6fong"
+    ],
+    "gloss": "region/regional (away from the central administration)"
+  },
+  {
+    "hanzi": "讀",
+    "jyut": [
+      "duk6",
+      "duk"
+    ],
+    "gloss": "comma/phrase marked by pause/to read/to study/reading of word (i.e. pronunciation), similar to 拼音[pin1 yin1]"
+  },
+  {
+    "hanzi": "時間",
+    "jyut": [
+      "si4gaan3",
+      "si4gaan"
+    ],
+    "gloss": "time/period"
+  },
+  {
+    "hanzi": "地圖",
+    "jyut": [
+      "dei6tou4",
+      "dei6tou"
+    ],
+    "gloss": "map"
+  },
+  {
+    "hanzi": "場",
+    "jyut": [
+      "coeng4",
+      "coeng"
+    ],
+    "gloss": "large place used for a specific purpose/stage/scene (of a play)/classifier for sporting or recreational activities/classifier for number of exams/classifier for events and happenings: spell, episode, bout"
+  },
+  {
+    "hanzi": "台",
+    "jyut": [
+      "toi4",
+      "toi"
+    ],
+    "gloss": "(classical) you (in letters)/platform/Taiwan (abbr.)/a surname"
+  },
+  {
+    "hanzi": "湖",
+    "jyut": [
+      "wu4",
+      "wu"
+    ],
+    "gloss": "lake"
+  },
+  {
+    "hanzi": "番",
+    "jyut": [
+      "faan1",
+      "faan"
+    ],
+    "gloss": "foreign/ethnic groups from outside China/(when used after a verb) times or fold/classifier for the number of iterations of an action or deed etc"
+  },
+  {
+    "hanzi": "邊度",
+    "jyut": [
+      "bin1dou6",
+      "bin1dou"
+    ],
+    "gloss": "where"
+  },
+  {
+    "hanzi": "事",
+    "jyut": [
+      "si6",
+      "si"
+    ],
+    "gloss": "matter/thing/item/work/affair"
+  },
+  {
+    "hanzi": "唔見",
+    "jyut": [
+      "*m4gin3",
+      "*m4gin"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "馬戲",
+    "jyut": [
+      "maa5hei3",
+      "maa5hei"
+    ],
+    "gloss": "circus"
+  },
+  {
+    "hanzi": "兜過",
+    "jyut": [
+      "*dau1gwo3",
+      "*dau1gwo"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "正",
+    "jyut": [
+      "zing1|zing3|zeng",
+      "zing|zing|zeng"
+    ],
+    "gloss": "first month of the lunar year|just (right)/main/upright/straight/correct/positive/greater than zero/principle|great/terrific"
+  },
+  {
+    "hanzi": "個位",
+    "jyut": [
+      "go3wai6",
+      "go3wai"
+    ],
+    "gloss": "the units place (or column) in the decimal system"
+  },
+  {
+    "hanzi": "比較",
+    "jyut": [
+      "bei2gaau3",
+      "bei2gaau"
+    ],
+    "gloss": "compare/contrast/fairly/comparatively/relatively/quite/rather"
+  },
+  {
+    "hanzi": "朋友",
+    "jyut": [
+      "pang4jau5",
+      "pang4jau"
+    ],
+    "gloss": "friend"
+  },
+  {
+    "hanzi": "冇乜",
+    "jyut": [
+      "*mou5mat1",
+      "*mou5mat"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "紙",
+    "jyut": [
+      "zi2",
+      "zi"
+    ],
+    "gloss": "paper/CL:張[jēung],沓[daahp]/classifier for documents, letter etc"
+  },
+  {
+    "hanzi": "點鐘",
+    "jyut": [
+      "dim2zung1",
+      "dim2zung"
+    ],
+    "gloss": "(indicating time of day) o'clock"
+  },
+  {
+    "hanzi": "恨",
+    "jyut": [
+      "han6",
+      "han"
+    ],
+    "gloss": "to hate/to regret/to desire/to long for"
+  },
+  {
+    "hanzi": "死",
+    "jyut": [
+      "sei2",
+      "sei"
+    ],
+    "gloss": "to die/impassable/uncrossable/inflexible/rigid/extremely/used to stress the meaning of a word or phrase/used to emphasise negative characteristics, \"shitty\", \"damned\", \"useless\""
+  },
+  {
+    "hanzi": "交叉",
+    "jyut": [
+      "gaau1caa1",
+      "gaau1caa"
+    ],
+    "gloss": "cross/intersect"
+  },
+  {
+    "hanzi": "驚",
+    "jyut": [
+      "ging1|geng1",
+      "ging|geng"
+    ],
+    "gloss": "to start/to be frightened/to be scared/alarm"
+  },
+  {
+    "hanzi": "年",
+    "jyut": [
+      "nin4",
+      "nin"
+    ],
+    "gloss": "year"
+  },
+  {
+    "hanzi": "韻",
+    "jyut": [
+      "wan6",
+      "wan"
+    ],
+    "gloss": "beautiful sound/appeal/charm/vowel/rhyme/in Chinese phonetics, the medial and final sound of a syllable (i.e. excluding the initial consonant)"
+  },
+  {
+    "hanzi": "出嚟",
+    "jyut": [
+      "ceot1lai4",
+      "ceot1lai"
+    ],
+    "gloss": "to come out"
+  },
+  {
+    "hanzi": "返去",
+    "jyut": [
+      "faan1heoi3",
+      "faan1heoi"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "日",
+    "jyut": [
+      "jat6",
+      "jat"
+    ],
+    "gloss": "day/sun/date/day of the month/abbr. for Japan"
+  },
+  {
+    "hanzi": "開心",
+    "jyut": [
+      "hoi1sam1",
+      "hoi1sam"
+    ],
+    "gloss": "to feel happy/to rejoice/to have a great time"
+  },
+  {
+    "hanzi": "位",
+    "jyut": [
+      "wai6|wai2",
+      "wai|wai"
+    ],
+    "gloss": "position/location/classifier for people/place/seat/classifier for binary bits (e.g. 十六位 16-bit or 2 bytes)"
+  },
+  {
+    "hanzi": "戀",
+    "jyut": [
+      "lyun2|lyun5",
+      "lyun|lyun"
+    ],
+    "gloss": "to feel attached to/long for/love"
+  },
+  {
+    "hanzi": "廟",
+    "jyut": [
+      "miu6",
+      "miu"
+    ],
+    "gloss": "temple/monastery"
+  },
+  {
+    "hanzi": "完",
+    "jyut": [
+      "jyun4",
+      "jyun"
+    ],
+    "gloss": "to finish/to be over/whole/complete/entire"
+  },
+  {
+    "hanzi": "都會",
+    "jyut": [
+      "dou1wui5",
+      "dou1wui"
+    ],
+    "gloss": "society/community/city/metropolis"
+  },
+  {
+    "hanzi": "需要",
+    "jyut": [
+      "seoi1jiu3",
+      "seoi1jiu"
+    ],
+    "gloss": "to need/to want/to demand/needs/to require"
+  },
+  {
+    "hanzi": "泳池",
+    "jyut": [
+      "wing6ci4",
+      "wing6ci"
+    ],
+    "gloss": "swimming pond"
+  },
+  {
+    "hanzi": "右面",
+    "jyut": [
+      "jau6min6",
+      "jau6min"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "變",
+    "jyut": [
+      "bin3",
+      "bin"
+    ],
+    "gloss": "to change/to become different/to transform/to vary/rebellion"
+  },
+  {
+    "hanzi": "左面",
+    "jyut": [
+      "zo2min6",
+      "zo2min"
+    ],
+    "gloss": "left side"
+  },
+  {
+    "hanzi": "成",
+    "jyut": [
+      "sing4",
+      "sing"
+    ],
+    "gloss": "to succeed/to finish/to complete/to accomplish/to become/to turn into/one tenth|whole/complete/to be all right/OK!"
+  },
+  {
+    "hanzi": "幾多",
+    "jyut": [
+      "*gei2|gei1do1",
+      "*gei|gei1do"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "位置",
+    "jyut": [
+      "wai6zi3",
+      "wai6zi"
+    ],
+    "gloss": "position/place/seat"
+  },
+  {
+    "hanzi": "等",
+    "jyut": [
+      "dang2",
+      "dang"
+    ],
+    "gloss": "class/rank/grade/equal to/same as/to wait for/to await/et cetera/and so on/et al. (and other authors)/after/as soon as/once"
+  },
+  {
+    "hanzi": "路",
+    "jyut": [
+      "lou6",
+      "lou"
+    ],
+    "gloss": "road/CL:條[tìuh]/a trend/a tendency/a way forward (good or bad)/a sexual relationship"
+  },
+  {
+    "hanzi": "機場",
+    "jyut": [
+      "gei1coeng4",
+      "gei1coeng"
+    ],
+    "gloss": "airport/airfield"
+  },
+  {
+    "hanzi": "團",
+    "jyut": [
+      "tyun4",
+      "tyun"
+    ],
+    "gloss": "regiment/round/circular/group/society"
+  },
+  {
+    "hanzi": "食",
+    "jyut": [
+      "sik6",
+      "sik"
+    ],
+    "gloss": "1. to eat/2. to have sex with/3. to take over, to devour (territory)/4. to deal with, to defeat/5. to get, to receive something negative (e.g. parking ticket, formal complaint, rejection)"
+  },
+  {
+    "hanzi": "啱啱",
+    "jyut": [
+      "ngaam1ngaam1",
+      "ngaam1ngaam"
+    ],
+    "gloss": "just now"
+  },
+  {
+    "hanzi": "之間",
+    "jyut": [
+      "zi1gaan1",
+      "zi1gaan"
+    ],
+    "gloss": "between/among/inter-"
+  },
+  {
+    "hanzi": "唉",
+    "jyut": [
+      "aai1|oi1",
+      "aai|oi"
+    ],
+    "gloss": "alas/oh dear/interjection or grunt of agreement or recognition (e.g. yes, it's me!)/to sigh"
+  },
+  {
+    "hanzi": "梗係",
+    "jyut": [
+      "gang2hai6",
+      "gang2hai"
+    ],
+    "gloss": "of course"
+  },
+  {
+    "hanzi": "哎",
+    "jyut": [
+      "aai1",
+      "aai"
+    ],
+    "gloss": "hey!/interjection used to attract attention or to express surprise or disapprobation"
+  },
+  {
+    "hanzi": "蛇",
+    "jyut": [
+      "se4",
+      "se"
+    ],
+    "gloss": "snake/serpent/CL:條[tìuh]/to shirk one's duty, to be lazy on the job"
+  },
+  {
+    "hanzi": "枉",
+    "jyut": [
+      "wong2",
+      "wong"
+    ],
+    "gloss": "in the wrong/in vain"
+  },
+  {
+    "hanzi": "高",
+    "jyut": [
+      "gou1",
+      "gou"
+    ],
+    "gloss": "high/tall/fig. above average/height/(honorific) your/surname Ko"
+  },
+  {
+    "hanzi": "擰",
+    "jyut": [
+      "ning4|ning6",
+      "ning|ning"
+    ],
+    "gloss": "mistake/to twist/stubborn/to pinch/wring"
+  },
+  {
+    "hanzi": "打",
+    "jyut": [
+      "daa2|daa1",
+      "daa|daa"
+    ],
+    "gloss": "to beat/to strike/to hit/to break/to type/to mix up/to build/to fight/to fetch/to make/to tie up/to issue/to shoot/to calculate/to play (a game)/since/from|dozen"
+  },
+  {
+    "hanzi": "玩",
+    "jyut": [
+      "wun6|waan2",
+      "wun|waan"
+    ],
+    "gloss": "to play/to have fun/ to have a good time/to not be serious, to be only joking/to play at, to do (e.g. sexual position)/to play games with/to fool with/to treat someone as not important/to be disrespectful/curio or antique"
+  },
+  {
+    "hanzi": "公園",
+    "jyut": [
+      "gung1jyun2",
+      "gung1jyun"
+    ],
+    "gloss": "public park"
+  },
+  {
+    "hanzi": "丸",
+    "jyut": [
+      "jyun2|jyun4",
+      "jyun|jyun"
+    ],
+    "gloss": "pill"
+  },
+  {
+    "hanzi": "寫",
+    "jyut": [
+      "se2",
+      "se"
+    ],
+    "gloss": "to write"
+  },
+  {
+    "hanzi": "隔離",
+    "jyut": [
+      "gaak3lei4",
+      "gaak3lei"
+    ],
+    "gloss": "to separate/to isolate"
+  },
+  {
+    "hanzi": "屋企",
+    "jyut": [
+      "uk1kei2",
+      "uk1kei"
+    ],
+    "gloss": "house/home"
+  },
+  {
+    "hanzi": "幫",
+    "jyut": [
+      "bong1",
+      "bong"
+    ],
+    "gloss": "to help/to assist/to support/for sb (i.e. as a help)/hired (as worker)/side (of pail, boat etc)/outer layer/group/gang/clique/party/secret society"
+  },
+  {
+    "hanzi": "搞",
+    "jyut": [
+      "gaau2",
+      "gaau"
+    ],
+    "gloss": "to do/to make/to go in for/to set up/to get hold of/to take care of"
+  },
+  {
+    "hanzi": "葡萄",
+    "jyut": [
+      "pou4tou4",
+      "pou4tou"
+    ],
+    "gloss": "grape"
+  },
+  {
+    "hanzi": "往",
+    "jyut": [
+      "wong5",
+      "wong"
+    ],
+    "gloss": "to go (in a direction)/to/towards/(of a train) bound for/past/previous"
+  },
+  {
+    "hanzi": "淨係",
+    "jyut": [
+      "zing6hai6",
+      "zing6hai"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "迷宮",
+    "jyut": [
+      "mai4gung1",
+      "mai4gung"
+    ],
+    "gloss": "maze/labyrinth"
+  },
+  {
+    "hanzi": "份",
+    "jyut": [
+      "fan6",
+      "fan"
+    ],
+    "gloss": "part/share/portion/classifier for gifts, newspaper, magazine, papers, reports, contracts etc/copy"
+  },
+  {
+    "hanzi": "底",
+    "jyut": [
+      "dai2",
+      "dai"
+    ],
+    "gloss": "background/bottom/base/plan, strategy or secret/the end of a period of time/towards the end of (last month)"
+  },
+  {
+    "hanzi": "宅",
+    "jyut": [
+      "zaak6",
+      "zaak"
+    ],
+    "gloss": "residence"
+  },
+  {
+    "hanzi": "為",
+    "jyut": [
+      "wai6|wai4",
+      "wai|wai"
+    ],
+    "gloss": "as (in the capacity of)/to take sth as/to act as/to serve as/to behave as/to become/to be/to do/because of/for/to"
+  },
+  {
+    "hanzi": "次",
+    "jyut": [
+      "ci3",
+      "ci"
+    ],
+    "gloss": "next in sequence/second/the second (day, time etc)/secondary/vice-/sub-/infra-/inferior quality/substandard/order/sequence/hypo- (chem., meaning extra oxygen atom)/classifier for enumerated events: time"
+  },
+  {
+    "hanzi": "腰",
+    "jyut": [
+      "jiu1",
+      "jiu"
+    ],
+    "gloss": "waist/lower back/pocket/middle"
+  },
+  {
+    "hanzi": "車站",
+    "jyut": [
+      "ce1zaam6",
+      "ce1zaam"
+    ],
+    "gloss": "rail station/bus stop"
+  },
+  {
+    "hanzi": "開",
+    "jyut": [
+      "hoi1",
+      "hoi"
+    ],
+    "gloss": "to open/to start/to turn on/to write out (a medical prescription)/to operate (vehicle)"
+  },
+  {
+    "hanzi": "以前",
+    "jyut": [
+      "ji5cin4",
+      "ji5cin"
+    ],
+    "gloss": "before/formerly/previous/ago"
+  },
+  {
+    "hanzi": "差唔多",
+    "jyut": [
+      "caa1m4do1",
+      "caa1m4do"
+    ],
+    "gloss": "similar"
+  },
+  {
+    "hanzi": "係噉",
+    "jyut": [
+      "*hai6gam2",
+      "*hai6gam"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "諗住",
+    "jyut": [
+      "*nam2zyu6",
+      "*nam2zyu"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "魚排",
+    "jyut": [
+      "jyu4paai4",
+      "jyu4paai"
+    ],
+    "gloss": "fish steak"
+  },
+  {
+    "hanzi": "另外",
+    "jyut": [
+      "ling6ngoi6",
+      "ling6ngoi"
+    ],
+    "gloss": "additional/in addition/besides/separate/other/moreover/furthermore"
+  },
+  {
+    "hanzi": "科技",
+    "jyut": [
+      "fo1gei6",
+      "fo1gei"
+    ],
+    "gloss": "science and technology"
+  },
+  {
+    "hanzi": "仲",
+    "jyut": [
+      "zung6",
+      "zung"
+    ],
+    "gloss": "second month of the season/middle/intermediate/2nd in seniority/surname Zhong"
+  },
+  {
+    "hanzi": "問",
+    "jyut": [
+      "man6",
+      "man"
+    ],
+    "gloss": "to ask"
+  },
+  {
+    "hanzi": "月",
+    "jyut": [
+      "jyut6",
+      "jyut"
+    ],
+    "gloss": "moon/month"
+  },
+  {
+    "hanzi": "萍",
+    "jyut": [
+      "ping4",
+      "ping"
+    ],
+    "gloss": "duckweed"
+  },
+  {
+    "hanzi": "唔同",
+    "jyut": [
+      "m4tung4",
+      "m4tung"
+    ],
+    "gloss": "different"
+  },
+  {
+    "hanzi": "會見",
+    "jyut": [
+      "wui6gin3",
+      "wui6gin"
+    ],
+    "gloss": "to meet with (sb who is paying a visit)"
+  },
+  {
+    "hanzi": "條線",
+    "jyut": [
+      "*tiu4sin3",
+      "*tiu4sin"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "瞓",
+    "jyut": [
+      "fan3",
+      "fan"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "賣",
+    "jyut": [
+      "maai6",
+      "maai"
+    ],
+    "gloss": "to sell"
+  },
+  {
+    "hanzi": "起點",
+    "jyut": [
+      "hei2dim2",
+      "hei2dim"
+    ],
+    "gloss": "starting point"
+  },
+  {
+    "hanzi": "其他",
+    "jyut": [
+      "kei4taa1",
+      "kei4taa"
+    ],
+    "gloss": "other/the others/else/other than (that person)/in addition to the person mentioned above"
+  },
+  {
+    "hanzi": "希望",
+    "jyut": [
+      "hei1mong6",
+      "hei1mong"
+    ],
+    "gloss": "to wish for/to desire/to hope"
+  },
+  {
+    "hanzi": "十",
+    "jyut": [
+      "sap6",
+      "sap"
+    ],
+    "gloss": "ten/10"
+  },
+  {
+    "hanzi": "南",
+    "jyut": [
+      "naam4",
+      "naam"
+    ],
+    "gloss": "south"
+  },
+  {
+    "hanzi": "今日",
+    "jyut": [
+      "gam1jat6",
+      "gam1jat"
+    ],
+    "gloss": "today"
+  },
+  {
+    "hanzi": "吔",
+    "jyut": [
+      "jaa3",
+      "jaa"
+    ],
+    "gloss": "particle"
+  },
+  {
+    "hanzi": "滑雪",
+    "jyut": [
+      "waat6syut3",
+      "waat6syut"
+    ],
+    "gloss": "to ski/skiing"
+  },
+  {
+    "hanzi": "新",
+    "jyut": [
+      "san1",
+      "san"
+    ],
+    "gloss": "new/newly"
+  },
+  {
+    "hanzi": "明白",
+    "jyut": [
+      "ming4baak6",
+      "ming4baak"
+    ],
+    "gloss": "clear/obvious/unequivocal/to understand/to realize"
+  },
+  {
+    "hanzi": "等等",
+    "jyut": [
+      "dang2dang2",
+      "dang2dang"
+    ],
+    "gloss": "etcetera/and so on ../wait a minute!/hold on!"
+  },
+  {
+    "hanzi": "中",
+    "jyut": [
+      "zung1|zung3",
+      "zung|zung"
+    ],
+    "gloss": "China/Chinese/within/among/in/middle/center/while (doing sth)/during|to hit (the mark)/to be hit by/to suffer/to win (a prize, a lottery)"
+  },
+  {
+    "hanzi": "電話",
+    "jyut": [
+      "din6waa2",
+      "din6waa"
+    ],
+    "gloss": "telephone/phone call"
+  },
+  {
+    "hanzi": "定係",
+    "jyut": [
+      "ding6hai6",
+      "ding6hai"
+    ],
+    "gloss": "or"
+  },
+  {
+    "hanzi": "原來",
+    "jyut": [
+      "jyun4loi4",
+      "jyun4loi"
+    ],
+    "gloss": "original/former/originally/formerly/at first/so... actually"
+  },
+  {
+    "hanzi": "根本",
+    "jyut": [
+      "gan1bun2",
+      "gan1bun"
+    ],
+    "gloss": "fundamental/basic/root/simply/absolutely (not)/(not) at all"
+  },
+  {
+    "hanzi": "冇錯",
+    "jyut": [
+      "mou5co3",
+      "mou5co"
+    ],
+    "gloss": "that's correct"
+  },
+  {
+    "hanzi": "盛",
+    "jyut": [
+      "sing6|sing4",
+      "sing|sing"
+    ],
+    "gloss": "flourishing/vigorous/magnificent/extensively/to hold/contain/to ladle/pick up with a utensil/used to indicate a further series of events not specified, \"and so on\", \"etcetera\"/a surname"
+  },
+  {
+    "hanzi": "燕",
+    "jyut": [
+      "jin3|jin1",
+      "jin|jin"
+    ],
+    "gloss": "Yan, a vassal state of Zhou in modern Hebei and Liaoning/north Hebei/the four Yan kingdoms of the Sixteen Kingdoms, namely: Former Yan 前燕 (337-370), Later Yan 後燕|后燕 (384-409), Southern Yan 南燕 (398-410), Northern Yan 北燕 (409-436)/surname Yan/swallow (a type of bird)"
+  },
+  {
+    "hanzi": "大概",
+    "jyut": [
+      "daai6koi3",
+      "daai6koi"
+    ],
+    "gloss": "roughly/probably/rough/approximate/about"
+  },
+  {
+    "hanzi": "快",
+    "jyut": [
+      "faai3",
+      "faai"
+    ],
+    "gloss": "rapid/quick/speed/rate/soon/almost/to make haste/clever/sharp (of knives or wits)/forthright/plain-spoken/gratified/pleased/pleasant"
+  },
+  {
+    "hanzi": "算",
+    "jyut": [
+      "syun3",
+      "syun"
+    ],
+    "gloss": "to regard as/to figure/to calculate/to compute"
+  },
+  {
+    "hanzi": "同學",
+    "jyut": [
+      "tung4hok6",
+      "tung4hok"
+    ],
+    "gloss": "(fellow) classmate"
+  },
+  {
+    "hanzi": "傻",
+    "jyut": [
+      "so4",
+      "so"
+    ],
+    "gloss": "foolish"
+  },
+  {
+    "hanzi": "工廠",
+    "jyut": [
+      "gung1cong2",
+      "gung1cong"
+    ],
+    "gloss": "factory"
+  },
+  {
+    "hanzi": "請",
+    "jyut": [
+      "ceng2|cing2",
+      "ceng|cing"
+    ],
+    "gloss": "to ask/to invite/please (do sth)/to treat (to a meal etc)/to request"
+  },
+  {
+    "hanzi": "只",
+    "jyut": [
+      "zi2|zek3",
+      "zi|zek"
+    ],
+    "gloss": "only/merely/just/but"
+  },
+  {
+    "hanzi": "之前",
+    "jyut": [
+      "zi1cin4",
+      "zi1cin"
+    ],
+    "gloss": "before/prior to/ago"
+  },
+  {
+    "hanzi": "可",
+    "jyut": [
+      "ho2",
+      "ho"
+    ],
+    "gloss": "can/may/able to/to approve/to permit/certain(ly)/to suit/(particle used for emphasis)"
+  },
+  {
+    "hanzi": "有時",
+    "jyut": [
+      "jau5si4",
+      "jau5si"
+    ],
+    "gloss": "sometimes/now and then"
+  },
+  {
+    "hanzi": "意思",
+    "jyut": [
+      "ji3si1",
+      "ji3si"
+    ],
+    "gloss": "idea/opinion/meaning/wish/desire"
+  },
+  {
+    "hanzi": "仲有",
+    "jyut": [
+      "zung6jau5",
+      "zung6jau"
+    ],
+    "gloss": "furthermore"
+  },
+  {
+    "hanzi": "陪",
+    "jyut": [
+      "pui4",
+      "pui"
+    ],
+    "gloss": "to accompany/to keep sb company"
+  },
+  {
+    "hanzi": "唧",
+    "jyut": [
+      "zik1",
+      "zik"
+    ],
+    "gloss": "1. to squeeze/2. to tickle"
+  },
+  {
+    "hanzi": "一齊",
+    "jyut": [
+      "jat1cai4",
+      "jat1cai"
+    ],
+    "gloss": "at the same time/simultaneously"
+  },
+  {
+    "hanzi": "感覺",
+    "jyut": [
+      "gam2gok3",
+      "gam2gok"
+    ],
+    "gloss": "to feel/to become aware of/feeling/sense/perception"
+  },
+  {
+    "hanzi": "老",
+    "jyut": [
+      "lou5",
+      "lou"
+    ],
+    "gloss": "prefix used before the surname of a person or a numeral indicating the order of birth of the children in a family or to indicate affection or familiarity/old (of people)/venerable (person)/experienced/of long standing/always/all the time/of the past/very/outdated/(of meat etc) tough"
+  },
+  {
+    "hanzi": "依",
+    "jyut": [
+      "ji1",
+      "ji"
+    ],
+    "gloss": "according to/depend on/near to"
+  },
+  {
+    "hanzi": "咦",
+    "jyut": [
+      "ji4",
+      "ji"
+    ],
+    "gloss": "expression of surprise"
+  },
+  {
+    "hanzi": "停",
+    "jyut": [
+      "ting4",
+      "ting"
+    ],
+    "gloss": "to stop/to halt/to park (a car)"
+  },
+  {
+    "hanzi": "大樹",
+    "jyut": [
+      "daai6syu6",
+      "daai6syu"
+    ],
+    "gloss": "tree"
+  },
+  {
+    "hanzi": "洗",
+    "jyut": [
+      "sai2",
+      "sai"
+    ],
+    "gloss": "to wash/to bathe"
+  },
+  {
+    "hanzi": "耐",
+    "jyut": [
+      "noi6",
+      "noi"
+    ],
+    "gloss": "capable of enduring/able to tolerate/patient/durable/hardy/resistant"
+  },
+  {
+    "hanzi": "定",
+    "jyut": [
+      "ding6",
+      "ding"
+    ],
+    "gloss": "to set/to fix/to determine/to decide/to order/stable/calm"
+  },
+  {
+    "hanzi": "扮",
+    "jyut": [
+      "baan6|baan3",
+      "baan|baan"
+    ],
+    "gloss": "to disguise oneself/to dress up/adorn"
+  },
+  {
+    "hanzi": "擁",
+    "jyut": [
+      "jung2",
+      "jung"
+    ],
+    "gloss": "to hold/to embrace/to wrap around/to gather around (sb)/to throng/to swarm/to support"
+  },
+  {
+    "hanzi": "本身",
+    "jyut": [
+      "bun2san1",
+      "bun2san"
+    ],
+    "gloss": "itself/in itself/per se"
+  },
+  {
+    "hanzi": "另",
+    "jyut": [
+      "ling6",
+      "ling"
+    ],
+    "gloss": "other/another/separate/separately"
+  },
+  {
+    "hanzi": "方面",
+    "jyut": [
+      "fong1min6",
+      "fong1min"
+    ],
+    "gloss": "respect/aspect/field/side"
+  },
+  {
+    "hanzi": "格",
+    "jyut": [
+      "gaak3",
+      "gaak"
+    ],
+    "gloss": "square/frame/rule/(legal) case/style/character/standard/pattern/(classical) to obstruct; to hinder/(classical) to arrive; to come/(classical) to investigate; to study exhaustively"
+  },
+  {
+    "hanzi": "扮汗",
+    "jyut": [
+      "*baan6|baan3hon6|hon4|hong6",
+      "*baan|baan3hon|hon|hong"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "今次",
+    "jyut": [
+      "*gam1ci3",
+      "*gam1ci"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "不如",
+    "jyut": [
+      "bat1jyu4",
+      "bat1jyu"
+    ],
+    "gloss": "not equal to/not as good as/inferior to/it would be better to"
+  },
+  {
+    "hanzi": "城",
+    "jyut": [
+      "sing4",
+      "sing"
+    ],
+    "gloss": "city walls/city/town"
+  },
+  {
+    "hanzi": "球場",
+    "jyut": [
+      "kau4coeng4",
+      "kau4coeng"
+    ],
+    "gloss": "stadium/sports ground/court/pitch/field/golf course"
+  },
+  {
+    "hanzi": "多謝",
+    "jyut": [
+      "do1ze6",
+      "do1ze"
+    ],
+    "gloss": "many thanks/thanks a lot"
+  },
+  {
+    "hanzi": "遠",
+    "jyut": [
+      "jyun5",
+      "jyun"
+    ],
+    "gloss": "far/distant/remote"
+  },
+  {
+    "hanzi": "幾好",
+    "jyut": [
+      "*gei2|gei1hou2|hou3",
+      "*gei|gei1hou|hou"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "社會",
+    "jyut": [
+      "se5wui2",
+      "se5wui"
+    ],
+    "gloss": "society"
+  },
+  {
+    "hanzi": "煙",
+    "jyut": [
+      "jin1",
+      "jin"
+    ],
+    "gloss": "cigarette/tobacco/smoke"
+  },
+  {
+    "hanzi": "汗",
+    "jyut": [
+      "hon6|hon4|hong6",
+      "hon|hon|hong"
+    ],
+    "gloss": "perspiration/sweat/Khan (Persian or Mongol king or emperor)/Khan (name)"
+  },
+  {
+    "hanzi": "莊",
+    "jyut": [
+      "zong1",
+      "zong"
+    ],
+    "gloss": "farmstead/village/manor/place of business/banker (in a gambling game)/grave or solemn/the committee of a student society (university jargon)"
+  },
+  {
+    "hanzi": "彭",
+    "jyut": [
+      "pang4",
+      "pang"
+    ],
+    "gloss": "surname Peng"
+  },
+  {
+    "hanzi": "貧大宅",
+    "jyut": [
+      "*pan4daai6zaak2",
+      "*pan4daai6zaak"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "即刻",
+    "jyut": [
+      "zik1hak1",
+      "zik1hak"
+    ],
+    "gloss": "immediately/instant/instantly"
+  },
+  {
+    "hanzi": "將",
+    "jyut": [
+      "zoeng1|zoeng3",
+      "zoeng|zoeng"
+    ],
+    "gloss": "will/shall/to use/to take/to checkmate/just a short while ago|general/commander-in-chief (military)/king (chess piece)/to command/to lead"
+  },
+  {
+    "hanzi": "名",
+    "jyut": [
+      "ming4|meng4",
+      "ming|meng"
+    ],
+    "gloss": "name/noun (part of speech)/place (e.g. among winners)/famous/classifier for people"
+  },
+  {
+    "hanzi": "勁",
+    "jyut": [
+      "ging6|ging3",
+      "ging|ging"
+    ],
+    "gloss": "strong/powerful/excellent/great|strength/energy/enthusiasm/CL:把[bá]"
+  },
+  {
+    "hanzi": "像",
+    "jyut": [
+      "zoeng6",
+      "zoeng"
+    ],
+    "gloss": "(look) like/similar (to)/appearance/to appear/to seem/image/portrait/resemble/seem"
+  },
+  {
+    "hanzi": "二",
+    "jyut": [
+      "ji6",
+      "ji"
+    ],
+    "gloss": "two/2"
+  },
+  {
+    "hanzi": "北方",
+    "jyut": [
+      "bak1fong1",
+      "bak1fong"
+    ],
+    "gloss": "north/the northern part a country/China north of the Yellow River"
+  },
+  {
+    "hanzi": "仔",
+    "jyut": [
+      "zai2|zi2",
+      "zai|zi"
+    ],
+    "gloss": "a son/a suffix used to describe something small/a boy/a kid/a boyfriend/(of domestic animals or fowls) young"
+  },
+  {
+    "hanzi": "半",
+    "jyut": [
+      "bun3",
+      "bun"
+    ],
+    "gloss": "half/semi-/incomplete/(after a number) and a half"
+  },
+  {
+    "hanzi": "越",
+    "jyut": [
+      "jyut6",
+      "jyut"
+    ],
+    "gloss": "generic word for peoples or states of south China or south Asia at different historical periods/abbr. for Vietnam 越南/to exceed/to climb over/to surpass/the more... the more"
+  },
+  {
+    "hanzi": "金字塔",
+    "jyut": [
+      "gam1zi6taap3",
+      "gam1zi6taap"
+    ],
+    "gloss": "pyramid"
+  },
+  {
+    "hanzi": "東",
+    "jyut": [
+      "dung1",
+      "dung"
+    ],
+    "gloss": "east/host (i.e. sitting on east side of guest)/landlord/surname Dong"
+  },
+  {
+    "hanzi": "風車",
+    "jyut": [
+      "fung1ce1",
+      "fung1ce"
+    ],
+    "gloss": "pinwheel/windmill"
+  },
+  {
+    "hanzi": "當然",
+    "jyut": [
+      "dong1jin4",
+      "dong1jin"
+    ],
+    "gloss": "only natural/as it should be/certainly/of course/without doubt"
+  },
+  {
+    "hanzi": "考",
+    "jyut": [
+      "haau2",
+      "haau"
+    ],
+    "gloss": "to check/to verify/to test/to examine/to take an exam"
+  },
+  {
+    "hanzi": "工",
+    "jyut": [
+      "gung1",
+      "gung"
+    ],
+    "gloss": "work/worker/skill/profession/trade/craft/labor"
+  },
+  {
+    "hanzi": "碼頭",
+    "jyut": [
+      "maa5tau4",
+      "maa5tau"
+    ],
+    "gloss": "dock/pier/wharf/CL: 個[go]/the idea of a \"pier\" symbolises the leaving of the triad life, one's retirement from the life of a triad or prostitute"
+  },
+  {
+    "hanzi": "農",
+    "jyut": [
+      "nung4",
+      "nung"
+    ],
+    "gloss": "agriculture"
+  },
+  {
+    "hanzi": "礦場",
+    "jyut": [
+      "kwong3coeng4",
+      "kwong3coeng"
+    ],
+    "gloss": "a mine/pit"
+  },
+  {
+    "hanzi": "女仔",
+    "jyut": [
+      "neoi5zai2",
+      "neoi5zai"
+    ],
+    "gloss": "girl"
+  },
+  {
+    "hanzi": "入",
+    "jyut": [
+      "jap6",
+      "jap"
+    ],
+    "gloss": "to enter/to charge (with a crime)/entering tone (classical Chinese)"
+  },
+  {
+    "hanzi": "前",
+    "jyut": [
+      "cin4",
+      "cin"
+    ],
+    "gloss": "front/forward/ahead/ago/before/first/former/formerly/future/BC (e.g. 前293年)"
+  },
+  {
+    "hanzi": "頭",
+    "jyut": [
+      "tau4",
+      "tau"
+    ],
+    "gloss": "head/hair style/the top/end/beginning or end/an area/a location/a stub/remnant/chief/boss/side/aspect/first/leading/classifier for pigs or livestock (Mandarin)"
+  },
+  {
+    "hanzi": "究竟",
+    "jyut": [
+      "gau3ging2",
+      "gau3ging"
+    ],
+    "gloss": "after all (when all is said and done)/actually/outcome/result"
+  },
+  {
+    "hanzi": "先至",
+    "jyut": [
+      "*sin1zi3",
+      "*sin1zi"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "引",
+    "jyut": [
+      "jan5",
+      "jan"
+    ],
+    "gloss": "to draw (a bow)/to pull/to stretch sth/to extend/to lengthen/to involve in/to attract/to lead/to guide/to divert (water)/unit of distance equal to 10 丈[zhang1], now one-thirtieth km or 33.33 meters"
+  },
+  {
+    "hanzi": "飲",
+    "jyut": [
+      "jam2",
+      "jam"
+    ],
+    "gloss": "drink"
+  },
+  {
+    "hanzi": "總之",
+    "jyut": [
+      "zung2zi1",
+      "zung2zi"
+    ],
+    "gloss": "in a word/in short/in brief"
+  },
+  {
+    "hanzi": "暖",
+    "jyut": [
+      "nyun5",
+      "nyun"
+    ],
+    "gloss": "warm"
+  },
+  {
+    "hanzi": "完全",
+    "jyut": [
+      "jyun4cyun4",
+      "jyun4cyun"
+    ],
+    "gloss": "complete/whole/totally/entirely"
+  },
+  {
+    "hanzi": "情況",
+    "jyut": [
+      "cing4fong3",
+      "cing4fong"
+    ],
+    "gloss": "circumstances/state of affairs/situation"
+  },
+  {
+    "hanzi": "甜",
+    "jyut": [
+      "tim4",
+      "tim"
+    ],
+    "gloss": "sweet"
+  },
+  {
+    "hanzi": "低",
+    "jyut": [
+      "dai1",
+      "dai"
+    ],
+    "gloss": "low/beneath/to lower (one's head)/to let droop/to hang down/to incline"
+  },
+  {
+    "hanzi": "瀑布",
+    "jyut": [
+      "buk6bou3",
+      "buk6bou"
+    ],
+    "gloss": "waterfall"
+  },
+  {
+    "hanzi": "農莊",
+    "jyut": [
+      "nung4zong1",
+      "nung4zong"
+    ],
+    "gloss": "farm/ranch"
+  },
+  {
+    "hanzi": "辛苦",
+    "jyut": [
+      "san1fu2",
+      "san1fu"
+    ],
+    "gloss": "hard/exhausting/with much toil"
+  },
+  {
+    "hanzi": "五",
+    "jyut": [
+      "ng5",
+      "ng"
+    ],
+    "gloss": "five/5"
+  },
+  {
+    "hanzi": "股",
+    "jyut": [
+      "gu2",
+      "gu"
+    ],
+    "gloss": "share/portion/section/part/thigh/(classifier for smells, electric currents, spirals etc)/whiff"
+  },
+  {
+    "hanzi": "墳場",
+    "jyut": [
+      "fan4coeng4",
+      "fan4coeng"
+    ],
+    "gloss": "grave"
+  },
+  {
+    "hanzi": "部",
+    "jyut": [
+      "bou6",
+      "bou"
+    ],
+    "gloss": "ministry/department/section/part/division/troops/board/(classifier for works of literature, films, machines etc)"
+  },
+  {
+    "hanzi": "出來",
+    "jyut": [
+      "ceot1loi4",
+      "ceot1loi"
+    ],
+    "gloss": "to come out/to emerge"
+  },
+  {
+    "hanzi": "信",
+    "jyut": [
+      "seon3",
+      "seon"
+    ],
+    "gloss": "letter/CL:封[feng1]/true/to believe/sign/evidence"
+  },
+  {
+    "hanzi": "你講",
+    "jyut": [
+      "*nei5gong2",
+      "*nei5gong"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "樹林",
+    "jyut": [
+      "syu6lam4",
+      "syu6lam"
+    ],
+    "gloss": "woods/grove/forest"
+  },
+  {
+    "hanzi": "禮堂",
+    "jyut": [
+      "lai5tong4",
+      "lai5tong"
+    ],
+    "gloss": "assembly hall/auditorium"
+  },
+  {
+    "hanzi": "帶",
+    "jyut": [
+      "daai3|daai2",
+      "daai|daai"
+    ],
+    "gloss": "to carry/to lead/to bring/to look after/to raise/area/zone/region|band/belt/girdle/ribbon/CL:條[tìuh]"
+  },
+  {
+    "hanzi": "所",
+    "jyut": [
+      "so2",
+      "so"
+    ],
+    "gloss": "actually/place/classifier for houses, small buildings, institutions etc/that which/particle introducing a relative clause or passive"
+  },
+  {
+    "hanzi": "所謂",
+    "jyut": [
+      "so2wai6",
+      "so2wai"
+    ],
+    "gloss": "so-called"
+  },
+  {
+    "hanzi": "首先",
+    "jyut": [
+      "sau2sin1",
+      "sau2sin"
+    ],
+    "gloss": "first (of all)/in the first place"
+  },
+  {
+    "hanzi": "講呢",
+    "jyut": [
+      "*gong2ne1|ni1|nei1",
+      "*gong2ne|ni|nei"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "纜車",
+    "jyut": [
+      "laam6ce1",
+      "laam6ce"
+    ],
+    "gloss": "cable car"
+  },
+  {
+    "hanzi": "畫到",
+    "jyut": [
+      "*waak6|waa2dou3",
+      "*waak|waa2dou"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "國旗",
+    "jyut": [
+      "gwok3kei4",
+      "gwok3kei"
+    ],
+    "gloss": "flag (of a country)"
+  },
+  {
+    "hanzi": "燈塔",
+    "jyut": [
+      "dang1taap3",
+      "dang1taap"
+    ],
+    "gloss": "lighthouse"
+  },
+  {
+    "hanzi": "全部",
+    "jyut": [
+      "cyun4bou6",
+      "cyun4bou"
+    ],
+    "gloss": "whole/entire/complete"
+  },
+  {
+    "hanzi": "貴",
+    "jyut": [
+      "gwai3",
+      "gwai"
+    ],
+    "gloss": "expensive/noble/your (name)/precious"
+  },
+  {
+    "hanzi": "重有",
+    "jyut": [
+      "zung6jau5",
+      "zung6jau"
+    ],
+    "gloss": "furthermore"
+  },
+  {
+    "hanzi": "四",
+    "jyut": [
+      "sei3",
+      "sei"
+    ],
+    "gloss": "four/4"
+  },
+  {
+    "hanzi": "書",
+    "jyut": [
+      "syu1",
+      "syu"
+    ],
+    "gloss": "book/letter/same as 書經|书经 Book of History"
+  },
+  {
+    "hanzi": "覺",
+    "jyut": [
+      "gaau3|gok3",
+      "gaau|gok"
+    ],
+    "gloss": "a nap/a sleep/CL:場[chèuhng](Mandarin)/CL:個[go]|feel/find that/thinking/awake/aware"
+  },
+  {
+    "hanzi": "服務",
+    "jyut": [
+      "fuk6mou6",
+      "fuk6mou"
+    ],
+    "gloss": "to serve/service"
+  },
+  {
+    "hanzi": "清楚",
+    "jyut": [
+      "cing1co2",
+      "cing1co"
+    ],
+    "gloss": "clear/clearly understood/distinct"
+  },
+  {
+    "hanzi": "特別",
+    "jyut": [
+      "dak6bit6",
+      "dak6bit"
+    ],
+    "gloss": "especially/special/particular/unusual"
+  },
+  {
+    "hanzi": "理",
+    "jyut": [
+      "lei5",
+      "lei"
+    ],
+    "gloss": "texture/grain (of wood)/inner essence/intrinsic order/reason/logic/truth/science/natural science (esp. physics)/to manage/to pay attention to/to run (affairs)/to handle/to put in order/to tidy up"
+  },
+  {
+    "hanzi": "得到",
+    "jyut": [
+      "dak1dou2",
+      "dak1dou"
+    ],
+    "gloss": "to get/to obtain/to receive"
+  },
+  {
+    "hanzi": "種",
+    "jyut": [
+      "zung2|zung3",
+      "zung|zung"
+    ],
+    "gloss": "abbr. for 物種|物种, genus/race/seed/breed/species/strain/kind/type/has guts (i.e. courage)/nerve/classifier for types: kind, sort/classifier for languages/to plant/to grow/to cultivate"
+  },
+  {
+    "hanzi": "本",
+    "jyut": [
+      "bun2",
+      "bun"
+    ],
+    "gloss": "roots or stems of plants/origin/source/this/the current/root/foundation/basis/(classifier for books, periodicals, files etc)"
+  },
+  {
+    "hanzi": "堂",
+    "jyut": [
+      "tong4",
+      "tong"
+    ],
+    "gloss": "(main) hall/large room for a specific purpose/relationship between cousins etc on the paternal side of a family/of the same clan/classifier for sets (or suites) of furniture, classes etc"
+  },
+  {
+    "hanzi": "就算",
+    "jyut": [
+      "zau6syun3",
+      "zau6syun"
+    ],
+    "gloss": "granted that/even if"
+  },
+  {
+    "hanzi": "呃",
+    "jyut": [
+      "ngaak1|aak1|ak1",
+      "ngaak|aak|ak"
+    ],
+    "gloss": "to cheat/to trick"
+  },
+  {
+    "hanzi": "后",
+    "jyut": [
+      "hau6",
+      "hau"
+    ],
+    "gloss": "empress/queen/surname Hou"
+  },
+  {
+    "hanzi": "虛線",
+    "jyut": [
+      "heoi1sin3",
+      "heoi1sin"
+    ],
+    "gloss": "dotted line"
+  },
+  {
+    "hanzi": "起",
+    "jyut": [
+      "hei2",
+      "hei"
+    ],
+    "gloss": "to rise/to raise/to get up/to set out/to start/to appear/to launch/to initiate (action)/to draft/to establish/to get (from a depot or counter)/verb suffix, to start/(before place or time) starting from/classifier for occurrences or unpredictable events: case, instance/classifier for groups: batch, group"
+  },
+  {
+    "hanzi": "太",
+    "jyut": [
+      "taai3",
+      "taai"
+    ],
+    "gloss": "highest/greatest/too (much)/very/extremely"
+  },
+  {
+    "hanzi": "出去",
+    "jyut": [
+      "ceot1heoi3",
+      "ceot1heoi"
+    ],
+    "gloss": "to go out"
+  },
+  {
+    "hanzi": "唔記得",
+    "jyut": [
+      "m4gei3dak1",
+      "m4gei3dak"
+    ],
+    "gloss": "to forget"
+  },
+  {
+    "hanzi": "少",
+    "jyut": [
+      "siu2|siu3",
+      "siu|siu"
+    ],
+    "gloss": "few/little/lack/young"
+  },
+  {
+    "hanzi": "效果",
+    "jyut": [
+      "haau6gwo2",
+      "haau6gwo"
+    ],
+    "gloss": "result/effect/quality"
+  },
+  {
+    "hanzi": "怨",
+    "jyut": [
+      "jyun3",
+      "jyun"
+    ],
+    "gloss": "to blame/to complain"
+  },
+  {
+    "hanzi": "以為",
+    "jyut": [
+      "ji5wai4",
+      "ji5wai"
+    ],
+    "gloss": "to believe/to think/to consider erroneously/to assume (wrongly)"
+  },
+  {
+    "hanzi": "陳",
+    "jyut": [
+      "can4",
+      "can"
+    ],
+    "gloss": "surname Chen/Chen of the Southern dynasties (557-589)/to lay out/to exhibit/to display/to narrate/to state/to explain/to tell/old/stale"
+  },
+  {
+    "hanzi": "通常",
+    "jyut": [
+      "tung1soeng4",
+      "tung1soeng"
+    ],
+    "gloss": "regular/usual/ordinary/normal"
+  },
+  {
+    "hanzi": "文字",
+    "jyut": [
+      "man4zi6",
+      "man4zi"
+    ],
+    "gloss": "character/script/writing/written language/writing style/phraseology"
+  },
+  {
+    "hanzi": "打橫",
+    "jyut": [
+      "daa2waang4",
+      "daa2waang"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "相信",
+    "jyut": [
+      "soeng1seon3",
+      "soeng1seon"
+    ],
+    "gloss": "be convinced (that something is true)/believe/to accept sth as true"
+  },
+  {
+    "hanzi": "揀",
+    "jyut": [
+      "gaan2",
+      "gaan"
+    ],
+    "gloss": "to choose/to pick/to sort out/to pick up"
+  },
+  {
+    "hanzi": "行到",
+    "jyut": [
+      "*hang4|haang4|hang6|hong4|hong2dou3",
+      "*hang|haang|hang|hong|hong2dou"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "禮拜",
+    "jyut": [
+      "lai5baai3",
+      "lai5baai"
+    ],
+    "gloss": "week/religious service/worship"
+  },
+  {
+    "hanzi": "地盤",
+    "jyut": [
+      "dei6pun4",
+      "dei6pun"
+    ],
+    "gloss": "a construction site/domain/territory under one's control/foundation of a building/base of operations/crust of earth"
+  },
+  {
+    "hanzi": "項",
+    "jyut": [
+      "hong6",
+      "hong"
+    ],
+    "gloss": "back of neck/item/thing/term (in a mathematical formula)/sum (of money)/classifier for principles, items, clauses, tasks, research projects etc/surname Xiang"
+  },
+  {
+    "hanzi": "杏堂",
+    "jyut": [
+      "*hang6tong4",
+      "*hang6tong"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "我講",
+    "jyut": [
+      "*ngo5gong2",
+      "*ngo5gong"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "蚊",
+    "jyut": [
+      "man1",
+      "man"
+    ],
+    "gloss": "mosquito/a dollar"
+  },
+  {
+    "hanzi": "市場",
+    "jyut": [
+      "si5coeng4",
+      "si5coeng"
+    ],
+    "gloss": "market place/market (also in abstract)/abbr. for 超級市場|超级市场 supermarket"
+  },
+  {
+    "hanzi": "尚健",
+    "jyut": [
+      "*soeng6gin6",
+      "*soeng6gin"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "直",
+    "jyut": [
+      "zik6",
+      "zik"
+    ],
+    "gloss": "straight/not gay, heterosexual, \"straight\"/to straighten/fair and reasonable/frank/straightforward/(indicates continuing motion or action)/vertical/vertical downward stroke in Chinese characters"
+  },
+  {
+    "hanzi": "印",
+    "jyut": [
+      "jan3",
+      "jan"
+    ],
+    "gloss": "stamp/seal/mark/print/abbr. for India/surname Yan"
+  },
+  {
+    "hanzi": "嶺",
+    "jyut": [
+      "leng5|ling5",
+      "leng|ling"
+    ],
+    "gloss": "mountain range"
+  },
+  {
+    "hanzi": "出現",
+    "jyut": [
+      "ceot1jin6",
+      "ceot1jin"
+    ],
+    "gloss": "to appear/to arise/to emerge"
+  },
+  {
+    "hanzi": "入去",
+    "jyut": [
+      "jap6heoi3",
+      "jap6heoi"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "之",
+    "jyut": [
+      "zi1",
+      "zi"
+    ],
+    "gloss": "(possessive particle, literary equivalent of 的)/him/her/it"
+  },
+  {
+    "hanzi": "六",
+    "jyut": [
+      "luk6",
+      "luk"
+    ],
+    "gloss": "six/6"
+  },
+  {
+    "hanzi": "圖",
+    "jyut": [
+      "tou4",
+      "tou"
+    ],
+    "gloss": "diagram/to plan/picture/drawing/chart"
+  },
+  {
+    "hanzi": "國",
+    "jyut": [
+      "gwok3",
+      "gwok"
+    ],
+    "gloss": "country/nation/state/CL:個[go]/national/a surname"
+  },
+  {
+    "hanzi": "直情",
+    "jyut": [
+      "zik6cing4",
+      "zik6cing"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "頂",
+    "jyut": [
+      "ding2|deng2",
+      "ding|deng"
+    ],
+    "gloss": "apex/top/roof/to carry on the head/to push to the top/to go against/most/to replace/to substitute/to \"bump\" a forum thread to raise its profile (internet slang)/to bear, to endure, to put up with/an exclamation expressing disappointment, anger, amazement, etc. (\"shit!\", \"damn!\", etc.)|apex/top/roof/classifier for hats"
+  },
+  {
+    "hanzi": "掂",
+    "jyut": [
+      "dim1|dim6",
+      "dim|dim"
+    ],
+    "gloss": "to weigh in the hand/to estimate|satisfactory/okay"
+  },
+  {
+    "hanzi": "西",
+    "jyut": [
+      "sai1",
+      "sai"
+    ],
+    "gloss": "west/often used as a euphemism for the obscene term for \"vagina\", 閪 [hāi]/the West/Spain (abbr.)"
+  },
+  {
+    "hanzi": "銅",
+    "jyut": [
+      "tung4",
+      "tung"
+    ],
+    "gloss": "copper Cu, transition metal, atomic number 29/see 紅銅|红铜 copper, and the alloys brass 黃銅|黄铜 and bronze 青銅|青铜"
+  },
+  {
+    "hanzi": "濫",
+    "jyut": [
+      "laam6",
+      "laam"
+    ],
+    "gloss": "excessive/indiscriminate"
+  },
+  {
+    "hanzi": "裏邊",
+    "jyut": [
+      "*leoi5bin1",
+      "*leoi5bin"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "條路線",
+    "jyut": [
+      "*tiu4lou6sin3",
+      "*tiu4lou6sin"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "小",
+    "jyut": [
+      "siu2",
+      "siu"
+    ],
+    "gloss": "small/tiny/few/young/a euphemism for 屌 díu, \"fuck\""
+  },
+  {
+    "hanzi": "讀書",
+    "jyut": [
+      "duk6syu1",
+      "duk6syu"
+    ],
+    "gloss": "study/read"
+  },
+  {
+    "hanzi": "冇問題",
+    "jyut": [
+      "mou5man6tai4",
+      "mou5man6tai"
+    ],
+    "gloss": "no problem"
+  },
+  {
+    "hanzi": "右行",
+    "jyut": [
+      "*jau6hang4|haang4|hang6|hong4|hong2",
+      "*jau6hang|haang|hang|hong|hong"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "不",
+    "jyut": [
+      "bat1",
+      "bat"
+    ],
+    "gloss": "not/no"
+  },
+  {
+    "hanzi": "更加",
+    "jyut": [
+      "gang3gaa1",
+      "gang3gaa"
+    ],
+    "gloss": "more (than sth else)/even more"
+  },
+  {
+    "hanzi": "件",
+    "jyut": [
+      "gin6",
+      "gin"
+    ],
+    "gloss": "item/component/classifier for events, things, clothes etc"
+  },
+  {
+    "hanzi": "男朋友",
+    "jyut": [
+      "naam4pang4jau5",
+      "naam4pang4jau"
+    ],
+    "gloss": "male friend/boyfriend"
+  },
+  {
+    "hanzi": "唔該",
+    "jyut": [
+      "m4goi1",
+      "m4goi"
+    ],
+    "gloss": "please/thank you"
+  },
+  {
+    "hanzi": "收",
+    "jyut": [
+      "sau1",
+      "sau"
+    ],
+    "gloss": "to receive/to accept/to collect/in care of (used on address line after name)"
+  },
+  {
+    "hanzi": "愁",
+    "jyut": [
+      "sau4",
+      "sau"
+    ],
+    "gloss": "worry about"
+  },
+  {
+    "hanzi": "地標",
+    "jyut": [
+      "dei6biu1",
+      "dei6biu"
+    ],
+    "gloss": "landmark"
+  },
+  {
+    "hanzi": "水塘",
+    "jyut": [
+      "seoi2tong4",
+      "seoi2tong"
+    ],
+    "gloss": "pool"
+  },
+  {
+    "hanzi": "望",
+    "jyut": [
+      "mong6",
+      "mong"
+    ],
+    "gloss": "to look at/to view/to hope/to expect/to visit/to gaze (into the distance)/to look towards/towards/full moon"
+  },
+  {
+    "hanzi": "忍",
+    "jyut": [
+      "jan2",
+      "jan"
+    ],
+    "gloss": "to endure/to tolerate"
+  },
+  {
+    "hanzi": "一條",
+    "jyut": [
+      "*jat1tiu4",
+      "*jat1tiu"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "重",
+    "jyut": [
+      "zung6|cung4|cung5",
+      "zung|cung|cung"
+    ],
+    "gloss": "to attach importance to/important/weighty/furthermore/further/more/still/to lay stress on/discreet|repeat/again/double|heavy (in weight)/deep/heavy/serious/weight"
+  },
+  {
+    "hanzi": "將來",
+    "jyut": [
+      "zoeng1loi4",
+      "zoeng1loi"
+    ],
+    "gloss": "the future/future"
+  },
+  {
+    "hanzi": "八",
+    "jyut": [
+      "baat3",
+      "baat"
+    ],
+    "gloss": "eight/to gossip/nosy"
+  },
+  {
+    "hanzi": "斜",
+    "jyut": [
+      "ce4|ce3",
+      "ce|ce"
+    ],
+    "gloss": "slanting"
+  },
+  {
+    "hanzi": "提碑",
+    "jyut": [
+      "*tai4bei1",
+      "*tai4bei"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "地",
+    "jyut": [
+      "dei6",
+      "dei"
+    ],
+    "gloss": "earth/ground/field/place/land/CL:片[pin](Mandarin)/CL:塊[faai]/CL:笪[daat]/-ly/structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"
+  },
+  {
+    "hanzi": "最後",
+    "jyut": [
+      "zeoi3hau6",
+      "zeoi3hau"
+    ],
+    "gloss": "final/last/finally/ultimate"
+  },
+  {
+    "hanzi": "鬼",
+    "jyut": [
+      "gwai2",
+      "gwai"
+    ],
+    "gloss": "ghost/CL:隻[jek]/a westerner/a traitor; an informer within an organisation, a \"mole\"."
+  },
+  {
+    "hanzi": "明",
+    "jyut": [
+      "ming4",
+      "ming"
+    ],
+    "gloss": "bright/clear/to understand/next/public or open/wise/Ming Dynasty (1368-1644)/surname Ming"
+  },
+  {
+    "hanzi": "工作",
+    "jyut": [
+      "gung1zok3",
+      "gung1zok"
+    ],
+    "gloss": "job/work/construction/task"
+  },
+  {
+    "hanzi": "皮",
+    "jyut": [
+      "pei4",
+      "pei"
+    ],
+    "gloss": "leather/skin/fur/ten thousand dollars/level, standard/pico- (one trillionth)/a surname/CL:塊[faai]"
+  },
+  {
+    "hanzi": "共",
+    "jyut": [
+      "gung6",
+      "gung"
+    ],
+    "gloss": "common/general/to share/together/total/altogether/abbr. for 共產黨|共产党[gong4 chan3 dang3], Communist party"
+  },
+  {
+    "hanzi": "憂",
+    "jyut": [
+      "jau1",
+      "jau"
+    ],
+    "gloss": "to worry/to concern oneself with/worried/anxiety/sorrow/a parent's funeral/inconvenienced by being orphaned"
+  },
+  {
+    "hanzi": "一次",
+    "jyut": [
+      "jat1ci3",
+      "jat1ci"
+    ],
+    "gloss": "first/first time/once/(math.) linear (of degree one)"
+  },
+  {
+    "hanzi": "肯定",
+    "jyut": [
+      "hang2ding6",
+      "hang2ding"
+    ],
+    "gloss": "to be sure/to be certain/sure/certain/definite/to confirm/to affirm/affirmative"
+  },
+  {
+    "hanzi": "能夠",
+    "jyut": [
+      "nang4gau3",
+      "nang4gau"
+    ],
+    "gloss": "be capable of/can/is able"
+  },
+  {
+    "hanzi": "受",
+    "jyut": [
+      "sau6",
+      "sau"
+    ],
+    "gloss": "to receive/to accept/to suffer/subjected to/to bear/to stand/pleasant/(passive marker)"
+  },
+  {
+    "hanzi": "電腦",
+    "jyut": [
+      "din6nou5",
+      "din6nou"
+    ],
+    "gloss": "computer"
+  },
+  {
+    "hanzi": "加",
+    "jyut": [
+      "gaa1",
+      "gaa"
+    ],
+    "gloss": "to add/plus/abbr. for Canada 加拿大"
+  },
+  {
+    "hanzi": "領",
+    "jyut": [
+      "ling5|leng5",
+      "ling|leng"
+    ],
+    "gloss": "neck/collar/to lead/to receive"
+  },
+  {
+    "hanzi": "瑞",
+    "jyut": [
+      "seoi6",
+      "seoi"
+    ],
+    "gloss": "lucky/auspicious/propitious/rayl (acoustical unit)"
+  },
+  {
+    "hanzi": "長",
+    "jyut": [
+      "coeng4|zoeng2",
+      "coeng|zoeng"
+    ],
+    "gloss": "length/long/forever/always/constantly|chief/head/elder/to grow/to develop/to increase/to enhance"
+  },
+  {
+    "hanzi": "當",
+    "jyut": [
+      "dong1|dong3",
+      "dong|dong"
+    ],
+    "gloss": "when/during/just at (a time or place)/on the spot/ought/should/equal/same/manage|to regard as/suitable/adequate/fitting/proper/to pawn/obstruct"
+  },
+  {
+    "hanzi": "重要",
+    "jyut": [
+      "zung6jiu3",
+      "zung6jiu"
+    ],
+    "gloss": "important/significant/major"
+  },
+  {
+    "hanzi": "意",
+    "jyut": [
+      "ji3",
+      "ji"
+    ],
+    "gloss": "idea/meaning/thought/to think/wish/desire/intention/to expect/to anticipate/abbr. for Italy 意大利"
+  },
+  {
+    "hanzi": "信心",
+    "jyut": [
+      "seon3sam1",
+      "seon3sam"
+    ],
+    "gloss": "confidence/faith (in sb or sth)"
+  },
+  {
+    "hanzi": "後尾",
+    "jyut": [
+      "*hau6mei5",
+      "*hau6mei"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "繞",
+    "jyut": [
+      "jiu5",
+      "jiu"
+    ],
+    "gloss": "to wind/to coil (thread)/to rotate around/to spiral/to move around/to go round (an obstacle)/to by-pass/to make a detour/to confuse/to perplex"
+  },
+  {
+    "hanzi": "是",
+    "jyut": [
+      "si6",
+      "si"
+    ],
+    "gloss": "is/are/am/yes/to be"
+  },
+  {
+    "hanzi": "坐",
+    "jyut": [
+      "co5|zo6",
+      "co|zo"
+    ],
+    "gloss": "to sit/to take a seat/to take (a bus, airplane etc)"
+  },
+  {
+    "hanzi": "真",
+    "jyut": [
+      "zan1",
+      "zan"
+    ],
+    "gloss": "really/truly/indeed/real/true/genuine"
+  },
+  {
+    "hanzi": "水",
+    "jyut": [
+      "seoi2",
+      "seoi"
+    ],
+    "gloss": "1. water/2. money/3. low quality, poor (e.g. of performace)"
+  },
+  {
+    "hanzi": "我話",
+    "jyut": [
+      "*ngo5waa6|waa2",
+      "*ngo5waa|waa"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "擺",
+    "jyut": [
+      "baai2",
+      "baai"
+    ],
+    "gloss": "to arrange/to exhibit/to move to and fro/a pendulum"
+  },
+  {
+    "hanzi": "英文",
+    "jyut": [
+      "jing1man4",
+      "jing1man"
+    ],
+    "gloss": "English (language)"
+  },
+  {
+    "hanzi": "彎",
+    "jyut": [
+      "waan1",
+      "waan"
+    ],
+    "gloss": "bend/bent"
+  },
+  {
+    "hanzi": "貧",
+    "jyut": [
+      "pan4",
+      "pan"
+    ],
+    "gloss": "poor/inadequate/deficient/garrulous"
+  },
+  {
+    "hanzi": "成病",
+    "jyut": [
+      "*sing4beng6",
+      "*sing4beng"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "男仔",
+    "jyut": [
+      "*naam4zai2|zi2",
+      "*naam4zai|zi"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "跟",
+    "jyut": [
+      "gan1",
+      "gan"
+    ],
+    "gloss": "to follow closely/to go with/to marry sb (of woman)/with/towards/as (compared to)/from (different from)/and (in addition to)/heel(Mandarin)"
+  },
+  {
+    "hanzi": "今年",
+    "jyut": [
+      "gam1nin4",
+      "gam1nin"
+    ],
+    "gloss": "this year"
+  },
+  {
+    "hanzi": "完成",
+    "jyut": [
+      "jyun4sing4",
+      "jyun4sing"
+    ],
+    "gloss": "complete/accomplish/perfect tense (grammar)"
+  },
+  {
+    "hanzi": "排",
+    "jyut": [
+      "paai4",
+      "paai"
+    ],
+    "gloss": "a row/a line/to set in order/to arrange/to line up/to eliminate/to drain/to push open/platoon/raft/classifier for lines, rows etc"
+  },
+  {
+    "hanzi": "灣",
+    "jyut": [
+      "waan1",
+      "waan"
+    ],
+    "gloss": "bay/gulf"
+  },
+  {
+    "hanzi": "記得",
+    "jyut": [
+      "gei3dak1",
+      "gei3dak"
+    ],
+    "gloss": "to remember"
+  },
+  {
+    "hanzi": "任何",
+    "jyut": [
+      "jam6ho4",
+      "jam6ho"
+    ],
+    "gloss": "any/whatever/whichever/whatsoever"
+  },
+  {
+    "hanzi": "室",
+    "jyut": [
+      "sat1",
+      "sat"
+    ],
+    "gloss": "room"
+  },
+  {
+    "hanzi": "緊要",
+    "jyut": [
+      "gan2jiu3",
+      "gan2jiu"
+    ],
+    "gloss": "important"
+  },
+  {
+    "hanzi": "樂",
+    "jyut": [
+      "lok6|ngok6",
+      "lok|ngok"
+    ],
+    "gloss": "happy/laugh/cheerful/surname Le/surname Yue/music"
+  },
+  {
+    "hanzi": "犀利",
+    "jyut": [
+      "sai1lei6",
+      "sai1lei"
+    ],
+    "gloss": "terrific, great, amazing/sharp"
+  },
+  {
+    "hanzi": "樂園",
+    "jyut": [
+      "lok6jyun4",
+      "lok6jyun"
+    ],
+    "gloss": "paradise"
+  },
+  {
+    "hanzi": "返來",
+    "jyut": [
+      "*faan1|faan2loi4",
+      "*faan|faan2loi"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "憂店",
+    "jyut": [
+      "*jau1dim3",
+      "*jau1dim"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "班",
+    "jyut": [
+      "baan1",
+      "baan"
+    ],
+    "gloss": "team/class/squad/work shift/classifier for groups/ranking/to gather together/to gather support (\"back-up\")/to deploy one's gang member/a surname"
+  },
+  {
+    "hanzi": "直接",
+    "jyut": [
+      "zik6zip3",
+      "zik6zip"
+    ],
+    "gloss": "direct/opposite: indirect 間接|间接/immediate/directly/straightforward"
+  },
+  {
+    "hanzi": "傾",
+    "jyut": [
+      "king1",
+      "king"
+    ],
+    "gloss": "to chat/to overturn/to collapse/to lean/to tend/to incline/to pour out"
+  },
+  {
+    "hanzi": "幾時",
+    "jyut": [
+      "gei2si4",
+      "gei2si"
+    ],
+    "gloss": "what time?/when?"
+  },
+  {
+    "hanzi": "先生",
+    "jyut": [
+      "sin1saang1",
+      "sin1saang"
+    ],
+    "gloss": "sir/mister/teacher/(title of respect)"
+  },
+  {
+    "hanzi": "細個",
+    "jyut": [
+      "*sai3go3",
+      "*sai3go"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "第二個",
+    "jyut": [
+      "*dai6ji6go3",
+      "*dai6ji6go"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "國家",
+    "jyut": [
+      "gwok3gaa1",
+      "gwok3gaa"
+    ],
+    "gloss": "country/nation/state"
+  },
+  {
+    "hanzi": "形",
+    "jyut": [
+      "jing4",
+      "jing"
+    ],
+    "gloss": "to appear/to look/form/shape"
+  },
+  {
+    "hanzi": "點啊",
+    "jyut": [
+      "*dim2aa3|aa1|aa2",
+      "*dim2aa|aa|aa"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "左上",
+    "jyut": [
+      "zo2soeng6",
+      "zo2soeng"
+    ],
+    "gloss": "upper left"
+  },
+  {
+    "hanzi": "經濟",
+    "jyut": [
+      "ging1zai3",
+      "ging1zai"
+    ],
+    "gloss": "economy/economic"
+  },
+  {
+    "hanzi": "突然",
+    "jyut": [
+      "dat6jin4",
+      "dat6jin"
+    ],
+    "gloss": "sudden/abrupt/unexpected"
+  },
+  {
+    "hanzi": "我會",
+    "jyut": [
+      "*ngo5wui5|wui6|wui2",
+      "*ngo5wui|wui|wui"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "錯",
+    "jyut": [
+      "co3",
+      "co"
+    ],
+    "gloss": "wrong; mistaken; erroneous/fault; demerit; blunder/intricate; complex/CL:個[go]"
+  },
+  {
+    "hanzi": "使",
+    "jyut": [
+      "sai2|si2|si3",
+      "sai|si|si"
+    ],
+    "gloss": "to spend (money)/to make/to cause/to enable/to use/to employ/to send/to instruct sb to do sth/envoy/messenger"
+  },
+  {
+    "hanzi": "一係",
+    "jyut": [
+      "jat1hai6",
+      "jat1hai"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "提",
+    "jyut": [
+      "tai4",
+      "tai"
+    ],
+    "gloss": "carry (suspended)/to carry (hanging down from the hand)/to lift/to put forward/to mention/to raise (an issue)/upwards character stroke/lifting brush stroke (in painting)/scoop for measuring liquid"
+  },
+  {
+    "hanzi": "海",
+    "jyut": [
+      "hoi2",
+      "hoi"
+    ],
+    "gloss": "ocean/sea/CL:個[go]/CL:片[pin](Mandarin)"
+  },
+  {
+    "hanzi": "養",
+    "jyut": [
+      "joeng5",
+      "joeng"
+    ],
+    "gloss": "to raise (animals)/to bring up (children)/to keep (pets)/to support/to give birth"
+  },
+  {
+    "hanzi": "叢林",
+    "jyut": [
+      "cung4lam4",
+      "cung4lam"
+    ],
+    "gloss": "jungle/thicket/forest/Buddhist monastery"
+  },
+  {
+    "hanzi": "雖然",
+    "jyut": [
+      "seoi1jin4",
+      "seoi1jin"
+    ],
+    "gloss": "although/even though/even if"
+  },
+  {
+    "hanzi": "說話",
+    "jyut": [
+      "syut3waa6",
+      "syut3waa"
+    ],
+    "gloss": "to speak/to say/to talk/to gossip/to tell stories/talk/word"
+  },
+  {
+    "hanzi": "成個",
+    "jyut": [
+      "*sing4go3",
+      "*sing4go"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "基本上",
+    "jyut": [
+      "gei1bun2soeng6",
+      "gei1bun2soeng"
+    ],
+    "gloss": "basically/on the whole"
+  },
+  {
+    "hanzi": "大陸",
+    "jyut": [
+      "daai6luk6",
+      "daai6luk"
+    ],
+    "gloss": "mainland China (reference to the PRC)/continent/mainland/CL:個[go]"
+  },
+  {
+    "hanzi": "打電話",
+    "jyut": [
+      "daa2din6waa2",
+      "daa2din6waa"
+    ],
+    "gloss": "to make a telephone call"
+  },
+  {
+    "hanzi": "七",
+    "jyut": [
+      "cat1",
+      "cat"
+    ],
+    "gloss": "seven/euphemistic form of 柒 [chaht] \"prick\""
+  },
+  {
+    "hanzi": "平",
+    "jyut": [
+      "ping4",
+      "ping"
+    ],
+    "gloss": "flat/level/equal/to tie (make the same score)/to draw (score)/calm/peaceful/level or even tone (i.e. first and second tones in classical Chinese)/surname Ping"
+  },
+  {
+    "hanzi": "碟",
+    "jyut": [
+      "dip6",
+      "dip"
+    ],
+    "gloss": "dish/plate"
+  },
+  {
+    "hanzi": "心",
+    "jyut": [
+      "sam1",
+      "sam"
+    ],
+    "gloss": "heart/mind/intention/centre/core/CL:個[go]"
+  },
+  {
+    "hanzi": "從",
+    "jyut": [
+      "cung4",
+      "cung"
+    ],
+    "gloss": "from/via/passing through/through (a gap)/past/ever (followed by negative, meaning never)/(formerly pr. zong4 and related to 縱|纵) to follow/to comply with/to obey/to join/to engage in/adopting some mode of action or attitude/follower/retainer/accessory/accomplice/related by common paternal grandfather or earlier ancestor/surname Cong/lax/yielding/unhurried/second cousin"
+  },
+  {
+    "hanzi": "每",
+    "jyut": [
+      "mui5",
+      "mui"
+    ],
+    "gloss": "each/every"
+  },
+  {
+    "hanzi": "差",
+    "jyut": [
+      "caa1|caai1|cī",
+      "caa|caai|cī"
+    ],
+    "gloss": "difference/discrepancy/to differ/error/to err/to make a mistake/to differ from/to fall short of/lacking/wrong/inferior|the police/to send/to commission/messenger/mission|uneven"
+  },
+  {
+    "hanzi": "穿",
+    "jyut": [
+      "cyun1",
+      "cyun"
+    ],
+    "gloss": "to bore through/to pierce/to perforate/to penetrate/to pass through/to dress/to wear/to put on/to thread/damaged with a hole or holes (e.g. pots, socks)"
+  },
+  {
+    "hanzi": "舊",
+    "jyut": [
+      "gau6",
+      "gau"
+    ],
+    "gloss": "old/opposite: new 新/former/worn (with age)"
+  },
+  {
+    "hanzi": "自由",
+    "jyut": [
+      "zi6jau4",
+      "zi6jau"
+    ],
+    "gloss": "freedom/free/liberty"
+  },
+  {
+    "hanzi": "直線",
+    "jyut": [
+      "zik6sin3",
+      "zik6sin"
+    ],
+    "gloss": "straight line"
+  },
+  {
+    "hanzi": "哩樣",
+    "jyut": [
+      "*lei5|le1|lei1|li1joeng6",
+      "*lei|le|lei|li1joeng"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "上行",
+    "jyut": [
+      "soeng6hang4",
+      "soeng6hang"
+    ],
+    "gloss": "up train (i.e. towards the capital)"
+  },
+  {
+    "hanzi": "揸",
+    "jyut": [
+      "zaa1",
+      "zaa"
+    ],
+    "gloss": "to hold/to drive/to pilot/to make a decision"
+  },
+  {
+    "hanzi": "性",
+    "jyut": [
+      "sing3",
+      "sing"
+    ],
+    "gloss": "nature/character/property/quality/attribute/sexuality/sex/gender/surname/suffix forming adjective from verb/suffix forming noun from adjective, corresponding to -ness or -ity/essence"
+  },
+  {
+    "hanzi": "呵",
+    "jyut": [
+      "ho1",
+      "ho"
+    ],
+    "gloss": "expel breath/my goodness/variantof 啊/phonetic \"a\""
+  },
+  {
+    "hanzi": "機",
+    "jyut": [
+      "gei1",
+      "gei"
+    ],
+    "gloss": "machine/engine/CL:臺|台[tòih](Mandarin)/CL:部[bouh]/opportunity/intention/aircraft/pivot/crucial point/flexible(quick-witted)/organic/a surname"
+  },
+  {
+    "hanzi": "林",
+    "jyut": [
+      "lam4",
+      "lam"
+    ],
+    "gloss": "woods/forest/surname Lin"
+  },
+  {
+    "hanzi": "世界",
+    "jyut": [
+      "sai3gaai3",
+      "sai3gaai"
+    ],
+    "gloss": "world/a situation, a position, a state of affairs/CL:個[go]"
+  },
+  {
+    "hanzi": "似",
+    "jyut": [
+      "ci5",
+      "ci"
+    ],
+    "gloss": "to seem/to appear/to resemble/similar/-like/pseudo-"
+  },
+  {
+    "hanzi": "着",
+    "jyut": [
+      "*?"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "理由",
+    "jyut": [
+      "lei5jau4",
+      "lei5jau"
+    ],
+    "gloss": "reason/grounds/justification"
+  },
+  {
+    "hanzi": "返工",
+    "jyut": [
+      "faan1gung1",
+      "faan1gung"
+    ],
+    "gloss": "go to work"
+  },
+  {
+    "hanzi": "發覺",
+    "jyut": [
+      "faat3gok3",
+      "faat3gok"
+    ],
+    "gloss": "to find/to detect/to discover"
+  },
+  {
+    "hanzi": "落到",
+    "jyut": [
+      "lok6dou2",
+      "lok6dou"
+    ],
+    "gloss": "befallen"
+  },
+  {
+    "hanzi": "繞過",
+    "jyut": [
+      "*jiu5gwo3",
+      "*jiu5gwo"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "東方",
+    "jyut": [
+      "dung1fong1",
+      "dung1fong"
+    ],
+    "gloss": "the East/Eastern countries"
+  },
+  {
+    "hanzi": "右上",
+    "jyut": [
+      "jau6soeng6",
+      "jau6soeng"
+    ],
+    "gloss": "upper right"
+  },
+  {
+    "hanzi": "貨倉",
+    "jyut": [
+      "fo3cong1",
+      "fo3cong"
+    ],
+    "gloss": "a warehouse"
+  },
+  {
+    "hanzi": "翻版",
+    "jyut": [
+      "faan1baan2",
+      "faan1baan"
+    ],
+    "gloss": "to reprint/a duplicate/a clone"
+  },
+  {
+    "hanzi": "拍",
+    "jyut": [
+      "paak3",
+      "paak"
+    ],
+    "gloss": "to pat/to clap/to slap/to swat/to take (a photo)/to shoot (a film)/racket (sports)/beat (music)"
+  },
+  {
+    "hanzi": "以",
+    "jyut": [
+      "ji5",
+      "ji"
+    ],
+    "gloss": "abbr. for Israel 以色列[yíh sīk liht]/to use/according to/so as to/in order to/by/with/because"
+  },
+  {
+    "hanzi": "學生",
+    "jyut": [
+      "hok6saang1",
+      "hok6saang"
+    ],
+    "gloss": "student/school child"
+  },
+  {
+    "hanzi": "關係",
+    "jyut": [
+      "gwaan1hai6",
+      "gwaan1hai"
+    ],
+    "gloss": "relation/relationship/to concern/to affect/to have to do with/guanxi"
+  },
+  {
+    "hanzi": "一種",
+    "jyut": [
+      "jat1zung2",
+      "jat1zung"
+    ],
+    "gloss": "one kind of/one type of"
+  },
+  {
+    "hanzi": "講到",
+    "jyut": [
+      "gong2dou3",
+      "gong2dou"
+    ],
+    "gloss": "to talk about sth"
+  },
+  {
+    "hanzi": "旅行",
+    "jyut": [
+      "leoi5hang4",
+      "leoi5hang"
+    ],
+    "gloss": "travel"
+  },
+  {
+    "hanzi": "影響",
+    "jyut": [
+      "jing2hoeng2",
+      "jing2hoeng"
+    ],
+    "gloss": "an influence/an effect/to influence/to affect (usually adversely)/to disturb"
+  },
+  {
+    "hanzi": "包",
+    "jyut": [
+      "baau1",
+      "baau"
+    ],
+    "gloss": "to cover/to wrap/to promise/to guarantee/to include/to keep a mistress or second wife/package/wrapper/container/bag/bundle/packet"
+  },
+  {
+    "hanzi": "要求",
+    "jyut": [
+      "jiu1kau4",
+      "jiu1kau"
+    ],
+    "gloss": "to request/to require/to stake a claim/to ask/to demand"
+  },
+  {
+    "hanzi": "未必",
+    "jyut": [
+      "mei6bit1",
+      "mei6bit"
+    ],
+    "gloss": "not necessarily/maybe not"
+  },
+  {
+    "hanzi": "法律",
+    "jyut": [
+      "faat3leot6",
+      "faat3leot"
+    ],
+    "gloss": "law"
+  },
+  {
+    "hanzi": "灘",
+    "jyut": [
+      "taan1|taan5",
+      "taan|taan"
+    ],
+    "gloss": "beach/shoal"
+  },
+  {
+    "hanzi": "女",
+    "jyut": [
+      "neoi5",
+      "neoi"
+    ],
+    "gloss": "female/woman/daughter"
+  },
+  {
+    "hanzi": "男人",
+    "jyut": [
+      "naam4jan2",
+      "naam4jan"
+    ],
+    "gloss": "a man/a male/men/CL:個[go]"
+  },
+  {
+    "hanzi": "學校",
+    "jyut": [
+      "hok6haau6",
+      "hok6haau"
+    ],
+    "gloss": "school/CL:所[suo3]"
+  },
+  {
+    "hanzi": "攬",
+    "jyut": [
+      "laam5",
+      "laam"
+    ],
+    "gloss": "to embrace/to monopolize/to seize"
+  },
+  {
+    "hanzi": "唔夠",
+    "jyut": [
+      "m4gau3",
+      "m4gau"
+    ],
+    "gloss": "not enough"
+  },
+  {
+    "hanzi": "射",
+    "jyut": [
+      "se6",
+      "se"
+    ],
+    "gloss": "to shoot/to look after, to protect, to watch over/to ejaculate, to \"come\"/radio- (chemistry)"
+  },
+  {
+    "hanzi": "電視",
+    "jyut": [
+      "din6si6",
+      "din6si"
+    ],
+    "gloss": "television/TV"
+  },
+  {
+    "hanzi": "某",
+    "jyut": [
+      "mau5",
+      "mau"
+    ],
+    "gloss": "some/a certain/sb or sth indefinite/such-and-such"
+  },
+  {
+    "hanzi": "考慮",
+    "jyut": [
+      "haau2leoi6",
+      "haau2leoi"
+    ],
+    "gloss": "to think over/to consider/consideration"
+  },
+  {
+    "hanzi": "會話",
+    "jyut": [
+      "wui6waa6",
+      "wui6waa"
+    ],
+    "gloss": "conversation"
+  },
+  {
+    "hanzi": "轉彎",
+    "jyut": [
+      "zyun3waan1",
+      "zyun3waan"
+    ],
+    "gloss": "turn (around)"
+  },
+  {
+    "hanzi": "放",
+    "jyut": [
+      "fong3",
+      "fong"
+    ],
+    "gloss": "to release/to free/to let go/to put/to place/to let out/to set off (fireworks)/free, uninhibited"
+  },
+  {
+    "hanzi": "生活",
+    "jyut": [
+      "sang1wut6",
+      "sang1wut"
+    ],
+    "gloss": "life/activity/to live/livelihood"
+  },
+  {
+    "hanzi": "其中",
+    "jyut": [
+      "kei4zung1",
+      "kei4zung"
+    ],
+    "gloss": "among/in/included among these"
+  },
+  {
+    "hanzi": "教",
+    "jyut": [
+      "gaau3",
+      "gaau"
+    ],
+    "gloss": "religion/teaching/to teach/to make (Mandarin)/to cause (Mandarin)/to tell (Mandarin)"
+  },
+  {
+    "hanzi": "最好",
+    "jyut": [
+      "zeoi3hou2",
+      "zeoi3hou"
+    ],
+    "gloss": "best/(you) had better (do what we suggest)"
+  },
+  {
+    "hanzi": "法",
+    "jyut": [
+      "faat3",
+      "faat"
+    ],
+    "gloss": "law/method/way/Buddhist teaching/Legalist/abbr. for France"
+  },
+  {
+    "hanzi": "九",
+    "jyut": [
+      "gau2",
+      "gau"
+    ],
+    "gloss": "nine/9"
+  },
+  {
+    "hanzi": "早晨",
+    "jyut": [
+      "zou2san4",
+      "zou2san"
+    ],
+    "gloss": "early morning"
+  },
+  {
+    "hanzi": "水平",
+    "jyut": [
+      "seoi2ping4",
+      "seoi2ping"
+    ],
+    "gloss": "level (of achievement etc)/standard/horizontal"
+  },
+  {
+    "hanzi": "磅",
+    "jyut": [
+      "bong6|bong2",
+      "bong|bong"
+    ],
+    "gloss": "to weigh/to give/to accompany/to escort/to protect/pound (unit of weight, about 454 grams)|scale/platform balance"
+  },
+  {
+    "hanzi": "方法",
+    "jyut": [
+      "fong1faat3",
+      "fong1faat"
+    ],
+    "gloss": "method/way/means"
+  },
+  {
+    "hanzi": "者",
+    "jyut": [
+      "ze2",
+      "ze"
+    ],
+    "gloss": "-ist, -er (person)/person (who does sth)"
+  },
+  {
+    "hanzi": "難",
+    "jyut": [
+      "naan6|naan4",
+      "naan|naan"
+    ],
+    "gloss": "difficult (to...)/problem/difficulty/difficult/not good|disaster/distress/to scold"
+  },
+  {
+    "hanzi": "段",
+    "jyut": [
+      "dyun6",
+      "dyun"
+    ],
+    "gloss": "surname Duan/paragraph/section/segment/stage (of a process)/classifier for stories"
+  },
+  {
+    "hanzi": "代表",
+    "jyut": [
+      "doi6biu2",
+      "doi6biu"
+    ],
+    "gloss": "representative/delegate/to represent/to stand for"
+  },
+  {
+    "hanzi": "好過",
+    "jyut": [
+      "*hou2|hou3gwo3",
+      "*hou|hou3gwo"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "西方",
+    "jyut": [
+      "sai1fong1",
+      "sai1fong"
+    ],
+    "gloss": "the West/the Occident/Western countries"
+  },
+  {
+    "hanzi": "公共",
+    "jyut": [
+      "gung1gung6",
+      "gung1gung"
+    ],
+    "gloss": "public/common (use)"
+  },
+  {
+    "hanzi": "山路",
+    "jyut": [
+      "saan1lou6",
+      "saan1lou"
+    ],
+    "gloss": "mountain road"
+  },
+  {
+    "hanzi": "早",
+    "jyut": [
+      "zou2",
+      "zou"
+    ],
+    "gloss": "early/morning"
+  },
+  {
+    "hanzi": "簡單",
+    "jyut": [
+      "gaan2daan1",
+      "gaan2daan"
+    ],
+    "gloss": "simple/not complicated"
+  },
+  {
+    "hanzi": "學",
+    "jyut": [
+      "hok6",
+      "hok"
+    ],
+    "gloss": "learn/study/science/-ology"
+  },
+  {
+    "hanzi": "第",
+    "jyut": [
+      "dai6",
+      "dai"
+    ],
+    "gloss": "(prefix indicating ordinal number, e.g. first, number two etc)"
+  },
+  {
+    "hanzi": "好睇",
+    "jyut": [
+      "*hou2|hou3tai2",
+      "*hou|hou3tai"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "店",
+    "jyut": [
+      "dim3",
+      "dim"
+    ],
+    "gloss": "inn/shop/store"
+  },
+  {
+    "hanzi": "發展",
+    "jyut": [
+      "faat3zin2",
+      "faat3zin"
+    ],
+    "gloss": "development/growth/to develop/to grow/to expand"
+  },
+  {
+    "hanzi": "賺",
+    "jyut": [
+      "zaan6",
+      "zaan"
+    ],
+    "gloss": "to earn/to make a profit"
+  },
+  {
+    "hanzi": "圖案",
+    "jyut": [
+      "tou4on3",
+      "tou4on"
+    ],
+    "gloss": "design/pattern"
+  },
+  {
+    "hanzi": "我見",
+    "jyut": [
+      "*ngo5gin3",
+      "*ngo5gin"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "辦法",
+    "jyut": [
+      "baan6faat3",
+      "baan6faat"
+    ],
+    "gloss": "means/method/way (of doing sth)"
+  },
+  {
+    "hanzi": "同一",
+    "jyut": [
+      "tung4jat1",
+      "tung4jat"
+    ],
+    "gloss": "identical/the same"
+  },
+  {
+    "hanzi": "接受",
+    "jyut": [
+      "zip3sau6",
+      "zip3sau"
+    ],
+    "gloss": "to accept/to receive"
+  },
+  {
+    "hanzi": "近",
+    "jyut": [
+      "gan6|kan5",
+      "gan|kan"
+    ],
+    "gloss": "near/close to/approximately"
+  },
+  {
+    "hanzi": "尾",
+    "jyut": [
+      "mei5",
+      "mei"
+    ],
+    "gloss": "tail/a reprisal/bad consequences/loose ends"
+  },
+  {
+    "hanzi": "最近",
+    "jyut": [
+      "zeoi3gan6",
+      "zeoi3gan"
+    ],
+    "gloss": "recent/recently/these days/latest/soon/nearest (of locations)/shortest (of routes)"
+  },
+  {
+    "hanzi": "第二",
+    "jyut": [
+      "dai6ji6",
+      "dai6ji"
+    ],
+    "gloss": "second/number two/next"
+  },
+  {
+    "hanzi": "拜拜",
+    "jyut": [
+      "baai1baai3",
+      "baai1baai"
+    ],
+    "gloss": "bye-bye"
+  },
+  {
+    "hanzi": "意見",
+    "jyut": [
+      "ji3gin3",
+      "ji3gin"
+    ],
+    "gloss": "idea/opinion/suggestion/objection/complaint"
+  },
+  {
+    "hanzi": "圖片",
+    "jyut": [
+      "tou4pin3",
+      "tou4pin"
+    ],
+    "gloss": "image/picture/photograph"
+  },
+  {
+    "hanzi": "貧大",
+    "jyut": [
+      "*pan4daai6",
+      "*pan4daai"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "入面",
+    "jyut": [
+      "jap6min6",
+      "jap6min"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "把",
+    "jyut": [
+      "baa2",
+      "baa"
+    ],
+    "gloss": "to hold/to grasp/to take hold of/handle/classifier for objects with handle/used before a direct object and a verb often carrying the sense of disposal (Mandarin)"
+  },
+  {
+    "hanzi": "平時",
+    "jyut": [
+      "ping4si4",
+      "ping4si"
+    ],
+    "gloss": "in normal times/in peacetime"
+  },
+  {
+    "hanzi": "打開",
+    "jyut": [
+      "daa2hoi1",
+      "daa2hoi"
+    ],
+    "gloss": "to open/to show (a ticket)/to turn on/to switch on"
+  },
+  {
+    "hanzi": "狗",
+    "jyut": [
+      "gau2",
+      "gau"
+    ],
+    "gloss": "dog/CL:隻[jek]/CL:條[tìuh]"
+  },
+  {
+    "hanzi": "分鐘",
+    "jyut": [
+      "fan1zung1",
+      "fan1zung"
+    ],
+    "gloss": "minute"
+  },
+  {
+    "hanzi": "起碼",
+    "jyut": [
+      "hei2maa5",
+      "hei2maa"
+    ],
+    "gloss": "at the minimum/at the very least"
+  },
+  {
+    "hanzi": "容易",
+    "jyut": [
+      "jung4ji6",
+      "jung4ji"
+    ],
+    "gloss": "easy/likely/liable (to)"
+  },
+  {
+    "hanzi": "借",
+    "jyut": [
+      "ze3",
+      "ze"
+    ],
+    "gloss": "to lend/to borrow/excuse/pretext/by means of/to seize (an opportunity)/to take (an opportunity)"
+  },
+  {
+    "hanzi": "步",
+    "jyut": [
+      "bou6",
+      "bou"
+    ],
+    "gloss": "a step/a pace/walk/march/stages in a process"
+  },
+  {
+    "hanzi": "座",
+    "jyut": [
+      "zo6",
+      "zo"
+    ],
+    "gloss": "seat/base/stand/(classifier for buildings, mountains, large solid things etc)"
+  },
+  {
+    "hanzi": "炒",
+    "jyut": [
+      "caau2",
+      "caau"
+    ],
+    "gloss": "to sauté/to stir-fry/to speculate/to hype/to fire (sb)/to clash with"
+  },
+  {
+    "hanzi": "外國",
+    "jyut": [
+      "ngoi6gwok3",
+      "ngoi6gwok"
+    ],
+    "gloss": "foreign (country)"
+  },
+  {
+    "hanzi": "報紙",
+    "jyut": [
+      "bou3zi2",
+      "bou3zi"
+    ],
+    "gloss": "newspaper/newsprint"
+  },
+  {
+    "hanzi": "偏",
+    "jyut": [
+      "pin1",
+      "pin"
+    ],
+    "gloss": "to lean/to slant/oblique/prejudiced/to deviate from average/to stray from the intended line/stubbornly/contrary to expectations/left-hand side of a split Chinese character, often the key or radical"
+  },
+  {
+    "hanzi": "北",
+    "jyut": [
+      "bak1",
+      "bak"
+    ],
+    "gloss": "north/to be defeated (classical)"
+  },
+  {
+    "hanzi": "直行",
+    "jyut": [
+      "zik6hong4",
+      "zik6hong"
+    ],
+    "gloss": "to go straight/straight forward/fig. to do right"
+  },
+  {
+    "hanzi": "慢慢",
+    "jyut": [
+      "maan6maan6",
+      "maan6maan"
+    ],
+    "gloss": "slowly"
+  },
+  {
+    "hanzi": "除",
+    "jyut": [
+      "ceoi4",
+      "ceoi"
+    ],
+    "gloss": "to get rid of/to remove/to exclude/to eliminate/to wipe out/to divide/except/not including"
+  },
+  {
+    "hanzi": "怪",
+    "jyut": [
+      "gwaai3",
+      "gwaai"
+    ],
+    "gloss": "bewildering/odd/strange/uncanny/devil/monster/to wonder at/to blame"
+  },
+  {
+    "hanzi": "反而",
+    "jyut": [
+      "faan2ji4",
+      "faan2ji"
+    ],
+    "gloss": "instead/on the contrary/contrary (to expectations)"
+  },
+  {
+    "hanzi": "分",
+    "jyut": [
+      "fan1|fan6",
+      "fan|fan"
+    ],
+    "gloss": "to divide/to separate/to allocate/to distinguish (good and bad)/one tenth (of certain units)/unit of length equivalent to 0.33 cm/minute/a point (in sports or games)/0.01 yuan (unit of money)|part or subdivision/fraction/share/ingredient/component"
+  },
+  {
+    "hanzi": "袋",
+    "jyut": [
+      "doi6|doi2",
+      "doi|doi"
+    ],
+    "gloss": "to bag|a pouch/bag/sack/pocket/a condom/scrotum"
+  },
+  {
+    "hanzi": "鐘",
+    "jyut": [
+      "zung1",
+      "zung"
+    ],
+    "gloss": "clock/o'clock/time as measured in hours and minutes/bell/surname Zhong"
+  },
+  {
+    "hanzi": "細",
+    "jyut": [
+      "sai3",
+      "sai"
+    ],
+    "gloss": "small/fine/delicate/trifling/junior, subordinate members of an organisation"
+  },
+  {
+    "hanzi": "等陣",
+    "jyut": [
+      "dang2zan6",
+      "dang2zan"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "主要",
+    "jyut": [
+      "zyu2jiu3",
+      "zyu2jiu"
+    ],
+    "gloss": "main/principal/major/primary"
+  },
+  {
+    "hanzi": "剪",
+    "jyut": [
+      "zin2",
+      "zin"
+    ],
+    "gloss": "scissors/shears/clippers/CL:把[bá]/to cut with scissors/to trim"
+  },
+  {
+    "hanzi": "人工",
+    "jyut": [
+      "jan4gung1",
+      "jan4gung"
+    ],
+    "gloss": "artificial/manpower/manual work"
+  },
+  {
+    "hanzi": "有陣",
+    "jyut": [
+      "*jau5zan6",
+      "*jau5zan"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "閒",
+    "jyut": [
+      "haan4",
+      "haan"
+    ],
+    "gloss": "variant of 閑, idle/unoccupied/leisure/free time"
+  },
+  {
+    "hanzi": "後",
+    "jyut": [
+      "hau6",
+      "hau"
+    ],
+    "gloss": "back/behind/rear/afterwards/after/later"
+  },
+  {
+    "hanzi": "所有",
+    "jyut": [
+      "so2jau5",
+      "so2jau"
+    ],
+    "gloss": "all/to have/to possess/to own"
+  },
+  {
+    "hanzi": "點知",
+    "jyut": [
+      "*dim2zi1|zi3",
+      "*dim2zi|zi"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "女人",
+    "jyut": [
+      "neoi5jan2",
+      "neoi5jan"
+    ],
+    "gloss": "woman"
+  },
+  {
+    "hanzi": "家",
+    "jyut": [
+      "gaa1",
+      "gaa"
+    ],
+    "gloss": "home/family/classifier for families or businesses/refers to the philosophical schools of pre-Han China/noun suffix for specialists in some activity such as musician or revolutionary, corresponds to English -ist, -er, -ary or -ian/CL:個[go]"
+  },
+  {
+    "hanzi": "敢",
+    "jyut": [
+      "gam2",
+      "gam"
+    ],
+    "gloss": "dare"
+  },
+  {
+    "hanzi": "三個",
+    "jyut": [
+      "*saam1|saam3go3",
+      "*saam|saam3go"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "點呀",
+    "jyut": [
+      "*dim2aa3|aa1|aa6",
+      "*dim2aa|aa|aa"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "行過",
+    "jyut": [
+      "*hang4|haang4|hang6|hong4|hong2gwo3",
+      "*hang|haang|hang|hong|hong2gwo"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "同意",
+    "jyut": [
+      "tung4ji3",
+      "tung4ji"
+    ],
+    "gloss": "to agree/to consent/to approve"
+  },
+  {
+    "hanzi": "節目",
+    "jyut": [
+      "zit3muk6",
+      "zit3muk"
+    ],
+    "gloss": "program/item (on a program)"
+  },
+  {
+    "hanzi": "幼",
+    "jyut": [
+      "jau3",
+      "jau"
+    ],
+    "gloss": "young"
+  },
+  {
+    "hanzi": "財政",
+    "jyut": [
+      "coi4zing3",
+      "coi4zing"
+    ],
+    "gloss": "finances (public)/financial"
+  },
+  {
+    "hanzi": "直落",
+    "jyut": [
+      "zik6lok6",
+      "zik6lok"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "爸爸",
+    "jyut": [
+      "baa4baa1",
+      "baa4baa"
+    ],
+    "gloss": "(informal) father"
+  },
+  {
+    "hanzi": "普通",
+    "jyut": [
+      "pou2tung1",
+      "pou2tung"
+    ],
+    "gloss": "common/ordinary/general/average"
+  },
+  {
+    "hanzi": "個個",
+    "jyut": [
+      "go3go3",
+      "go3go"
+    ],
+    "gloss": "each one individually/each and every/same as 各個|各个"
+  },
+  {
+    "hanzi": "例如",
+    "jyut": [
+      "lai6jyu4",
+      "lai6jyu"
+    ],
+    "gloss": "for example/for instance/such as"
+  },
+  {
+    "hanzi": "幅",
+    "jyut": [
+      "fuk1",
+      "fuk"
+    ],
+    "gloss": "width/roll/classifier for textiles or pictures"
+  },
+  {
+    "hanzi": "碑",
+    "jyut": [
+      "bei1",
+      "bei"
+    ],
+    "gloss": "a monument/an upright stone tablet/stele"
+  },
+  {
+    "hanzi": "直上",
+    "jyut": [
+      "zik6soeng5",
+      "zik6soeng"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "直程",
+    "jyut": [
+      "*zik6cing4",
+      "*zik6cing"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "水平線",
+    "jyut": [
+      "seoi2ping4sin3",
+      "seoi2ping4sin"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "畫個",
+    "jyut": [
+      "*waak6|waa2go3",
+      "*waak|waa2go"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "食飯",
+    "jyut": [
+      "*sik6faan6",
+      "*sik6faan"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "距離",
+    "jyut": [
+      "keoi5lei4",
+      "keoi5lei"
+    ],
+    "gloss": "distance/to be apart"
+  },
+  {
+    "hanzi": "左右",
+    "jyut": [
+      "zo2jau2|zo2jau6",
+      "zo2jau|zo2jau"
+    ],
+    "gloss": "about/approximately/around|left and right/to control/to influence"
+  },
+  {
+    "hanzi": "環境",
+    "jyut": [
+      "waan4ging2",
+      "waan4ging"
+    ],
+    "gloss": "environment/circumstances/surroundings"
+  },
+  {
+    "hanzi": "一半",
+    "jyut": [
+      "jat1bun3",
+      "jat1bun"
+    ],
+    "gloss": "half"
+  },
+  {
+    "hanzi": "概念",
+    "jyut": [
+      "koi3nim6",
+      "koi3nim"
+    ],
+    "gloss": "concept/idea"
+  },
+  {
+    "hanzi": "左行",
+    "jyut": [
+      "*zo2hang4|haang4|hang6|hong4|hong2",
+      "*zo2hang|haang|hang|hong|hong"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "連",
+    "jyut": [
+      "lin4",
+      "lin"
+    ],
+    "gloss": "surname Lian/even/as/join/to link/successively"
+  },
+  {
+    "hanzi": "生",
+    "jyut": [
+      "saang1|sang1",
+      "saang|sang"
+    ],
+    "gloss": "to be born/to give birth/life/to grow/raw, uncooked"
+  },
+  {
+    "hanzi": "阿媽",
+    "jyut": [
+      "aa3maa1",
+      "aa3maa"
+    ],
+    "gloss": "mother/nurse/amah/serving woman"
+  },
+  {
+    "hanzi": "始終",
+    "jyut": [
+      "ci2zung1",
+      "ci2zung"
+    ],
+    "gloss": "from beginning to end/all along"
+  },
+  {
+    "hanzi": "小姐",
+    "jyut": [
+      "siu2ze2",
+      "siu2ze"
+    ],
+    "gloss": "young lady/miss/a nightclub hostess/a call girl/a prostitute"
+  },
+  {
+    "hanzi": "原本",
+    "jyut": [
+      "jyun4bun2",
+      "jyun4bun"
+    ],
+    "gloss": "originally/original/abbr. for Euclid's elements 幾何原本|几何原本"
+  },
+  {
+    "hanzi": "對於",
+    "jyut": [
+      "deoi3jyu1",
+      "deoi3jyu"
+    ],
+    "gloss": "regarding/as far as sth is concerned/with regards to"
+  },
+  {
+    "hanzi": "試過",
+    "jyut": [
+      "*si3gwo3",
+      "*si3gwo"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "轉",
+    "jyut": [
+      "zyun2|zyun3",
+      "zyun|zyun"
+    ],
+    "gloss": "to convey/to forward (mail)/to transfer/to turn/to shift|to revolve/to turn/to circle about/to walk about/classifier for turns: revs/classifier for repeated actions"
+  },
+  {
+    "hanzi": "考試",
+    "jyut": [
+      "haau2si3",
+      "haau2si"
+    ],
+    "gloss": "exam"
+  },
+  {
+    "hanzi": "計",
+    "jyut": [
+      "gai3",
+      "gai"
+    ],
+    "gloss": "to calculate/to compute/to count/to regard as important/to plan/ruse/meter/gauge"
+  },
+  {
+    "hanzi": "包括",
+    "jyut": [
+      "baau1kut3",
+      "baau1kut"
+    ],
+    "gloss": "to comprise/to include/to involve/to incorporate/to consist of"
+  },
+  {
+    "hanzi": "因",
+    "jyut": [
+      "jan1",
+      "jan"
+    ],
+    "gloss": "cause/reason/because"
+  },
+  {
+    "hanzi": "港人",
+    "jyut": [
+      "gong2jan4",
+      "gong2jan"
+    ],
+    "gloss": "Hong Kong person or people"
+  },
+  {
+    "hanzi": "下行",
+    "jyut": [
+      "haa6hang4",
+      "haa6hang"
+    ],
+    "gloss": "down train (i.e. away from the capital)"
+  },
+  {
+    "hanzi": "人權",
+    "jyut": [
+      "jan4kyun4",
+      "jan4kyun"
+    ],
+    "gloss": "human rights"
+  },
+  {
+    "hanzi": "個韻",
+    "jyut": [
+      "*go3wan6",
+      "*go3wan"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "杏",
+    "jyut": [
+      "hang6",
+      "hang"
+    ],
+    "gloss": "apricot"
+  },
+  {
+    "hanzi": "比",
+    "jyut": [
+      "bei2",
+      "bei"
+    ],
+    "gloss": "(particle used for comparison and \"-er than\")/to compare/to contrast/to gesture (with hands)/ratio/abbr. for Belgium 比利時|比利时/associate with/be near"
+  },
+  {
+    "hanzi": "我個",
+    "jyut": [
+      "*ngo5go3",
+      "*ngo5go"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "幾個",
+    "jyut": [
+      "gei2go3",
+      "gei2go"
+    ],
+    "gloss": "a few/several/how many"
+  },
+  {
+    "hanzi": "車",
+    "jyut": [
+      "ce1|geoi1",
+      "ce|geoi"
+    ],
+    "gloss": "car/vehicle/CL:輛[léung](Mandarin)/CL:架[ga]/machine/to shape with a lathe/surname Che|war chariot (archaic)/rook (in Chinese chess)/rook (in chess)"
+  },
+  {
+    "hanzi": "神",
+    "jyut": [
+      "san4",
+      "san"
+    ],
+    "gloss": "God/unusual/mysterious/soul/spirit/divine essence/lively/spiritual being/an idol/a role model/a hero"
+  },
+  {
+    "hanzi": "得閒",
+    "jyut": [
+      "dak1haan4",
+      "dak1haan"
+    ],
+    "gloss": "to have free time/available"
+  },
+  {
+    "hanzi": "分別",
+    "jyut": [
+      "fan1bit6",
+      "fan1bit"
+    ],
+    "gloss": "difference/distinction/apart/separate/separately/respectively"
+  },
+  {
+    "hanzi": "放棄",
+    "jyut": [
+      "fong3hei3",
+      "fong3hei"
+    ],
+    "gloss": "to renounce/to abandon/to give up"
+  },
+  {
+    "hanzi": "大個",
+    "jyut": [
+      "*daai6go3",
+      "*daai6go"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "化",
+    "jyut": [
+      "faa3",
+      "faa"
+    ],
+    "gloss": "to make into/to change into/-ization/to ... -ize/to transform/to be liberal, tolerant/abbr. for chemistry 化學"
+  },
+  {
+    "hanzi": "我想",
+    "jyut": [
+      "*ngo5soeng2",
+      "*ngo5soeng"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "尊重",
+    "jyut": [
+      "zyun1zung6",
+      "zyun1zung"
+    ],
+    "gloss": "esteem/respect/to honor/to value sth"
+  },
+  {
+    "hanzi": "講話",
+    "jyut": [
+      "gong2waa6",
+      "gong2waa"
+    ],
+    "gloss": "a speech/to speak/to talk/to address"
+  },
+  {
+    "hanzi": "笨",
+    "jyut": [
+      "ban6",
+      "ban"
+    ],
+    "gloss": "stupid/foolish/silly/slow-witted/clumsy"
+  },
+  {
+    "hanzi": "勇",
+    "jyut": [
+      "jung6",
+      "jung"
+    ],
+    "gloss": "brave"
+  },
+  {
+    "hanzi": "公務員",
+    "jyut": [
+      "gung1mou6jyun4",
+      "gung1mou6jyun"
+    ],
+    "gloss": "functionary/office-bearer"
+  },
+  {
+    "hanzi": "礦",
+    "jyut": [
+      "kwong3|gwong3",
+      "kwong|gwong"
+    ],
+    "gloss": "ore/mine"
+  },
+  {
+    "hanzi": "會堂",
+    "jyut": [
+      "wui6tong4",
+      "wui6tong"
+    ],
+    "gloss": "meeting hall/assembly hall"
+  },
+  {
+    "hanzi": "棚",
+    "jyut": [
+      "paang4",
+      "paang"
+    ],
+    "gloss": "shed/canopy/shack"
+  },
+  {
+    "hanzi": "架",
+    "jyut": [
+      "gaa3|gaa2",
+      "gaa|gaa"
+    ],
+    "gloss": "to set up/classifier for planes, large vehicles, radios etc|frame/shelf/rack/framework"
+  },
+  {
+    "hanzi": "笑",
+    "jyut": [
+      "siu3",
+      "siu"
+    ],
+    "gloss": "laugh/smile"
+  },
+  {
+    "hanzi": "當時",
+    "jyut": [
+      "dong1si4",
+      "dong1si"
+    ],
+    "gloss": "then/at that time/while"
+  },
+  {
+    "hanzi": "之外",
+    "jyut": [
+      "zi1ngoi6",
+      "zi1ngoi"
+    ],
+    "gloss": "outside/excluding"
+  },
+  {
+    "hanzi": "大學",
+    "jyut": [
+      "daai6hok6",
+      "daai6hok"
+    ],
+    "gloss": "university"
+  },
+  {
+    "hanzi": "興趣",
+    "jyut": [
+      "hing3ceoi3",
+      "hing3ceoi"
+    ],
+    "gloss": "interest (directed towards, not inherent in something)"
+  },
+  {
+    "hanzi": "介紹",
+    "jyut": [
+      "gaai3siu6",
+      "gaai3siu"
+    ],
+    "gloss": "to present/introduction/to introduce"
+  },
+  {
+    "hanzi": "行為",
+    "jyut": [
+      "hang6wai4",
+      "hang6wai"
+    ],
+    "gloss": "action/conduct/behavior/activity"
+  },
+  {
+    "hanzi": "一份",
+    "jyut": [
+      "*jat1fan6",
+      "*jat1fan"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "魚",
+    "jyut": [
+      "jyu2",
+      "jyu"
+    ],
+    "gloss": "fish"
+  },
+  {
+    "hanzi": "害",
+    "jyut": [
+      "hoi6",
+      "hoi"
+    ],
+    "gloss": "to do harm to/to cause trouble to/harm/evil/calamity"
+  },
+  {
+    "hanzi": "黐線",
+    "jyut": [
+      "*ci1sin3",
+      "*ci1sin"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "投資",
+    "jyut": [
+      "tau4zi1",
+      "tau4zi"
+    ],
+    "gloss": "investment/to invest"
+  },
+  {
+    "hanzi": "路線",
+    "jyut": [
+      "lou6sin3",
+      "lou6sin"
+    ],
+    "gloss": "itinerary/route/political line (e.g. right revisionist road)"
+  },
+  {
+    "hanzi": "堡",
+    "jyut": [
+      "bou2",
+      "bou"
+    ],
+    "gloss": "an earthwork/castle/position of defense/stronghold/used in place names, often as phonetic bao for \"burg\" or \"bad\"/variant of 铺|铺/used in place names"
+  },
+  {
+    "hanzi": "餐室",
+    "jyut": [
+      "caan1sat1",
+      "caan1sat"
+    ],
+    "gloss": "dining room"
+  },
+  {
+    "hanzi": "忍依",
+    "jyut": [
+      "*jan2ji1",
+      "*jan2ji"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "令",
+    "jyut": [
+      "ling6",
+      "ling"
+    ],
+    "gloss": "make or cause to be/order/command/decree/honorable"
+  },
+  {
+    "hanzi": "能力",
+    "jyut": [
+      "nang4lik6",
+      "nang4lik"
+    ],
+    "gloss": "capability/capable/able/ability"
+  },
+  {
+    "hanzi": "我知",
+    "jyut": [
+      "*ngo5zi1|zi3",
+      "*ngo5zi|zi"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "甚至",
+    "jyut": [
+      "sam6zi3",
+      "sam6zi"
+    ],
+    "gloss": "even/so much so that"
+  },
+  {
+    "hanzi": "唔緊要",
+    "jyut": [
+      "m4gan2jiu3",
+      "m4gan2jiu"
+    ],
+    "gloss": "not important"
+  },
+  {
+    "hanzi": "靠",
+    "jyut": [
+      "kaau3",
+      "kaau"
+    ],
+    "gloss": "to lean against or on/to stand by the side of/to come near to/to depend or rely on/to trust/to fuck (vulgar) (Mandarin)"
+  },
+  {
+    "hanzi": "有錢",
+    "jyut": [
+      "jau5cin2",
+      "jau5cin"
+    ],
+    "gloss": "to be rich/rich"
+  },
+  {
+    "hanzi": "日本",
+    "jyut": [
+      "jat6bun2",
+      "jat6bun"
+    ],
+    "gloss": "Japan/Japanese"
+  },
+  {
+    "hanzi": "至",
+    "jyut": [
+      "zi3",
+      "zi"
+    ],
+    "gloss": "arrive/most/to/until"
+  },
+  {
+    "hanzi": "右手",
+    "jyut": [
+      "jau6sau2",
+      "jau6sau"
+    ],
+    "gloss": "right-hand"
+  },
+  {
+    "hanzi": "外",
+    "jyut": [
+      "ngoi6|oi6",
+      "ngoi|oi"
+    ],
+    "gloss": "outside/in addition/foreign/external"
+  },
+  {
+    "hanzi": "一年",
+    "jyut": [
+      "*jat1nin4",
+      "*jat1nin"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "美",
+    "jyut": [
+      "mei5",
+      "mei"
+    ],
+    "gloss": "beautiful/abbr. for USA 美國[méih gwok]"
+  },
+  {
+    "hanzi": "講下",
+    "jyut": [
+      "*gong2haa6",
+      "*gong2haa"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "棵",
+    "jyut": [
+      "po1|fo2",
+      "po|fo"
+    ],
+    "gloss": "classifier for trees, cabbages, plants etc"
+  },
+  {
+    "hanzi": "表達",
+    "jyut": [
+      "biu2daat6",
+      "biu2daat"
+    ],
+    "gloss": "to voice (an opinion)/to express/to convey"
+  },
+  {
+    "hanzi": "廣告",
+    "jyut": [
+      "gwong2gou3",
+      "gwong2gou"
+    ],
+    "gloss": "to advertise/a commercial/advertisement/CL:項|项[xiang4]"
+  },
+  {
+    "hanzi": "秩序",
+    "jyut": [
+      "dit6zeoi6",
+      "dit6zeoi"
+    ],
+    "gloss": "order (orderly)/order (sequence)/social order/the state (of society)"
+  },
+  {
+    "hanzi": "聲",
+    "jyut": [
+      "seng1|sing1",
+      "seng|sing"
+    ],
+    "gloss": "sound/voice/tone/noise/classifier for sounds"
+  },
+  {
+    "hanzi": "於",
+    "jyut": [
+      "jyu1",
+      "jyu"
+    ],
+    "gloss": "in/at/to/from/by/than/out of"
+  },
+  {
+    "hanzi": "房",
+    "jyut": [
+      "fong4|fong2",
+      "fong|fong"
+    ],
+    "gloss": "house/room/surname Fang"
+  },
+  {
+    "hanzi": "機會",
+    "jyut": [
+      "gei1wui6",
+      "gei1wui"
+    ],
+    "gloss": "opportunity/chance/occasion"
+  },
+  {
+    "hanzi": "講過",
+    "jyut": [
+      "*gong2gwo3",
+      "*gong2gwo"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "永遠",
+    "jyut": [
+      "wing5jyun5",
+      "wing5jyun"
+    ],
+    "gloss": "forever/eternal"
+  },
+  {
+    "hanzi": "型",
+    "jyut": [
+      "jing4",
+      "jing"
+    ],
+    "gloss": "model/good-looking/cool/handsome/type (e.g. blood type)"
+  },
+  {
+    "hanzi": "飛機",
+    "jyut": [
+      "fei1gei1",
+      "fei1gei"
+    ],
+    "gloss": "airplane/CL: 架[jia4]"
+  },
+  {
+    "hanzi": "只不過",
+    "jyut": [
+      "*zi2|zek3bat1gwo3",
+      "*zi|zek3bat1gwo"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "短",
+    "jyut": [
+      "dyun2",
+      "dyun"
+    ],
+    "gloss": "short or brief/to lack/weak point/fault"
+  },
+  {
+    "hanzi": "接近",
+    "jyut": [
+      "zip3gan6",
+      "zip3gan"
+    ],
+    "gloss": "near/close to"
+  },
+  {
+    "hanzi": "講得",
+    "jyut": [
+      "*gong2dak1",
+      "*gong2dak"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "好玩",
+    "jyut": [
+      "hou2waan2",
+      "hou2waan"
+    ],
+    "gloss": "fun (to do)"
+  },
+  {
+    "hanzi": "生意",
+    "jyut": [
+      "saang1ji3",
+      "saang1ji"
+    ],
+    "gloss": "business"
+  },
+  {
+    "hanzi": "上方",
+    "jyut": [
+      "soeng6fong1",
+      "soeng6fong"
+    ],
+    "gloss": "place above"
+  },
+  {
+    "hanzi": "陣時",
+    "jyut": [
+      "*zan6si4",
+      "*zan6si"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "字典",
+    "jyut": [
+      "zi6din2",
+      "zi6din"
+    ],
+    "gloss": "dictionary/character dictionary/CL:本[ben3]"
+  },
+  {
+    "hanzi": "盆",
+    "jyut": [
+      "pun4",
+      "pun"
+    ],
+    "gloss": "basin/flower pot/unit of volume equal to 12 斗 and 8 升, approx 128 liters"
+  },
+  {
+    "hanzi": "○",
+    "jyut": [
+      "*?"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "我要",
+    "jyut": [
+      "*ngo5jiu3",
+      "*ngo5jiu"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "無論",
+    "jyut": [
+      "mou4leon6",
+      "mou4leon"
+    ],
+    "gloss": "no matter what or how/regardless of whether..."
+  },
+  {
+    "hanzi": "出面",
+    "jyut": [
+      "ceot1min2",
+      "ceot1min"
+    ],
+    "gloss": "to act for somebody because of one's goodwill/to appear personally/to step in/to step forth/to show up"
+  },
+  {
+    "hanzi": "感受",
+    "jyut": [
+      "gam2sau6",
+      "gam2sau"
+    ],
+    "gloss": "to sense/perception/to feel (through the senses)/a feeling/an impression/an experience"
+  },
+  {
+    "hanzi": "晚",
+    "jyut": [
+      "maan5",
+      "maan"
+    ],
+    "gloss": "evening/night/late"
+  },
+  {
+    "hanzi": "面對",
+    "jyut": [
+      "min6deoi3",
+      "min6deoi"
+    ],
+    "gloss": "to confront/to face"
+  },
+  {
+    "hanzi": "套",
+    "jyut": [
+      "tou3",
+      "tou"
+    ],
+    "gloss": "cover/sheath/to encase/a case/to overlap/to interleave/bend (of a river or mountain range, in place names)/harness/classifier for sets, collections/tau (Greek letter Ττ)"
+  },
+  {
+    "hanzi": "叻",
+    "jyut": [
+      "lek1",
+      "lek"
+    ],
+    "gloss": "smart, bright, sharp"
+  },
+  {
+    "hanzi": "嘿",
+    "jyut": [
+      "hei1",
+      "hei"
+    ],
+    "gloss": "hey"
+  },
+  {
+    "hanzi": "誰",
+    "jyut": [
+      "seoi4",
+      "seoi"
+    ],
+    "gloss": "variant pronunciation of shei2, who/surname Shui/who/also pronounced shui2"
+  },
+  {
+    "hanzi": "鼻",
+    "jyut": [
+      "bei6",
+      "bei"
+    ],
+    "gloss": "nose"
+  },
+  {
+    "hanzi": "案",
+    "jyut": [
+      "on3|ngon3",
+      "on|ngon"
+    ],
+    "gloss": "(legal) case/incident/record/file/table"
+  },
+  {
+    "hanzi": "股票",
+    "jyut": [
+      "gu2piu3",
+      "gu2piu"
+    ],
+    "gloss": "share/stock (market)"
+  },
+  {
+    "hanzi": "數碼",
+    "jyut": [
+      "sou3maa5",
+      "sou3maa"
+    ],
+    "gloss": "number/numerals/figures/digital/amount/numerical code"
+  },
+  {
+    "hanzi": "制度",
+    "jyut": [
+      "zai3dou6",
+      "zai3dou"
+    ],
+    "gloss": "(political or administrative) system or institution"
+  },
+  {
+    "hanzi": "圓形",
+    "jyut": [
+      "jyun4jing4",
+      "jyun4jing"
+    ],
+    "gloss": "round/circular"
+  },
+  {
+    "hanzi": "來講",
+    "jyut": [
+      "*loi4gong2",
+      "*loi4gong"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "嬋",
+    "jyut": [
+      "sim4|sin4",
+      "sim|sin"
+    ],
+    "gloss": "beautiful/graceful"
+  },
+  {
+    "hanzi": "嘍",
+    "jyut": [
+      "lau1|lau4",
+      "lau|lau"
+    ],
+    "gloss": "(final particle equivalent to 了)/subordinates in gang of bandits"
+  },
+  {
+    "hanzi": "拎",
+    "jyut": [
+      "ling1",
+      "ling"
+    ],
+    "gloss": "to lift/to hold up/to carry (on bent fingers)"
+  },
+  {
+    "hanzi": "一陣",
+    "jyut": [
+      "jat1zan6",
+      "jat1zan"
+    ],
+    "gloss": "a burst/a fit/a peal"
+  },
+  {
+    "hanzi": "發生",
+    "jyut": [
+      "faat3sang1",
+      "faat3sang"
+    ],
+    "gloss": "to happen/to occur/to take place/to break out"
+  },
+  {
+    "hanzi": "句",
+    "jyut": [
+      "geoi3",
+      "geoi"
+    ],
+    "gloss": "sentence/clause/phrase/classifier for phrases or lines of verse"
+  },
+  {
+    "hanzi": "眼",
+    "jyut": [
+      "ngaan5",
+      "ngaan"
+    ],
+    "gloss": "eye/CL:隻[jek],對[deui]"
+  },
+  {
+    "hanzi": "女朋友",
+    "jyut": [
+      "neoi5pang4jau5",
+      "neoi5pang4jau"
+    ],
+    "gloss": "female friend/girlfriend"
+  },
+  {
+    "hanzi": "歲",
+    "jyut": [
+      "seoi3",
+      "seoi"
+    ],
+    "gloss": "year/years old/classifier for years old"
+  },
+  {
+    "hanzi": "相",
+    "jyut": [
+      "soeng1",
+      "soeng"
+    ],
+    "gloss": "appearance/portrait/picture/each other/one another/mutually"
+  },
+  {
+    "hanzi": "飛",
+    "jyut": [
+      "fei1",
+      "fei"
+    ],
+    "gloss": "to fly/to get rid of a lover/to end a relationship/a hooligan/a hoodlum"
+  },
+  {
+    "hanzi": "原因",
+    "jyut": [
+      "jyun4jan1",
+      "jyun4jan"
+    ],
+    "gloss": "cause/origin/root cause/reason"
+  },
+  {
+    "hanzi": "大佬",
+    "jyut": [
+      "daai6lou2",
+      "daai6lou"
+    ],
+    "gloss": "big shot (leading some field or group)/godfather/an exclamation used to express impatience with someone (male or female)"
+  },
+  {
+    "hanzi": "令到",
+    "jyut": [
+      "*ling6dou3",
+      "*ling6dou"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "一間",
+    "jyut": [
+      "*jat1gaan1|gaan3",
+      "*jat1gaan|gaan"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "講真",
+    "jyut": [
+      "*gong2zan1",
+      "*gong2zan"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "去邊",
+    "jyut": [
+      "*heoi3bin1",
+      "*heoi3bin"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "最多",
+    "jyut": [
+      "zeoi3do1",
+      "zeoi3do"
+    ],
+    "gloss": "at most/maximum/largest (number of sth)/the most"
+  },
+  {
+    "hanzi": "小學",
+    "jyut": [
+      "siu2hok6",
+      "siu2hok"
+    ],
+    "gloss": "primary school"
+  },
+  {
+    "hanzi": "病",
+    "jyut": [
+      "beng6",
+      "beng"
+    ],
+    "gloss": "illness/CL:場[chèuhng]/disease/to fall ill/defect"
+  },
+  {
+    "hanzi": "知點",
+    "jyut": [
+      "*zi1|zi3dim2",
+      "*zi|zi3dim"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "中文",
+    "jyut": [
+      "zung1man4",
+      "zung1man"
+    ],
+    "gloss": "Chinese/Chinese written language/Chinese writing"
+  },
+  {
+    "hanzi": "城市",
+    "jyut": [
+      "sing4si5",
+      "sing4si"
+    ],
+    "gloss": "city/town/CL:座[zuo4]"
+  },
+  {
+    "hanzi": "純",
+    "jyut": [
+      "seon4",
+      "seon"
+    ],
+    "gloss": "pure/simple/unmixed/genuine"
+  },
+  {
+    "hanzi": "開頭",
+    "jyut": [
+      "hoi1tau4",
+      "hoi1tau"
+    ],
+    "gloss": "beginning"
+  },
+  {
+    "hanzi": "經",
+    "jyut": [
+      "ging1",
+      "ging"
+    ],
+    "gloss": "classics/sacred book/scripture/to pass through/to undergo/warp/longitude/abbr. for economics 經濟|经济/surname Jing"
+  },
+  {
+    "hanzi": "喥",
+    "jyut": [
+      "dou6",
+      "dou"
+    ],
+    "gloss": "(Cantonese) a place"
+  },
+  {
+    "hanzi": "塘",
+    "jyut": [
+      "tong4",
+      "tong"
+    ],
+    "gloss": "pond"
+  },
+  {
+    "hanzi": "立法",
+    "jyut": [
+      "lap6faat3",
+      "lap6faat"
+    ],
+    "gloss": "legislation"
+  },
+  {
+    "hanzi": "井",
+    "jyut": [
+      "zeng2|zing2",
+      "zeng|zing"
+    ],
+    "gloss": "warn/well/surname Jing"
+  },
+  {
+    "hanzi": "判決",
+    "jyut": [
+      "pun3kyut3",
+      "pun3kyut"
+    ],
+    "gloss": "judgment (by a court of law)"
+  },
+  {
+    "hanzi": "法院",
+    "jyut": [
+      "faat3jyun2",
+      "faat3jyun"
+    ],
+    "gloss": "court of law/court"
+  },
+  {
+    "hanzi": "身",
+    "jyut": [
+      "san1",
+      "san"
+    ],
+    "gloss": "body/life/oneself/personally/one's morality and conduct/the main part of a structure or body"
+  },
+  {
+    "hanzi": "撞",
+    "jyut": [
+      "zong6",
+      "zong"
+    ],
+    "gloss": "to hit/to strike/to meet by accident/to run into/to bump against/to bump into"
+  },
+  {
+    "hanzi": "搭",
+    "jyut": [
+      "daap3",
+      "daap"
+    ],
+    "gloss": "to take (boat, train)/to put up/to build (scaffolding)/to hang (clothes on a pole)/to connect/to join/to arrange in pairs/to match/to add"
+  },
+  {
+    "hanzi": "返學",
+    "jyut": [
+      "faan1hok6",
+      "faan1hok"
+    ],
+    "gloss": "go to school"
+  },
+  {
+    "hanzi": "跌",
+    "jyut": [
+      "dit3",
+      "dit"
+    ],
+    "gloss": "to drop/to fall/to tumble"
+  },
+  {
+    "hanzi": "實",
+    "jyut": [
+      "sat6",
+      "sat"
+    ],
+    "gloss": "real/true/honest/really/solid/fruit/seed/used as a euphemism for the obscene 柒 [chaht] \"prick\""
+  },
+  {
+    "hanzi": "形容",
+    "jyut": [
+      "jing4jung4",
+      "jing4jung"
+    ],
+    "gloss": "to describe/appearance/look"
+  },
+  {
+    "hanzi": "問下",
+    "jyut": [
+      "*man6haa6",
+      "*man6haa"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "搞笑",
+    "jyut": [
+      "gaau2siu3",
+      "gaau2siu"
+    ],
+    "gloss": "funny/hilarious/to play around/to joke"
+  },
+  {
+    "hanzi": "行行",
+    "jyut": [
+      "*hang4|haang4|hang6|hong4|hong2hang4|haang4|hang6|hong4|hong2",
+      "*hang|haang|hang|hong|hong2hang|haang|hang|hong|hong"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "包住",
+    "jyut": [
+      "baau1zyu6",
+      "baau1zyu"
+    ],
+    "gloss": "encase"
+  },
+  {
+    "hanzi": "下方",
+    "jyut": [
+      "haa6fong1",
+      "haa6fong"
+    ],
+    "gloss": "under; the underside; below; underneath/world of mortals; (of Gods) to descend to the world of mortals"
+  },
+  {
+    "hanzi": "厘米",
+    "jyut": [
+      "lei4mai5",
+      "lei4mai"
+    ],
+    "gloss": "centimeter"
+  },
+  {
+    "hanzi": "法官",
+    "jyut": [
+      "faat3gun1",
+      "faat3gun"
+    ],
+    "gloss": "a judge/judge/to judge"
+  },
+  {
+    "hanzi": "無",
+    "jyut": [
+      "mou4",
+      "mou"
+    ],
+    "gloss": "-less/not to have/no/none/not/to lack/un-"
+  },
+  {
+    "hanzi": "跑",
+    "jyut": [
+      "paau2",
+      "paau"
+    ],
+    "gloss": "to run/to escape/race"
+  },
+  {
+    "hanzi": "送",
+    "jyut": [
+      "sung3",
+      "sung"
+    ],
+    "gloss": "to deliver/to carry/to give (as a present)/to present (with)/to see off/to send"
+  },
+  {
+    "hanzi": "非常",
+    "jyut": [
+      "fei1soeng4",
+      "fei1soeng"
+    ],
+    "gloss": "unusual/extraordinary/extreme/very/exceptional"
+  },
+  {
+    "hanzi": "今晚",
+    "jyut": [
+      "gam1maan5",
+      "gam1maan"
+    ],
+    "gloss": "tonight"
+  },
+  {
+    "hanzi": "明明",
+    "jyut": [
+      "ming4ming4",
+      "ming4ming"
+    ],
+    "gloss": "obviously/plainly/undoubtedly/definitely"
+  },
+  {
+    "hanzi": "一日",
+    "jyut": [
+      "*jat1jat6",
+      "*jat1jat"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "返到",
+    "jyut": [
+      "*faan1|faan2dou3",
+      "*faan|faan2dou"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "周圍",
+    "jyut": [
+      "zau1wai4",
+      "zau1wai"
+    ],
+    "gloss": "surroundings/environment/to encompass"
+  },
+  {
+    "hanzi": "成為",
+    "jyut": [
+      "sing4wai4",
+      "sing4wai"
+    ],
+    "gloss": "to become/to turn into"
+  },
+  {
+    "hanzi": "絕對",
+    "jyut": [
+      "zyut6deoi3",
+      "zyut6deoi"
+    ],
+    "gloss": "absolute/unconditional"
+  },
+  {
+    "hanzi": "屋",
+    "jyut": [
+      "uk1|nguk1",
+      "uk|nguk"
+    ],
+    "gloss": "house/room"
+  },
+  {
+    "hanzi": "上次",
+    "jyut": [
+      "soeng6ci3",
+      "soeng6ci"
+    ],
+    "gloss": "last time"
+  },
+  {
+    "hanzi": "肥",
+    "jyut": [
+      "fei4",
+      "fei"
+    ],
+    "gloss": "fat/fertile/loose-fitting or large/to fertilize/to become rich by illegal means/fertilizer/manure"
+  },
+  {
+    "hanzi": "左手",
+    "jyut": [
+      "zo2sau2",
+      "zo2sau"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "經歷",
+    "jyut": [
+      "ging1lik6",
+      "ging1lik"
+    ],
+    "gloss": "experience/go through"
+  },
+  {
+    "hanzi": "整",
+    "jyut": [
+      "zing2",
+      "zing"
+    ],
+    "gloss": "exactly/in good order/whole/complete/entire/in order/orderly/to repair/to mend/to renovate/to make sb suffer/to punish/to fix/to give sb a hard time/to give/to fetch/to trick"
+  },
+  {
+    "hanzi": "成績",
+    "jyut": [
+      "sing4zik1",
+      "sing4zik"
+    ],
+    "gloss": "achievement/performance records/grades"
+  },
+  {
+    "hanzi": "關於",
+    "jyut": [
+      "gwaan1jyu1",
+      "gwaan1jyu"
+    ],
+    "gloss": "pertaining to/concerning/regarding/with regards to/about/a matter of"
+  },
+  {
+    "hanzi": "好難",
+    "jyut": [
+      "*hou2|hou3naan6|naan4",
+      "*hou|hou3naan|naan"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "圈",
+    "jyut": [
+      "hyun1|gyun6",
+      "hyun|gyun"
+    ],
+    "gloss": "circle/ring/loop/classifier for loops, orbits, laps of race etc/CL:個[go]/to surround/to circle|pen (pig)/a fold/to confine/to lock up/to pen in"
+  },
+  {
+    "hanzi": "科",
+    "jyut": [
+      "fo1",
+      "fo"
+    ],
+    "gloss": "branch of study/administrative section/division/field/branch/stage directions/family (taxonomy)/rules/laws/to mete out (punishment)/to levy (taxes etc)/to fine sb"
+  },
+  {
+    "hanzi": "平衡",
+    "jyut": [
+      "ping4hang4",
+      "ping4hang"
+    ],
+    "gloss": "balance/equilibrium"
+  },
+  {
+    "hanzi": "寄",
+    "jyut": [
+      "gei3",
+      "gei"
+    ],
+    "gloss": "to live (in a house)/to lodge/to mail/to send/to entrust/to depend"
+  },
+  {
+    "hanzi": "點講",
+    "jyut": [
+      "*dim2gong2",
+      "*dim2gong"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "中國",
+    "jyut": [
+      "zung1gwok3",
+      "zung1gwok"
+    ],
+    "gloss": "China/Middle Kingdom"
+  },
+  {
+    "hanzi": "美國",
+    "jyut": [
+      "mei5gwok3",
+      "mei5gwok"
+    ],
+    "gloss": "America/American/United States of America/USA"
+  },
+  {
+    "hanzi": "國際",
+    "jyut": [
+      "gwok3zai3",
+      "gwok3zai"
+    ],
+    "gloss": "international"
+  },
+  {
+    "hanzi": "郵票",
+    "jyut": [
+      "jau4piu3",
+      "jau4piu"
+    ],
+    "gloss": "(postage) stamp"
+  },
+  {
+    "hanzi": "右手面",
+    "jyut": [
+      "jau6sau2min6",
+      "jau6sau2min"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "彭銅",
+    "jyut": [
+      "*pang4tung4",
+      "*pang4tung"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "一下",
+    "jyut": [
+      "jat1haa5",
+      "jat1haa"
+    ],
+    "gloss": "(used after a verb) give it a go/to do (sth for a bit to give it a try)"
+  },
+  {
+    "hanzi": "跳",
+    "jyut": [
+      "tiu3",
+      "tiu"
+    ],
+    "gloss": "to jump/to hop/to skip over/to bounce/to palpitate"
+  },
+  {
+    "hanzi": "結果",
+    "jyut": [
+      "git3gwo2",
+      "git3gwo"
+    ],
+    "gloss": "to bear fruit"
+  },
+  {
+    "hanzi": "個樣",
+    "jyut": [
+      "*go3joeng6",
+      "*go3joeng"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "之下",
+    "jyut": [
+      "zi1haa6",
+      "zi1haa"
+    ],
+    "gloss": "under/beneath/less than"
+  },
+  {
+    "hanzi": "衰",
+    "jyut": [
+      "seoi1|ceoi1",
+      "seoi|ceoi"
+    ],
+    "gloss": "to decline/to wane/to become weak or feeble/bad, irritating, useless, annoying/to be arrested or convicted of an offence/losing face"
+  },
+  {
+    "hanzi": "見過",
+    "jyut": [
+      "gin3gwo3",
+      "gin3gwo"
+    ],
+    "gloss": "to have seen"
+  },
+  {
+    "hanzi": "未來",
+    "jyut": [
+      "mei6loi4",
+      "mei6loi"
+    ],
+    "gloss": "future/tomorrow/approaching/coming/pending"
+  },
+  {
+    "hanzi": "同事",
+    "jyut": [
+      "tung4si6",
+      "tung4si"
+    ],
+    "gloss": "colleague/co-worker"
+  },
+  {
+    "hanzi": "過程",
+    "jyut": [
+      "gwo3cing4",
+      "gwo3cing"
+    ],
+    "gloss": "course of events/process"
+  },
+  {
+    "hanzi": "壓力",
+    "jyut": [
+      "aat3lik6",
+      "aat3lik"
+    ],
+    "gloss": "pressure"
+  },
+  {
+    "hanzi": "體",
+    "jyut": [
+      "tai2",
+      "tai"
+    ],
+    "gloss": "body/form/style/system"
+  },
+  {
+    "hanzi": "透過",
+    "jyut": [
+      "tau3gwo3",
+      "tau3gwo"
+    ],
+    "gloss": "through/via"
+  },
+  {
+    "hanzi": "萬",
+    "jyut": [
+      "maan6",
+      "maan"
+    ],
+    "gloss": "ten thousand/a great number/surname Meng"
+  },
+  {
+    "hanzi": "景點",
+    "jyut": [
+      "ging2dim2",
+      "ging2dim"
+    ],
+    "gloss": "scenery/scenic spot/place of interest (tourism)"
+  },
+  {
+    "hanzi": "圓",
+    "jyut": [
+      "jyun4",
+      "jyun"
+    ],
+    "gloss": "circle/round/circular/spherical/(of the moon) full/unit of Chinese currency (Yuan)/tactful/to justify"
+  },
+  {
+    "hanzi": "教書",
+    "jyut": [
+      "gaau3syu1",
+      "gaau3syu"
+    ],
+    "gloss": "to teach (in a school)"
+  },
+  {
+    "hanzi": "薯",
+    "jyut": [
+      "syu4|syu5",
+      "syu|syu"
+    ],
+    "gloss": "potato/yam"
+  },
+  {
+    "hanzi": "橢圓",
+    "jyut": [
+      "to5jyun4",
+      "to5jyun"
+    ],
+    "gloss": "oval/ellipse/elliptic"
+  },
+  {
+    "hanzi": "幣",
+    "jyut": [
+      "bai6",
+      "bai"
+    ],
+    "gloss": "money/coins/currency"
+  },
+  {
+    "hanzi": "起身",
+    "jyut": [
+      "hei2san1",
+      "hei2san"
+    ],
+    "gloss": "to get up/to leave/to set forth"
+  },
+  {
+    "hanzi": "企",
+    "jyut": [
+      "kei5",
+      "kei"
+    ],
+    "gloss": "to stand/to plan a project/abbr. for 企業, enterprise or company"
+  },
+  {
+    "hanzi": "腳",
+    "jyut": [
+      "goek3",
+      "goek"
+    ],
+    "gloss": "foot/leg/base/CL:雙[sēung](Mandarin)/CL:對[deui]/CL:隻[jek]/kick/role/a player in mahjong/a player in a drinking game"
+  },
+  {
+    "hanzi": "愛",
+    "jyut": [
+      "oi3|ngoi3",
+      "oi|ngoi"
+    ],
+    "gloss": "to love/affection/to be fond of/to like"
+  },
+  {
+    "hanzi": "街",
+    "jyut": [
+      "gaai1",
+      "gaai"
+    ],
+    "gloss": "street/CL:條[tìuh]"
+  },
+  {
+    "hanzi": "正常",
+    "jyut": [
+      "zing3soeng4",
+      "zing3soeng"
+    ],
+    "gloss": "regular/normal/ordinary"
+  },
+  {
+    "hanzi": "好奇",
+    "jyut": [
+      "hou3kei4",
+      "hou3kei"
+    ],
+    "gloss": "inquisitive/curious"
+  },
+  {
+    "hanzi": "小心",
+    "jyut": [
+      "siu2sam1",
+      "siu2sam"
+    ],
+    "gloss": "to be careful/to take care"
+  },
+  {
+    "hanzi": "舒服",
+    "jyut": [
+      "syu1fuk6",
+      "syu1fuk"
+    ],
+    "gloss": "comfortable/feeling well"
+  },
+  {
+    "hanzi": "掛住",
+    "jyut": [
+      "*gwaa3zyu6",
+      "*gwaa3zyu"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "亂",
+    "jyut": [
+      "lyun6",
+      "lyun"
+    ],
+    "gloss": "in confusion/disorderly"
+  },
+  {
+    "hanzi": "留意",
+    "jyut": [
+      "lau4ji3",
+      "lau4ji"
+    ],
+    "gloss": "to take care/mindful"
+  },
+  {
+    "hanzi": "努力",
+    "jyut": [
+      "nou5lik6",
+      "nou5lik"
+    ],
+    "gloss": "great effort/to strive/to try hard"
+  },
+  {
+    "hanzi": "作為",
+    "jyut": [
+      "zok3wai4",
+      "zok3wai"
+    ],
+    "gloss": "one's conduct/deed/activity/accomplishment/achievement/to act as/as (in the capacity of)/qua/to view as/to look upon (sth as)/to take sth to be"
+  },
+  {
+    "hanzi": "全",
+    "jyut": [
+      "cyun4",
+      "cyun"
+    ],
+    "gloss": "all/whole/entire/every/complete/a surname"
+  },
+  {
+    "hanzi": "公仔",
+    "jyut": [
+      "gung1zai2",
+      "gung1zai"
+    ],
+    "gloss": "doll/cuddly toy"
+  },
+  {
+    "hanzi": "認為",
+    "jyut": [
+      "jing6wai4",
+      "jing6wai"
+    ],
+    "gloss": "to believe/to think/to consider/to feel"
+  },
+  {
+    "hanzi": "遲啲",
+    "jyut": [
+      "ci4di1",
+      "ci4di"
+    ],
+    "gloss": "later"
+  },
+  {
+    "hanzi": "第日",
+    "jyut": [
+      "*dai6jat6",
+      "*dai6jat"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "旗",
+    "jyut": [
+      "kei4",
+      "kei"
+    ],
+    "gloss": "banner/flag/a hire, a trip with a customer (taxi driver jargon)/(in Qing times) refers to Manchurian ruling class, from 八旗[baat kèih] eight banners/administrative subdivision in inner Mongolia equivalent to 縣 county/CL:支[jī]/CL:面[mihn](Mandarin)"
+  },
+  {
+    "hanzi": "手邊",
+    "jyut": [
+      "*sau2bin1",
+      "*sau2bin"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "利益",
+    "jyut": [
+      "lei6jik1",
+      "lei6jik"
+    ],
+    "gloss": "benefit/(in sb's) interest"
+  },
+  {
+    "hanzi": "等如",
+    "jyut": [
+      "*dang2jyu4",
+      "*dang2jyu"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "開支",
+    "jyut": [
+      "hoi1zi1",
+      "hoi1zi"
+    ],
+    "gloss": "expenditures/pay/expenses"
+  },
+  {
+    "hanzi": "改革",
+    "jyut": [
+      "goi2gaak3",
+      "goi2gaak"
+    ],
+    "gloss": "to reform"
+  },
+  {
+    "hanzi": "互聯網",
+    "jyut": [
+      "wu6lyun4mong5",
+      "wu6lyun4mong"
+    ],
+    "gloss": "the Internet"
+  },
+  {
+    "hanzi": "北行",
+    "jyut": [
+      "*bak1hang4|haang4|hang6|hong4|hong2",
+      "*bak1hang|haang|hang|hong|hong"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "法庭",
+    "jyut": [
+      "faat3ting4",
+      "faat3ting"
+    ],
+    "gloss": "court (of law)"
+  },
+  {
+    "hanzi": "頹餐",
+    "jyut": [
+      "*teoi4caan1",
+      "*teoi4caan"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "私營化",
+    "jyut": [
+      "*si1jing4faa3",
+      "*si1jing4faa"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "決定",
+    "jyut": [
+      "kyut3ding6",
+      "kyut3ding"
+    ],
+    "gloss": "to decide (to do something)/to determine/to resolve"
+  },
+  {
+    "hanzi": "唔通",
+    "jyut": [
+      "m4tung1",
+      "m4tung"
+    ],
+    "gloss": "could it be"
+  },
+  {
+    "hanzi": "好彩",
+    "jyut": [
+      "hou2coi2",
+      "hou2coi"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "門",
+    "jyut": [
+      "mun4",
+      "mun"
+    ],
+    "gloss": "gate/door/CL:道[douh]/opening/valve/way to do something/knack/family/house/(religious) sect/school (of thought)/class/category/phylum or division (taxonomy)/classifier for large guns/classifier for lessons, subjects, branches of technology/CL:扇[shan4] (Mandarin)"
+  },
+  {
+    "hanzi": "附近",
+    "jyut": [
+      "fu6gan6",
+      "fu6gan"
+    ],
+    "gloss": "(in the) vicinity/nearby/neighboring/next to"
+  },
+  {
+    "hanzi": "選擇",
+    "jyut": [
+      "syun2zaak6",
+      "syun2zaak"
+    ],
+    "gloss": "to select/to pick/choice/option/alternative"
+  },
+  {
+    "hanzi": "色",
+    "jyut": [
+      "sik1",
+      "sik"
+    ],
+    "gloss": "color/look/appearance/sex/dice"
+  },
+  {
+    "hanzi": "日子",
+    "jyut": [
+      "jat6zi2",
+      "jat6zi"
+    ],
+    "gloss": "day/a (calendar) date/days of one's life"
+  },
+  {
+    "hanzi": "真正",
+    "jyut": [
+      "zan1zing3",
+      "zan1zing"
+    ],
+    "gloss": "genuine/real/true/genuinely"
+  },
+  {
+    "hanzi": "頭髮",
+    "jyut": [
+      "tau4faat3",
+      "tau4faat"
+    ],
+    "gloss": "hair (on the head)"
+  },
+  {
+    "hanzi": "夜晚",
+    "jyut": [
+      "je6maan5",
+      "je6maan"
+    ],
+    "gloss": "night"
+  },
+  {
+    "hanzi": "無聊",
+    "jyut": [
+      "mou4liu4",
+      "mou4liu"
+    ],
+    "gloss": "bored/boring/senseless"
+  },
+  {
+    "hanzi": "支持",
+    "jyut": [
+      "zi1ci4",
+      "zi1ci"
+    ],
+    "gloss": "to be in favor of/to support/to back/support/backing/to stand by"
+  },
+  {
+    "hanzi": "方便",
+    "jyut": [
+      "fong1bin6",
+      "fong1bin"
+    ],
+    "gloss": "convenient/to help out/to make things easy for people/convenience/suitable/having money to spare/(euphemism) to go to the toilet"
+  },
+  {
+    "hanzi": "幾年",
+    "jyut": [
+      "gei2nin4",
+      "gei2nin"
+    ],
+    "gloss": "a few years/several years"
+  },
+  {
+    "hanzi": "方式",
+    "jyut": [
+      "fong1sik1",
+      "fong1sik"
+    ],
+    "gloss": "way (of life)/pattern/style/mode/manner"
+  },
+  {
+    "hanzi": "兩年",
+    "jyut": [
+      "loeng5nin4",
+      "loeng5nin"
+    ],
+    "gloss": "two years"
+  },
+  {
+    "hanzi": "類似",
+    "jyut": [
+      "leoi6ci5",
+      "leoi6ci"
+    ],
+    "gloss": "similar/analogous"
+  },
+  {
+    "hanzi": "沿住",
+    "jyut": [
+      "*jyun4zyu6",
+      "*jyun4zyu"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "停低",
+    "jyut": [
+      "ting4dai1",
+      "ting4dai"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "鐘頭",
+    "jyut": [
+      "zung1tau4",
+      "zung1tau"
+    ],
+    "gloss": "hour"
+  },
+  {
+    "hanzi": "英",
+    "jyut": [
+      "jing1",
+      "jing"
+    ],
+    "gloss": "handsome/admirable/smart/great/heroic/braveEnglish/surname Ying"
+  },
+  {
+    "hanzi": "市",
+    "jyut": [
+      "si5",
+      "si"
+    ],
+    "gloss": "market/city"
+  },
+  {
+    "hanzi": "咸",
+    "jyut": [
+      "haam4",
+      "haam"
+    ],
+    "gloss": "all/everyone/each/widespread/harmonious/a surname"
+  },
+  {
+    "hanzi": "正話",
+    "jyut": [
+      "zing3waa6",
+      "zing3waa"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "奶茶",
+    "jyut": [
+      "naai5caa4",
+      "naai5caa"
+    ],
+    "gloss": "milk tea"
+  },
+  {
+    "hanzi": "受害",
+    "jyut": [
+      "sau6hoi6",
+      "sau6hoi"
+    ],
+    "gloss": "to suffer damage, injury etc/damaged/injured/killed/robbed"
+  },
+  {
+    "hanzi": "上市",
+    "jyut": [
+      "soeng5si5",
+      "soeng5si"
+    ],
+    "gloss": "on the market/to float (a company on the stock market)"
+  },
+  {
+    "hanzi": "左手面",
+    "jyut": [
+      "zo2sau2min6",
+      "zo2sau2min"
+    ],
+    "gloss": "NO DEF"
+  },
+  {
+    "hanzi": "公約",
+    "jyut": [
+      "gung1joek3",
+      "gung1joek"
+    ],
+    "gloss": "convention (i.e. international agreement)"
+  },
+  {
+    "hanzi": "口",
+    "jyut": [
+      "hau2",
+      "hau"
+    ],
+    "gloss": "mouth/classifier for things with mouths (people, domestic animals, cannons, wells etc) (Mandarin)/classifier for bites or mouthfuls (Mandarin)"
+  },
+  {
+    "hanzi": "答",
+    "jyut": [
+      "daap3",
+      "daap"
+    ],
+    "gloss": "reply/answer/return/respond/echo/to answer/agree"
+  },
+  {
+    "hanzi": "衫",
+    "jyut": [
+      "saam1|sam1",
+      "saam|sam"
+    ],
+    "gloss": "clothes"
+  },
+  {
+    "hanzi": "拖",
+    "jyut": [
+      "to1",
+      "to"
+    ],
+    "gloss": "to drag/to pull/to trail/to delay/to drag on/to lead"
+  },
+  {
+    "hanzi": "緊張",
+    "jyut": [
+      "gan2zoeng1",
+      "gan2zoeng"
+    ],
+    "gloss": "nervous/keyed up/intense/tense/strained/in short supply/scarce"
+  },
+  {
+    "hanzi": "曾經",
+    "jyut": [
+      "cang4ging1",
+      "cang4ging"
+    ],
+    "gloss": "once/already/former/previously/ever/(past tense marker used before verb or clause)"
+  },
+  {
+    "hanzi": "手指",
+    "jyut": [
+      "sau2zi2",
+      "sau2zi"
+    ],
+    "gloss": "finger"
+  }
+]
