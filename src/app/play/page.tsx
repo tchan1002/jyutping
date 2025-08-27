@@ -151,7 +151,7 @@ export default function PlayPage() {
 
         <div className="mt-4 text-center">
           <div className="text-5xl sm:text-6xl font-extrabold tracking-tight">{current.hanzi}</div>
-          {showGlossFirst && (
+          {showGlossFirst && current.gloss && (
             <div className="mt-2 text-neutral-600 dark:text-neutral-300">{current.gloss}</div>
           )}
         </div>
