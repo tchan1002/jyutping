@@ -54,7 +54,7 @@ export default function Header({ controls }: HeaderProps) {
                   checked={controls.showGlossFirst}
                   onChange={(e) => controls.setShowGlossFirst(e.target.checked)}
                 />
-                Show gloss before answer
+                Show gloss
               </label>
               <div className="mt-2 text-sm">
                 <div className="mb-1">Timer (timed mode):</div>

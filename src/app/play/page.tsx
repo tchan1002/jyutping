@@ -151,7 +151,9 @@ export default function PlayPage() {
 
         <div className="mt-4 text-center">
           <div className="text-5xl sm:text-6xl font-extrabold tracking-tight">{current.hanzi}</div>
-          {showGlossFirst && <div className="mt-2 text-neutral-600 dark:text-neutral-300">{current.gloss}</div>}
+          {showGlossFirst && (
+            <div className="mt-2 text-neutral-600 dark:text-neutral-300">{current.gloss}</div>
+          )}
         </div>
 
         <form className="mt-6 flex flex-col sm:flex-row gap-3" onSubmit={onSubmit}>
@@ -178,11 +180,7 @@ export default function PlayPage() {
           </button>
         </form>
 
-        {!showGlossFirst && (
-          <div className="mt-3 text-sm text-neutral-600 dark:text-neutral-300">
-            <span className="font-medium">Gloss:</span> {current.gloss}
-          </div>
-        )}
+        {/* Gloss now only shows in the main word block when toggled on */}
 
         <div className="mt-3 text-sm">
           <button
