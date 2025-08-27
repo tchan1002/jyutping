@@ -1,9 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import Header from "../components/Header";
- 
-import { compareJyut, normalizeJyut } from "../lib/jyut-normalize";
+import Header from "@/app/components/Header";
+import { compareJyut, normalizeJyut } from "@/app/lib/jyut-normalize";
 
 type WordItem = { hanzi: string; jyut: string[]; gloss: string };
 
@@ -141,6 +140,11 @@ export default function PlayPage() {
         <div className="flex items-center justify-between text-sm text-neutral-500 dark:text-neutral-400">
           <span className="uppercase tracking-wide">{mode === "timed" ? "Timed" : "Practice"}</span>
           {mode === "timed" && <span>⏳ {timeLeft}s</span>}
+          <div className="flex items-center gap-3">
+            <span>Score: <b>{score}</b></span>
+            <span>Streak: <b>{streak}</b></span>
+            <span>Accuracy: <b>{accuracy}%</b></span>
+          </div>
         </div>
 
         <div className="mt-4 text-center">

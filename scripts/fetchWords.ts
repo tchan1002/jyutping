@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import fs from "node:fs";
 import path from "node:path";
 
@@ -17,18 +16,26 @@ async function run() {
   const N = Number(process.env.LIMIT || 100);
   const url = `https://api.words.hk/v1/wordlist?order=freq&limit=${N}`;
   console.log("Fetching:", url);
-  const data = await httpGet(url);
+  const data: unknown = await httpGet(url);
 
   // Expecting shape like: { result: [{ word, reading, ... }, ...] }
-  const items = (data?.result || []).map((it: any) => {
-    const hanzi = it?.word || "";
+  type WordSource = {
+    word?: string;
+    jyutping?: string[];
+    reading?: string | string[];
+    eng?: string;
+    explain?: string;
+  };
+  const result = (data as { result?: WordSource[] } | undefined)?.result ?? [];
+  const items = result.map((it) => {
+    const hanzi = it.word || "";
     // Try to get Jyutping candidates. (words.hk often has "jyutping" array.)
     const jyutArr: string[] =
-      Array.isArray(it?.jyutping) && it.jyutping.length
+      Array.isArray(it.jyutping) && it.jyutping.length
         ? it.jyutping
-        : Array.isArray(it?.reading)
+        : Array.isArray(it.reading)
         ? it.reading
-        : it?.reading
+        : typeof it.reading === "string"
         ? [it.reading]
         : [];
 
@@ -42,13 +49,14 @@ async function run() {
       .filter(Boolean);
 
     // brief gloss if available; otherwise empty
-    const gloss = it?.eng || it?.explain || "";
+    const gloss = it.eng || it.explain || "";
 
     return { hanzi, jyut: Array.from(new Set(jyut)), gloss };
   });
 
   // Basic filter to keep things with both fields
-  const clean = items.filter((x: any) => x.hanzi && x.jyut && x.jyut.length);
+  type WordItem = { hanzi: string; jyut: string[]; gloss: string };
+  const clean: WordItem[] = items.filter((x): x is WordItem => Boolean(x.hanzi && x.jyut && x.jyut.length));
 
   const outPath = path.join(process.cwd(), "src", "data", "words.json");
   fs.writeFileSync(outPath, JSON.stringify(clean, null, 2), "utf8");

@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
-import JyutExplainerModal from "./JyutExplainerModal";
+import { useEffect, useState } from "react";
+import JyutExplainerModal from "@/app/components/JyutExplainerModal";
 
 type HeaderProps = {
   controls?: {
@@ -15,14 +15,18 @@ type HeaderProps = {
 };
 
 export default function Header({ controls }: HeaderProps) {
-  const [open, setOpen] = useState<boolean>(() => {
-    if (typeof window === "undefined") return false;
-    if (!localStorage.getItem("jyutping:firstRun")) {
-      localStorage.setItem("jyutping:firstRun", "1");
-      return true;
-    }
-    return false;
-  });
+  const [open, setOpen] = useState<boolean>(false);
+
+  // Avoid SSR/CSR mismatch by deciding first-run on mount only
+  useEffect(() => {
+    try {
+      const key = "jyutping:firstRun";
+      if (!localStorage.getItem(key)) {
+        localStorage.setItem(key, "1");
+        setOpen(true);
+      }
+    } catch {}
+  }, []);
 
   return (
     <header className="flex items-center justify-between">
