@@ -2,50 +2,63 @@
 
 import { useEffect, useState } from "react";
 
-type BeforeInstallPromptEvent = Event & {
+/** Chrome/Edge PWA install event */
+interface BeforeInstallPromptEvent extends Event {
+  platforms?: string[];
   prompt: () => Promise<void>;
   userChoice?: Promise<{ outcome: "accepted" | "dismissed"; platform: string }>;
-};
+}
+
+/** iOS Safari exposes navigator.standalone (non-standard) */
+type NavigatorWithStandalone = Navigator & { standalone?: boolean };
+
+/** Web Share API */
+type NavigatorWithShare = Navigator & { share?: (data: ShareData) => Promise<void> };
 
 export default function AddToHome() {
   const [deferred, setDeferred] = useState<BeforeInstallPromptEvent | null>(null);
   const [message, setMessage] = useState<string | null>(null);
 
-  // Detect platform / installed mode
-  const isIOS =
-    typeof navigator !== "undefined" &&
-    /iphone|ipad|ipod/i.test(navigator.userAgent);
+  const ua = typeof navigator !== "undefined" ? navigator.userAgent : "";
+  const isIOS = /iphone|ipad|ipod/i.test(ua);
 
-  const isStandalone =
+  const displayModeStandalone =
     typeof window !== "undefined" &&
-    ((window.matchMedia &&
-      window.matchMedia("(display-mode: standalone)").matches) ||
-      // iOS Safari
-      (window.navigator as any).standalone === true);
+    (window.matchMedia?.("(display-mode: standalone)").matches ?? false);
+
+  const iOSStandalone =
+    typeof navigator !== "undefined" &&
+    ((navigator as NavigatorWithStandalone).standalone === true);
+
+  const isStandalone = displayModeStandalone || iOSStandalone;
 
   useEffect(() => {
-    function onBeforeInstallPrompt(e: Event) {
-      // Stop Chrome from showing its mini-infobar
-      e.preventDefault();
-      setDeferred(e as BeforeInstallPromptEvent);
-    }
-    window.addEventListener("beforeinstallprompt", onBeforeInstallPrompt as any);
-    return () =>
-      window.removeEventListener(
-        "beforeinstallprompt",
-        onBeforeInstallPrompt as any
-      );
+    const onBeforeInstallPrompt = (e: Event) => {
+      // Only handle if it looks like a BIP event
+      if ("preventDefault" in e) {
+        e.preventDefault();
+      }
+      // Type-narrow by feature check
+      if ("prompt" in (e as BeforeInstallPromptEvent)) {
+        setDeferred(e as BeforeInstallPromptEvent);
+      }
+    };
+
+    window.addEventListener("beforeinstallprompt", onBeforeInstallPrompt);
+    return () => {
+      window.removeEventListener("beforeinstallprompt", onBeforeInstallPrompt);
+    };
   }, []);
 
   async function onClick() {
     setMessage(null);
 
-    // Android / desktop Chrome path
+    // Android / Desktop Chrome path
     if (deferred) {
       try {
         await deferred.prompt();
         const choice = (await deferred.userChoice?.catch(() => null)) ?? null;
-        setDeferred(null); // can only use once
+        setDeferred(null); // one-shot
 
         if (choice && choice.outcome === "accepted") {
           setMessage("Installed to home screen.");
@@ -58,17 +71,26 @@ export default function AddToHome() {
       return;
     }
 
-    // iOS Safari: show manual instructions
+    // iOS Safari: manual instructions (optionally try share sheet if available)
     if (isIOS && !isStandalone) {
+      const navWithShare = navigator as NavigatorWithShare;
+      if (navWithShare.share) {
+        try {
+          await navWithShare.share({ url: window.location.href });
+          return; // user saw share sheet
+        } catch {
+          /* ignore cancel */
+        }
+      }
       setMessage("On iPhone/iPad: Tap the Share button, then “Add to Home Screen”.");
       return;
     }
 
-    // Fallback (unsupported context)
+    // Fallback (unsupported)
     setMessage("Add to Home Screen is not available in this browser.");
   }
 
-  // Don’t show if already installed
+  // Don’t render if already installed
   if (isStandalone) return null;
 
   return (
@@ -80,9 +102,7 @@ export default function AddToHome() {
       >
         Add to Home Screen
       </button>
-      {message && (
-        <div className="mt-2 text-xs text-neutral-500">{message}</div>
-      )}
+      {message && <div className="mt-2 text-xs text-neutral-500">{message}</div>}
     </div>
   );
 }
