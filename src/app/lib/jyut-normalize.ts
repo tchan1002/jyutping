@@ -32,7 +32,7 @@ export function normalizeJyut(input: string, strict = false) {
   
   export function compareJyut(user: string, gold: string, strict = false) {
     const u = normalizeJyut(user, strict).replace(/\s+/g, " ").trim();
-    let g = normalizeJyut(gold, strict).replace(/\s+/g, " ").trim();
+    const g = normalizeJyut(gold, strict).replace(/\s+/g, " ").trim();
   
     // If user provided tones but gold in dataset is without spaces, this still works due to normalize.
     // Compare syllable-by-syllable (space-insensitive match).

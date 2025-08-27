@@ -1,10 +1,12 @@
 import { NextResponse } from "next/server";
 import seed from "@/app/../data/words.json";
 
+type WordItem = { hanzi: string; jyut: string[]; gloss: string };
+
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
   const n = Math.max(1, Math.min(50, Number(searchParams.get("n") || 10)));
-  const items = shuffle(seed as any[]).slice(0, n);
+  const items = shuffle(seed as WordItem[]).slice(0, n);
   return NextResponse.json(items);
 }
 

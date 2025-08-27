@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import Header from "../components/Header";
-import Stats from "../components/Stats";
+ 
 import { compareJyut, normalizeJyut } from "../lib/jyut-normalize";
 
 type WordItem = { hanzi: string; jyut: string[]; gloss: string };
@@ -185,4 +185,11 @@ export default function PlayPage() {
           </code>
           {!strict && (
             <span className="ml-2 text-neutral-500">
-              (tones optional; enable Strict in
+              (tones optional; enable Strict in Settings)
+            </span>
+          )}
+        </div>
+      </section>
+    </main>
+  );
+}
