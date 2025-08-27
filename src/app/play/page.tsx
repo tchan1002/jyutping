@@ -163,6 +163,8 @@ export default function PlayPage() {
             autoCapitalize="none"
             autoCorrect="off"
             enterKeyHint="send"
+            // Prevent iOS from auto-scrolling the page when focusing the input
+            style={{ scrollMarginTop: "20vh" }}
             value={input}
             onChange={(e) => setInput(e.target.value)}
           />

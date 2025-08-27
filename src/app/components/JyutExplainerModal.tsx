@@ -13,10 +13,15 @@ export default function JyutExplainerModal({
       aria-modal="true"
       role="dialog"
       className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4"
+      style={{
+        paddingTop: "calc(env(safe-area-inset-top) + 1rem)",
+        paddingBottom: "calc(env(safe-area-inset-bottom) + 1rem)",
+        minHeight: "100svh",
+      }}
       onClick={onClose}
     >
       <div
-        className="max-w-2xl w-[90vw] sm:w-full max-h-[80vh] overflow-auto rounded-2xl bg-white dark:bg-neutral-900 p-5"
+        className="max-w-2xl w-[90vw] sm:w-full max-h-[80vh] sm:max-h-none overflow-auto rounded-2xl bg-white dark:bg-neutral-900 p-5"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex items-center justify-between">

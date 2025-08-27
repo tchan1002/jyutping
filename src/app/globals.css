@@ -10,6 +10,13 @@
   padding-bottom: env(safe-area-inset-bottom);
 }
 
+/* Avoid content jump when keyboard appears on mobile */
+@supports (height: 100svh) {
+  body {
+    min-height: 100svh;
+  }
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
