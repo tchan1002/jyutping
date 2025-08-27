@@ -46,7 +46,6 @@ export default function Header({ controls }: HeaderProps) {
           <details className="relative" open={settingsOpen} onToggle={(e) => setSettingsOpen((e.currentTarget as HTMLDetailsElement).open)}>
             <summary
               className="cursor-pointer rounded-xl border border-neutral-300 dark:border-neutral-600 px-3 py-1.5 text-sm"
-              onClick={() => setSettingsOpen((v) => !v)}
             >
               ⚙ Settings
             </summary>
