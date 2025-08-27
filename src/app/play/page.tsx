@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Header from "@/app/components/Header";
+import AddToHome from "@/app/components/AddToHome";
 import { compareJyut, normalizeJyut } from "@/app/lib/jyut-normalize";
 
 type WordItem = { hanzi: string; jyut: string[]; gloss: string };
@@ -211,6 +212,7 @@ export default function PlayPage() {
           )}
         </div>
       </section>
+      <AddToHome />
     </main>
   );
 }

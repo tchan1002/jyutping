@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import Header from "@/app/components/Header";
+import AddToHome from "@/app/components/AddToHome";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
           </Link>
         </div>
       </section>
+      <AddToHome />
     </main>
   );
 }
