@@ -4,6 +4,9 @@ export function normalizeJyut(input: string, strict = false) {
     let s = input
       .toLowerCase()
       .trim()
+      // remove any non-alphanumeric characters (e.g., *, ·, punctuation)
+      // keep spaces and digits for tone handling
+      .replace(/[^a-z0-9\s]/gi, " ")
       .replace(/\uFF10/g, "0")
       .replace(/\uFF11/g, "1")
       .replace(/\uFF12/g, "2")
@@ -34,8 +37,7 @@ export function normalizeJyut(input: string, strict = false) {
     const u = normalizeJyut(user, strict).replace(/\s+/g, " ").trim();
     const g = normalizeJyut(gold, strict).replace(/\s+/g, " ").trim();
   
-    // If user provided tones but gold in dataset is without spaces, this still works due to normalize.
-    // Compare syllable-by-syllable (space-insensitive match).
-    return u === g;
+    // Space-insensitive comparison so "ngozi" matches "ngo zi".
+    return u.replace(/\s+/g, "") === g.replace(/\s+/g, "");
   }
   
