@@ -72,7 +72,7 @@ export default function Header({ controls }: HeaderProps) {
                   checked={controls.trainMode}
                   onChange={(e) => controls.setTrainMode(e.target.checked)}
                 />
-                Train mode (always show readings)
+                Show correct reading
               </label>
             </div>
           </details>
